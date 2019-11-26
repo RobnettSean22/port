@@ -1,0 +1,57 @@
+.sec {
+  width: 100vw;
+  height: 100vh;
+}
+
+.cover {
+  width: 100%;
+  height: 90%;
+  background: #030303;
+  margin-top: 2%;
+  opacity: 0.8;
+  border-top: 0.5px solid white;
+  border-bottom: 0.5px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.logo-place {
+  width: 100%;
+  height: 11%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+
+  .lo-go {
+    width: 12%;
+    height: 100%;
+    margin-top: -1.1%;
+  }
+}
+
+.title {
+  width: 100%;
+  height: 11%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid white;
+
+  h1 {
+    letter-spacing: 5px;
+    color: white;
+    font-size: 71px;
+    margin-bottom: 1%;
+  }
+}
+
+.hold {
+  width: 100%;
+  height: 70%;
+  background: white;
+  margin-top: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
