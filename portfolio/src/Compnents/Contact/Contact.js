@@ -43,7 +43,17 @@ function Contact() {
           <div className="or">
             <h1 className="option">OR</h1>
           </div>
-          <div className="message-contain"></div>
+          <div className="message-contain">
+            <div className="name">
+              <input />
+            </div>
+            <div className="email-me">
+              <input />
+            </div>
+            <div className="message">
+              <textarea />
+            </div>
+          </div>
         </div>
 
         <div className="but"></div>

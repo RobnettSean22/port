@@ -53,6 +53,11 @@
   justify-content: space-between;
   align-items: center;
 }
+@mixin contatFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .spred {
   width: 100%;
@@ -110,11 +115,7 @@
       }
     }
   }
-  .message-contain {
-    width: 42%;
-    height: 100%;
-    background: palevioletred;
-  }
+
   .or {
     width: 6%;
     height: 44.5%;
@@ -146,6 +147,48 @@
     .linkedin {
       margin-top: 2.5%;
       margin-left: 1.5%;
+    }
+  }
+  .message-contain {
+    width: 42%;
+    height: 100%;
+    background: palevioletred;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    .name {
+      width: 83%;
+      height: 9%;
+      margin-top: 6%;
+      background: hotpink;
+      @include contatFlex();
+      input {
+        width: 39%;
+        height: 18%;
+      }
+    }
+    .email-me {
+      width: 83%;
+      height: 18%;
+      background: green;
+      @include contatFlex();
+      input {
+        width: 39%;
+        height: 18%;
+      }
+    }
+    .message {
+      width: 83%;
+      height: 26%;
+      background: blue;
+      @include contatFlex();
+
+      textarea {
+        width: 39%;
+        height: 90%;
+      }
     }
   }
 }
