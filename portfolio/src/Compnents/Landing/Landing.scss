@@ -4,7 +4,7 @@ body {
   background-image: url(Got_You_web.jpg);
   background-size: 100% 100%;
   //   background-size: auto auto;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .contain {
@@ -56,4 +56,18 @@ body {
   margin-right: 2%;
   width: 26%;
   height: 47%;
+}
+.h {
+  animation-name: fadeOut;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }

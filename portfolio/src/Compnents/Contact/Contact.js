@@ -45,13 +45,13 @@ function Contact() {
           </div>
           <div className="message-contain">
             <div className="name">
-              <input />
+              <input placeholder="Name" />
             </div>
             <div className="email-me">
-              <input />
+              <input placeholder="Email" />
             </div>
             <div className="message">
-              <textarea />
+              <textarea placeholder="Send me a Message :)" />
             </div>
           </div>
         </div>

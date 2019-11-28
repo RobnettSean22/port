@@ -1,15 +1,18 @@
 import React, { Component } from "react";
 import Name from "./LandName@2x.png";
 import Logo from "./my_logo.png";
+import { Link } from "react-router-dom";
 import "./Landing.scss";
 
 class Landing extends Component {
   render() {
     return (
-      <div className="contain">
+      <div className={"contain"}>
         <div className="name">
           <img className="laname" src={Name} alt="" />
-          <button className="start">Enter</button>
+          <button className="start">
+            <Link to={"/about"}>Enter</Link>
+          </button>
         </div>
         <div className="logo">
           <img className="revision " src={Logo} alt="vision" />

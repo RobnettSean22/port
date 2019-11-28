@@ -1,6 +1,8 @@
 import React from "react";
 import logo from "./my_logo.png";
 import "./About.scss";
+import down from "./Down.png";
+import { Link } from "react-router-dom";
 
 function About() {
   return (
@@ -45,7 +47,11 @@ function About() {
             I am my team and my team is me.
           </p>
         </div>
-        <div className="but"></div>
+        <div className="but">
+          <Link to={"/portfolio/"}>
+            <img src={down} alt="down" />
+          </Link>
+        </div>
       </div>
     </div>
   );

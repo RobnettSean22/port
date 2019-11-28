@@ -152,7 +152,7 @@
   .message-contain {
     width: 42%;
     height: 100%;
-    background: palevioletred;
+
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -161,33 +161,39 @@
     .name {
       width: 83%;
       height: 9%;
-      margin-top: 6%;
-      background: hotpink;
+      margin-top: 11%;
+
       @include contatFlex();
       input {
-        width: 39%;
-        height: 18%;
+        width: 52%;
+        height: 36%;
+        border-radius: 5px;
+        font-size: 24px;
       }
     }
     .email-me {
       width: 83%;
-      height: 18%;
-      background: green;
+      height: 13%;
+
       @include contatFlex();
       input {
-        width: 39%;
-        height: 18%;
+        width: 52%;
+        height: 27%;
+        border-radius: 5px;
+        font-size: 24px;
       }
     }
     .message {
       width: 83%;
       height: 26%;
-      background: blue;
+
       @include contatFlex();
 
       textarea {
-        width: 39%;
+        width: 59%;
         height: 90%;
+        border-radius: 5px;
+        font-size: 26px;
       }
     }
   }
