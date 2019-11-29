@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import logo from "./my_logo.png";
 import skill from "./skills.png";
 import down from "./Down.png";
+import up from "./Up.png";
 import "./Resume.scss";
 
 const Resume = () => {
@@ -81,6 +82,9 @@ const Resume = () => {
           <div className="but">
             <Link to={"/contact/"}>
               <img src={down} alt="down" />
+            </Link>
+            <Link to={"/portfolio/"}>
+              <img src={up} alt="down" />
             </Link>
           </div>
         </div>

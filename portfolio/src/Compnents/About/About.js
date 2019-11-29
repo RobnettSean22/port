@@ -2,6 +2,7 @@ import React from "react";
 import logo from "./my_logo.png";
 import "./About.scss";
 import down from "./Down.png";
+import up from "./Up.png";
 import { Link } from "react-router-dom";
 
 const About = () => {
@@ -50,6 +51,9 @@ const About = () => {
         <div className="but">
           <Link to={"/portfolio/"}>
             <img src={down} alt="down" />
+          </Link>
+          <Link to={"/contact/"}>
+            <img src={up} alt="down" />
           </Link>
         </div>
       </div>

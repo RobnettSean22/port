@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import logo from "./my_logo.png";
 import down from "./Down.png";
+import up from "./Up.png";
 import "./Portfolio.scss";
 
 const Portfolio = () => {
@@ -16,9 +17,12 @@ const Portfolio = () => {
         </div>
         <div className="projects">stuff</div>
 
-        <div className="but-port">
+        <div className="but">
           <Link to={"/resume/"}>
             <img src={down} alt="down" />
+          </Link>
+          <Link to={"/about/"}>
+            <img src={up} alt="down" />
           </Link>
         </div>
       </div>

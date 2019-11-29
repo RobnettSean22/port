@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import logo from "./my_logo.png";
 import fb from "./facebook.png";
 import gh from "./github.png";
@@ -7,6 +8,8 @@ import ln from "./linkedin.png";
 import phone from "./phone.png";
 import line from "./line.png";
 import email from "./mail.png";
+import down from "./Down.png";
+import up from "./Up.png";
 
 import "./Contact.scss";
 const Contact = () => {
@@ -23,7 +26,7 @@ const Contact = () => {
           <div className="contact-contain">
             <div className="phone">
               <img src={phone} alt="phone" />
-              <h1>+ 91 (080)-3939-3032</h1>
+              <h1>+ 81 (080)-3939-3032</h1>
             </div>
             <div className="line">
               <img src={line} alt="line" />
@@ -56,7 +59,14 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className="but"></div>
+        <div className="but">
+          <Link to={"/about/"}>
+            <img src={down} alt="down" />
+          </Link>
+          <Link to={"/resume/"}>
+            <img src={up} alt="down" />
+          </Link>
+        </div>
       </div>
     </div>
   );
