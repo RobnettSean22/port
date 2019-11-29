@@ -1,5 +1,7 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import logo from "./my_logo.png";
+import down from "./Down.png";
 
 class Portfolio extends Component {
   constructor(props) {
@@ -18,9 +20,13 @@ class Portfolio extends Component {
           <div className="title">
             <h1>Portfolio</h1>
           </div>
-          <div className="projects"></div>
+          <div className="projects">stuff</div>
 
-          <div className="but"></div>
+          <div className="but">
+            <Link to={"/portfolio/"}>
+              <img src={down} alt="down" />
+            </Link>
+          </div>
         </div>
       </div>
     );
