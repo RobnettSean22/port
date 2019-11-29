@@ -15,7 +15,21 @@ const Portfolio = () => {
         <div className="title">
           <h1>Portfolio</h1>
         </div>
-        <div className="projects">stuff</div>
+        <div className="projects">
+          <div className="p1">
+            <h2></h2>
+            <p></p>
+          </div>
+          <div className="p2">
+            <img />
+            <h2></h2>
+            <p></p>
+          </div>
+          <div className="p3">
+            <h2></h2>
+            <p></p>
+          </div>
+        </div>
 
         <div className="but">
           <Link to={"/resume/"}>

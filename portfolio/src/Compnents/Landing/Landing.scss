@@ -50,6 +50,15 @@ body {
   color: white;
   border-radius: 4px;
   margin-right: 3%;
+
+  a {
+    text-decoration: none;
+    color: white;
+    padding: 0em 1em;
+  }
+  a:hover {
+    font-size: 40px;
+  }
 }
 
 .logo {
@@ -61,18 +70,4 @@ body {
   margin-right: 2%;
   width: 26%;
   height: 47%;
-}
-.h {
-  animation-name: fadeOut;
-  animation-duration: 1.5s;
-  animation-timing-function: ease-out;
-}
-
-@keyframes fadeOut {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-  }
 }

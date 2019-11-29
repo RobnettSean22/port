@@ -19,6 +19,20 @@
     width: 100%;
     height: 64%;
     background: pink;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 30%);
+    grid-column-gap: 20px;
+    justify-content: center;
+
+    .p1 {
+      background: yellow;
+    }
+    .p2 {
+      background: red;
+    }
+    .p3 {
+      background: blue;
+    }
   }
   .but {
     width: 100%;
