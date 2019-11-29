@@ -1,11 +1,5 @@
-import React from "react";
-import {
-  BrowserRouter,
-  Switch,
-  Route,
-  Link,
-  useLocation
-} from "react-router-dom";
+import React, { useContext } from "react";
+import { Switch, Route, __RouterContext } from "react-router-dom";
 import { useTransition, animated } from "react-spring";
 import Landing from "./Compnents/Landing/Landing";
 import About from "./Compnents/About/About";
@@ -13,23 +7,24 @@ import Portfolio from "./Compnents/Portfolio/Portfolio";
 import Resume from "./Compnents/Resume/Resume";
 import Contact from "./Compnents/Contact/Contact";
 
-export default function App() {
-  const location = useLocation();
+const App = () => {
+  const { location } = useContext(__RouterContext);
   const transitions = useTransition(location, location => location.pathname, {
-    from: { opacity: 0, transform: "traanslate(100%,0,0" },
-    enter: { opacity: 1, transform: "traanslate(0%,0,0" },
-    leave: { opacity: 0, transform: "traanslate(-50%,0,0" }
+    from: { opacity: 0, transform: "translate(100%,0" },
+    enter: { opacity: 1, transform: "translate(0%,0" },
+    leave: { opacity: 0, transform: "translate(-50%,0" }
   });
 
-  return transitions.map(({ item: location, props, key }) => (
-    <animated.div key={key} styly={props}>
-      <Switch location={location}>
-        <Route path="/" exact component={Landing} />
-        <Route path="/about" component={About} />
-        <Route path="/portfolio" component={Portfolio} />
-        <Route path="/resume" component={Resume} />
-        <Route path="/contact" component={Contact} />
+  return transitions.map(({ item, props, key }) => (
+    <animated.div key={key} style={props}>
+      <Switch location={item}>
+        <Route exact path="/" component={Landing} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/portfolio" component={Portfolio} />
+        <Route exact path="/resume" component={Resume} />
+        <Route exact path="/contact" component={Contact} />
       </Switch>
     </animated.div>
   ));
-}
+};
+export default App;

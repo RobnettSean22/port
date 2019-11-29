@@ -9,7 +9,7 @@ import line from "./line.png";
 import email from "./mail.png";
 
 import "./Contact.scss";
-function Contact() {
+const Contact = () => {
   return (
     <div className="sec">
       <div className="cover">
@@ -60,6 +60,6 @@ function Contact() {
       </div>
     </div>
   );
-}
+};
 
 export default Contact;

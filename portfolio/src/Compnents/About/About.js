@@ -4,7 +4,7 @@ import "./About.scss";
 import down from "./Down.png";
 import { Link } from "react-router-dom";
 
-function About() {
+const About = () => {
   return (
     <div className="sec">
       <div className="cover">
@@ -55,6 +55,6 @@ function About() {
       </div>
     </div>
   );
-}
+};
 
 export default About;
