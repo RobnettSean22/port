@@ -63,10 +63,20 @@
 }
 .left {
   @include even();
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: center;
+  // align-items: center;
+  overflow-y: auto;
+  direction: rtl;
 
   h1,
-  p {
+  h2,
+  h3,
+  ul,
+  li {
     @include textColor();
+    direction: ltr;
   }
 }
 
@@ -88,4 +98,6 @@
   p {
     @include textColor();
   }
+}
+::-webkit-scrollbar {
 }

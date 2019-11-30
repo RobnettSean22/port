@@ -37,10 +37,34 @@ const Contact = () => {
               <h1>Robnettsean22@gmail.com</h1>
             </div>
             <div className="icons">
-              <img className="facebook" src={fb} alt="facebook" />
-              <img className="insta" src={ig} alt="insta" />
-              <img className="github" src={gh} alt="github" />
-              <img className="linkedin" src={ln} alt="linkedin" />
+              <a
+                className="facebook"
+                target="_blank"
+                href="https://www.facebook.com/sean.robnett1"
+              >
+                <img className="facebook" src={fb} alt="facebook" />
+              </a>
+              <a
+                className="insta"
+                target="_blank"
+                href="https://www.instagram.com/auniversoullion/?hl=ja"
+              >
+                <img className="insta" src={ig} alt="insta" />
+              </a>
+              <a
+                className="github"
+                target="_blank"
+                href="https://github.com/RobnettSean22"
+              >
+                <img className="github" src={gh} alt="github" />
+              </a>
+              <a
+                className="linkedin"
+                target="_blank"
+                href="https://www.linkedin.com/in/sean-robnett-softwareengineer/"
+              >
+                <img className="linkedin" src={ln} alt="linkedin" />
+              </a>
             </div>
           </div>
           <div className="or">

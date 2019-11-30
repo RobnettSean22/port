@@ -20,27 +20,53 @@ const Resume = () => {
           <div className="hold">
             <div className="left">
               <h1>Education</h1>
-              <p>
-                Devmountain – Phoenix, December 2019 • Certification Hastings
-                College- Hastings, May 2016 • Bachelor of Arts-Psychology •
-                Minor-Visual Media International TEFL/TESOL Training • ITTT
-                Certification TEFL and TESOL, December 2016
-              </p>
+              <h2>Devmountain – Phoenix, December 2019 </h2>
+              <ul>
+                <li>Certification</li>
+              </ul>
+              <h2>Hastings College- Hastings, May 2016 </h2>
+              <ul>
+                <li>Bachelor of Arts-Psychology</li>
+                <li>Minor-Visual Media</li>
+              </ul>
+              <h2>International TEFL/TESOL Training </h2>
+              <ul>
+                <li>ITTT Certification TEFL and TESOL, December 2016</li>
+              </ul>
               <h1>Professional Experience</h1>
-              <p>
-                WinBe Native English Teacher December 2017 – September 2019 •
-                Teach children and adults English and American Culture • Create
-                lesson plans around class sizes and student personalities •
-                Portrait Photographs for students “dreamsheets” • Communicate
-                with manager and parents for student placement Desert Schools
-                Federal Credit Union September 2016 – November 2017 MAC
-                Representative • Answer questions and concerns from members and
-                potential members. • Make transfers and payments for members,
-                process loan advances, and quote loan payoffs. • Cross-sell
-                Desert Schools’ products and services. • Conduct research for
-                members to perform corrections or explain transaction on their
-                accounts.
-              </p>
+              <h2>WinBe - Saitama, December 2017 – September 2019</h2>
+              <h3>Native English Teacher</h3>
+              <ul>
+                <li>Teach children and adults English and American Culture</li>
+                <li>
+                  Create lesson plans around class sizes and student
+                  personalities
+                </li>
+                <li>Portrait Photographs for students “dreamsheets”</li>
+                <li>
+                  Communicate with manager and parents for student placement
+                </li>
+              </ul>
+              <h2>
+                Desert Schools Federal Credit Union - Phoenix, September 2016 –
+                November 2017
+              </h2>
+              <h3>MAC Representative</h3>
+              <ul>
+                <li>
+                  Answer questions and concerns from members and potential
+                  members.
+                </li>
+                <li>
+                  Make transfers and payments for members, process loan
+                  advances, and quote loan payoffs.
+                </li>
+                <li>Cross-sell Desert Schools’ products and services.</li>
+                <li>
+                  Conduct research for members to perform corrections or explain
+                  transaction on their accounts.
+                </li>
+              </ul>
             </div>
             <div className="skills">
               <img src={skill} alt="sk" />
