@@ -18,7 +18,7 @@ const Contact = () => {
     <div className="sec">
       <div className="cover">
         <div className="logo-place">
-          <img className="lo-go" src={logo} alt="tl" />
+          <img className="lo-gos" src={logo} alt="tl" />
           <HeaderLink />
         </div>
         <div className="title">
@@ -72,16 +72,20 @@ const Contact = () => {
           <div className="or">
             <h1 className="option">OR</h1>
           </div>
+
           <div className="message-contain">
-            <div className="name">
-              <input placeholder="Name" />
-            </div>
-            <div className="email-me">
-              <input placeholder="Email" />
-            </div>
-            <div className="message">
-              <textarea placeholder="Send me a Message :)" />
-            </div>
+            <form>
+              <div className="name">
+                <input placeholder="Name" />
+              </div>
+              <div className="email-me">
+                <input placeholder="Email" />
+              </div>
+
+              <div className="message">
+                <textarea placeholder="Send me a Message :)" />
+              </div>
+            </form>
           </div>
         </div>
 
