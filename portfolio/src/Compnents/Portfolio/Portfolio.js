@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-
+import HeaderLink from "../HeaderLink/HeaderLink";
 import logo from "./my_logo.png";
 import {
   FaArrowCircleLeft,
@@ -26,6 +26,7 @@ class Portfolio extends Component {
         <div className="cover">
           <div className="logo-place">
             <img className="lo-go" src={logo} alt="tl" />
+            <HeaderLink />
           </div>
           <div className="title">
             <h1>Portfolio</h1>

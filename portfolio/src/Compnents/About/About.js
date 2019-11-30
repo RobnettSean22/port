@@ -3,6 +3,7 @@ import logo from "./my_logo.png";
 import "./About.scss";
 import down from "./Down.png";
 import up from "./Up.png";
+import HeaderLink from "../HeaderLink/HeaderLink";
 import { Link } from "react-router-dom";
 
 const About = () => {
@@ -11,6 +12,8 @@ const About = () => {
       <div className="cover">
         <div className="logo-place">
           <img className="lo-go" src={logo} alt="tl" />
+
+          <HeaderLink />
         </div>
         <div className="title">
           <h1>Who am I?</h1>

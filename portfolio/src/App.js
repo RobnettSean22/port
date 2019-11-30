@@ -18,7 +18,7 @@ const App = () => {
   return transitions.map(({ item, props, key }) => (
     <animated.div key={key} style={props}>
       <Switch location={item}>
-        <Route exact path="/" component={Landing} />
+        <Route exact path="/home" component={Landing} />
         <Route exact path="/about" component={About} />
         <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/resume" component={Resume} />

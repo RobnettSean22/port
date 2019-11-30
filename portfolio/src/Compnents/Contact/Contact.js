@@ -1,4 +1,5 @@
 import React from "react";
+import HeaderLink from "../HeaderLink/HeaderLink";
 import { Link } from "react-router-dom";
 import logo from "./my_logo.png";
 import fb from "./facebook.png";
@@ -18,6 +19,7 @@ const Contact = () => {
       <div className="cover">
         <div className="logo-place">
           <img className="lo-go" src={logo} alt="tl" />
+          <HeaderLink />
         </div>
         <div className="title">
           <h1>Get in Touch</h1>
