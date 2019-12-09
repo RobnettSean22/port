@@ -71,3 +71,70 @@ body {
   width: 26%;
   height: 47%;
 }
+@media (min-width: 375px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/static/media/Got_You_web.ff7a6eba.jpg);
+    background-size: 117% 100%;
+    overflow: hidden;
+  }
+  .contain {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  @mixin lanDivSize {
+    width: 100%;
+    height: 49%;
+  }
+  @mixin flexIt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .name {
+    @include lanDivSize();
+    @include flexIt();
+  }
+  .laname {
+    width: 73%;
+    height: 50%;
+  }
+
+  .start {
+    width: 33%;
+    height: 12%;
+    margin-bottom: -2%;
+    font-size: 25px;
+    text-align: center;
+    background: #121111;
+    opacity: 1;
+    color: white;
+    border-radius: 4px;
+    margin-right: 3%;
+    a {
+      text-decoration: none;
+      color: white;
+      padding: 0em 1em;
+    }
+    a:hover {
+      font-size: 40px;
+    }
+  }
+
+  .logo {
+    @include flexIt();
+    @include lanDivSize();
+  }
+  .revision {
+    margin-top: -18%;
+    margin-right: 2%;
+    width: 54%;
+    height: 50%;
+  }
+}

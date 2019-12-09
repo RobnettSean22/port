@@ -60,6 +60,14 @@ const About = () => {
           </Link>
         </div>
       </div>
+      <div className="bot-moble">
+        <Link to={"/portfolio/"}>
+          <img src={down} alt="down" />
+        </Link>
+        <Link to={"/contact/"}>
+          <img src={up} alt="down" />
+        </Link>
+      </div>
     </div>
   );
 };
