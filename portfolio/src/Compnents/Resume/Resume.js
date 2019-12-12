@@ -17,7 +17,7 @@ const Resume = () => {
             <HeaderLink />
           </div>
           <div className="title">
-            <h1>Resume</h1>
+            <h1>Where I've Been</h1>
           </div>
           <div className="hold">
             <div className="left">
