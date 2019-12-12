@@ -321,7 +321,7 @@
     justify-content: center;
     align-items: center;
     .contact-contain {
-      width: 42%;
+      width: 100%;
       height: 100%;
 
       display: flex;
@@ -373,7 +373,7 @@
     .or {
       width: 6%;
       height: 44.5%;
-      display: flex;
+      display: none;
       justify-content: center;
       align-items: flex-start;
 
@@ -407,7 +407,7 @@
       width: 42%;
       height: 100%;
 
-      display: flex;
+      display: none;
       flex-direction: column;
       justify-content: flex-start;
       align-items: flex-start;
