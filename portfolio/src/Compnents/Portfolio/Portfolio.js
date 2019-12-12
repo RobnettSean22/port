@@ -38,11 +38,9 @@ class Portfolio extends Component {
             </div>
             <div className="p2">
               <div className="slideshow">
-                <FaArrowCircleLeft className="arrows" />
                 <div className="web-still-container">
                   <img src={slideKNM} alt="home" />
                 </div>
-                <FaArrowCircleRight className="arrows" />
               </div>
               <div className="headingKNM">
                 <h1>
