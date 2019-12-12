@@ -128,6 +128,18 @@
     @include textColor();
   }
 }
+.portres {
+  @include even();
+  overflow-y: auto;
+  display: none;
+  h1,
+  h2,
+  h3,
+  ul,
+  li {
+    @include textColor();
+  }
+}
 ::-webkit-scrollbar {
   width: 5px;
 }
@@ -218,7 +230,7 @@
     height: 70%;
     margin-top: 1%;
     flex-direction: column;
-    display: none;
+    display: flex;
     justify-content: center;
     align-items: flex-start;
   }
@@ -231,7 +243,7 @@
   }
   .left {
     @include even();
-    // display: flex;
+    display: none;
     // flex-direction: column;
     // justify-content: center;
     // align-items: center;
@@ -251,7 +263,7 @@
 
   .skills {
     @include even();
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
 
@@ -263,7 +275,19 @@
   .right {
     @include even();
     overflow-y: auto;
-
+    display: none;
+    h1,
+    h2,
+    h3,
+    ul,
+    li {
+      @include textColor();
+    }
+  }
+  .portres {
+    @include even();
+    overflow-y: auto;
+    display: block;
     h1,
     h2,
     h3,

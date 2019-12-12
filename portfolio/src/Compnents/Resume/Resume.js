@@ -72,6 +72,58 @@ const Resume = () => {
                 </li>
               </ul>
             </div>
+            <div className="portres">
+              <h1>Education</h1>
+              <h2>Devmountain – Phoenix, December 2019 </h2>
+              <ul>
+                <li>Certification</li>
+              </ul>
+              <h2>Hastings College- Hastings, May 2016 </h2>
+              <ul>
+                <li>Bachelor of Arts-Psychology</li>
+                <li>Minor-Visual Media</li>
+              </ul>
+              <h2>International TEFL/TESOL Training </h2>
+              <ul>
+                <li>ITTT Certification TEFL and TESOL, December 2016</li>
+              </ul>
+              <h1>Professional Experience</h1>
+              <h2>WinBe - Saitama, December 2017 – September 2019</h2>
+              <h3>Native English Teacher</h3>
+              <ul>
+                <li>
+                  Teach children and adults English and about American Culture
+                </li>
+                <li>
+                  Create lesson plans around class sizes and student
+                  personalities
+                </li>
+                <li>Portrait Photographs for students “dreamsheets”</li>
+                <li>
+                  Communicate with manager and parents for student placement
+                </li>
+              </ul>
+              <h2>
+                Desert Schools Federal Credit Union - Phoenix, September 2016 –
+                November 2017
+              </h2>
+              <h3>MAC Representative</h3>
+              <ul>
+                <li>
+                  Answer questions and concerns from members and potential
+                  members.
+                </li>
+                <li>
+                  Make transfers and payments for members, process loan
+                  advances, and quote loan payoffs.
+                </li>
+                <li>Cross-sell Desert Schools’ products and services.</li>
+                <li>
+                  Conduct research for members to perform corrections or explain
+                  transaction on their accounts.
+                </li>
+              </ul>
+            </div>
             <div className="skills">
               <img src={skill} alt="sk" />
             </div>
