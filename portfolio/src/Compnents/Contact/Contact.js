@@ -11,7 +11,6 @@ import line from "./line.png";
 import email from "./mail.png";
 import down from "./Down.png";
 import up from "./Up.png";
-
 import "./Contact.scss";
 const Contact = () => {
   return (
@@ -42,6 +41,7 @@ const Contact = () => {
               <a
                 className="facebook"
                 target="_blank"
+                rel="noopener noreferrer"
                 href="https://www.facebook.com/sean.robnett1"
               >
                 <img className="facebook" src={fb} alt="facebook" />
@@ -49,6 +49,7 @@ const Contact = () => {
               <a
                 className="insta"
                 target="_blank"
+                rel="noopener noreferrer"
                 href="https://www.instagram.com/auniversoullion/?hl=ja"
               >
                 <img className="insta" src={ig} alt="insta" />
@@ -56,6 +57,7 @@ const Contact = () => {
               <a
                 className="github"
                 target="_blank"
+                rel="noopener noreferrer"
                 href="https://github.com/RobnettSean22"
               >
                 <img className="github" src={gh} alt="github" />
@@ -63,6 +65,7 @@ const Contact = () => {
               <a
                 className="linkedin"
                 target="_blank"
+                rel="noopener noreferrer"
                 href="https://www.linkedin.com/in/sean-robnett-softwareengineer/"
               >
                 <img className="linkedin" src={ln} alt="linkedin" />
@@ -89,7 +92,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className="but">
+        <div className="butter">
           <Link to={"/about/"}>
             <img src={down} alt="down" />
           </Link>
@@ -97,6 +100,14 @@ const Contact = () => {
             <img src={up} alt="down" />
           </Link>
         </div>
+      </div>
+      <div className="spine">
+        <Link to={"/about/"}>
+          <img src={down} alt="down" />
+        </Link>
+        <Link to={"/resume/"}>
+          <img src={up} alt="down" />
+        </Link>
       </div>
     </div>
   );

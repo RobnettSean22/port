@@ -143,6 +143,14 @@ const Resume = () => {
             </Link>
           </div>
         </div>
+        <div className="bot-mobleR">
+          <Link to={"/contact/"}>
+            <img src={down} alt="down" />
+          </Link>
+          <Link to={"/portfolio/"}>
+            <img src={up} alt="down" />
+          </Link>
+        </div>
       </div>
     </div>
   );
