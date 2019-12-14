@@ -106,7 +106,7 @@ const Contact = () => {
           <img src={down} alt="down" />
         </Link>
         <Link to={"/resume/"}>
-          <img src={up} alt="down" />
+          <img className="upC" src={up} alt="up" />
         </Link>
       </div>
     </div>

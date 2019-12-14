@@ -65,12 +65,12 @@ class Portfolio extends Component {
             </Link>
           </div>
         </div>
-        <div className="bot-mobleA">
+        <div className="bot-mobleP">
           <Link to={"/resume/"}>
             <img src={down} alt="down" />
           </Link>
           <Link to={"/about/"}>
-            <img src={up} alt="down" />
+            <img className="port-up" src={up} alt="down" />
           </Link>
         </div>
       </div>

@@ -200,7 +200,7 @@ const Resume = () => {
             <img src={down} alt="down" />
           </Link>
           <Link to={"/portfolio/"}>
-            <img src={up} alt="down" />
+            <img className="up-res" src={up} alt="down" />
           </Link>
         </div>
       </div>

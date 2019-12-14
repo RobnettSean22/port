@@ -65,7 +65,7 @@ const About = () => {
           <img src={down} alt="down" />
         </Link>
         <Link to={"/contact/"}>
-          <img src={up} alt="down" />
+          <img className="about-up" src={up} alt="down" />
         </Link>
       </div>
     </div>

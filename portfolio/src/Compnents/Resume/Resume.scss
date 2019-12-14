@@ -478,14 +478,17 @@
   }
   .bot-mobleR {
     width: 100%;
-    height: 9%;
+    height: 7%;
 
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     img {
-      width: 100%;
-      height: 10%;
+      width: 77%;
+      height: 100%;
+    }
+    .up-res {
+      display: none;
     }
   }
   .logo-place {
@@ -563,7 +566,158 @@
 
     img {
       width: 100%;
-      height: 58%;
+      height: 56%;
+    }
+  }
+  .right {
+    @include even();
+    overflow-y: auto;
+    display: block;
+    h1,
+    h2,
+    h3,
+    ul,
+    li {
+      @include textColor();
+    }
+  }
+  .portres {
+    @include even();
+    overflow-y: auto;
+    display: none;
+    h1,
+    h2,
+    h3,
+    ul,
+    li {
+      @include textColor();
+      font-size: 41px;
+    }
+  }
+}
+@media (min-width: 1360px) {
+  .sec {
+    width: 100vw;
+    height: 100vh;
+
+    .but {
+      width: 100%;
+      height: 9%;
+
+      display: none;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 70%;
+        height: 10%;
+      }
+    }
+  }
+
+  .cover {
+    width: 100%;
+    height: 90%;
+    background: #030303;
+    margin-top: 2%;
+    opacity: 0.8;
+    border-top: 0.5px solid white;
+    border-bottom: 0.5px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .bot-mobleR {
+    width: 100%;
+    height: 7%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 77%;
+      height: 100%;
+    }
+    .up-res {
+      display: none;
+    }
+  }
+  .logo-place {
+    width: 100%;
+    height: 11%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    .lo-go {
+      width: 12%;
+      height: 100%;
+      margin-top: 0%;
+    }
+  }
+
+  .title {
+    width: 100%;
+    height: 11%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid white;
+
+    h1 {
+      letter-spacing: 5px;
+      color: white;
+      font-size: 68px;
+      margin-bottom: 1%;
+    }
+  }
+
+  .hold {
+    width: 100%;
+    height: 70%;
+    margin-top: 1%;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  @mixin even {
+    height: 108%;
+    width: 100%;
+  }
+  @mixin textColor {
+    color: white;
+  }
+  .left {
+    @include even();
+    display: block;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+    overflow-y: auto;
+    direction: rtl;
+
+    h1,
+    h2,
+    h3,
+    ul,
+    li {
+      @include textColor();
+      direction: ltr;
+      margin-left: 6.8%;
+    }
+  }
+
+  .skills {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 100%;
+      height: 56%;
     }
   }
   .right {
