@@ -90,7 +90,7 @@ class Portfolio extends Component {
                   <img src={timer} alt="" />
                 </div>
               </div>
-              <div className="timer_japan">
+              <div className="timer-japan">
                 <h1>JS Timer</h1>
               </div>
               <p>dfddfksldfls</p>

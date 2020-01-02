@@ -30,6 +30,19 @@
       flex-direction: column;
       justify-content: flex-start;
       align-items: center;
+      .timer-japan {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        margin-top: 2%;
+        border-top: 1px solid red;
+        border-bottom: 1px solid red;
+        h1 {
+          color: white;
+          font-size: 40px;
+        }
+      }
       .JS {
         display: flex;
         justify-content: center;
@@ -654,11 +667,26 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
+        .timer-japan {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 87%;
+          height: 14%;
+          margin-top: 2%;
+          border-top: 1px solid red;
+          border-bottom: 1px solid red;
+          h1 {
+            color: white;
+            font-size: 40px;
+          }
+        }
         .JS {
           display: flex;
           justify-content: center;
           align-items: center;
-          width: 50%;
+          width: 87%;
+          height: 14%;
           margin-top: 2%;
           border-top: 1px solid red;
           border-bottom: 1px solid red;
@@ -671,7 +699,8 @@
           display: flex;
           justify-content: center;
           align-items: center;
-          width: 50%;
+          width: 87%;
+          height: 14%;
           margin-top: 2%;
           border-top: 1px solid red;
           border-bottom: 1px solid red;
@@ -684,7 +713,8 @@
           display: flex;
           justify-content: center;
           align-items: center;
-          width: 50%;
+          width: 87%;
+          height: 14%;
           margin-top: 2%;
           border-top: 1px solid red;
           border-bottom: 1px solid red;
@@ -698,7 +728,8 @@
           display: flex;
           justify-content: center;
           align-items: center;
-          width: 50%;
+          width: 87%;
+          height: 14%;
           margin-top: 2%;
           border-top: 1px solid red;
           border-bottom: 1px solid red;
@@ -711,7 +742,8 @@
           display: flex;
           justify-content: center;
           align-items: center;
-          width: 50%;
+          width: 87%;
+          height: 14%;
           margin-top: 2%;
           border-top: 1px solid red;
           border-bottom: 1px solid red;
@@ -724,7 +756,7 @@
           display: flex;
           justify-content: center;
           align-items: center;
-          width: 100%;
+          width: 87%;
           height: 14%;
           margin-top: 2%;
           border-top: 1px solid red;

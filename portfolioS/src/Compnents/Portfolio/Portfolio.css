@@ -57,6 +57,27 @@
           align-items: center;
 }
 
+.cover .projects .pro .timer-japan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+  margin-top: 2%;
+  border-top: 1px solid red;
+  border-bottom: 1px solid red;
+}
+
+.cover .projects .pro .timer-japan h1 {
+  color: white;
+  font-size: 40px;
+}
+
 .cover .projects .pro .JS {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -915,6 +936,26 @@
         -ms-flex-align: center;
             align-items: center;
   }
+  .cover .projects .pro .timer-japan {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 87%;
+    height: 14%;
+    margin-top: 2%;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+  }
+  .cover .projects .pro .timer-japan h1 {
+    color: white;
+    font-size: 40px;
+  }
   .cover .projects .pro .JS {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -925,7 +966,8 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 50%;
+    width: 87%;
+    height: 14%;
     margin-top: 2%;
     border-top: 1px solid red;
     border-bottom: 1px solid red;
@@ -944,7 +986,8 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 50%;
+    width: 87%;
+    height: 14%;
     margin-top: 2%;
     border-top: 1px solid red;
     border-bottom: 1px solid red;
@@ -963,7 +1006,8 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 50%;
+    width: 87%;
+    height: 14%;
     margin-top: 2%;
     border-top: 1px solid red;
     border-bottom: 1px solid red;
@@ -983,7 +1027,8 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 50%;
+    width: 87%;
+    height: 14%;
     margin-top: 2%;
     border-top: 1px solid red;
     border-bottom: 1px solid red;
@@ -1002,7 +1047,8 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 50%;
+    width: 87%;
+    height: 14%;
     margin-top: 2%;
     border-top: 1px solid red;
     border-bottom: 1px solid red;
@@ -1021,7 +1067,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 100%;
+    width: 87%;
     height: 14%;
     margin-top: 2%;
     border-top: 1px solid red;
