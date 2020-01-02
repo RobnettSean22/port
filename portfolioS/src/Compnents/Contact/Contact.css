@@ -1,0 +1,1682 @@
+.sec {
+  width: 100vw;
+  height: 100vh;
+}
+
+.butter {
+  width: 100%;
+  height: 9%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.butter img {
+  width: 76%;
+  height: 10%;
+}
+
+.spine {
+  width: 100%;
+  height: 9%;
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.spine img {
+  width: 76%;
+  height: 10%;
+}
+
+.cover {
+  width: 100%;
+  height: 90%;
+  background: #030303;
+  margin-top: 2%;
+  opacity: 0.8;
+  border-top: 0.5px solid white;
+  border-bottom: 0.5px solid white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo-place {
+  width: 100%;
+  height: 11%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.logo-place .lo-gos {
+  width: 12%;
+  height: 124%;
+  margin-top: 0%;
+}
+
+.title {
+  width: 100%;
+  height: 11%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 2px solid white;
+}
+
+.title h1 {
+  letter-spacing: 5px;
+  color: white;
+  font-size: 71px;
+  margin-bottom: 1%;
+}
+
+.spred {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.spred .contact-contain {
+  width: 42%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.spred .contact-contain .phone {
+  width: 100%;
+  height: 22%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 6%;
+}
+
+.spred .contact-contain .phone img {
+  margin-left: 7%;
+}
+
+.spred .contact-contain .phone h1 {
+  color: white;
+  margin-right: 25%;
+}
+
+.spred .contact-contain .line {
+  width: 100%;
+  height: 18%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.spred .contact-contain .line img {
+  margin-left: 11.8%;
+  margin-bottom: 4%;
+}
+
+.spred .contact-contain .line h1 {
+  color: white;
+  margin-right: 40.7%;
+  margin-bottom: 7%;
+}
+
+.spred .contact-contain .email {
+  width: 100%;
+  height: 12%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.spred .contact-contain .email img {
+  margin-left: 11.2%;
+}
+
+.spred .contact-contain .email h1 {
+  color: white;
+  margin-right: 17.1%;
+}
+
+.spred .or {
+  width: 6%;
+  height: 44.5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.spred .or h1 {
+  color: white;
+  font-size: 44px;
+}
+
+.spred .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 100%;
+  border-top: 2px solid white;
+}
+
+.spred .icons .insta {
+  margin-top: 1%;
+}
+
+.spred .icons .facebook {
+  margin-top: 2.33%;
+}
+
+.spred .icons .github {
+  margin-top: 2.7%;
+}
+
+.spred .icons .linkedin {
+  margin-top: 2.5%;
+  margin-left: 1.5%;
+}
+
+.spred .message-contain {
+  width: 42%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.spred .message-contain form {
+  width: 100%;
+  height: 100%;
+}
+
+.spred .message-contain .name {
+  width: 83%;
+  height: 9%;
+  margin-top: 11%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.spred .message-contain .name input {
+  width: 52%;
+  height: 36%;
+  border-radius: 5px;
+  font-size: 24px;
+}
+
+.spred .message-contain .email-me {
+  width: 83%;
+  height: 13%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.spred .message-contain .email-me input {
+  width: 52%;
+  height: 27%;
+  border-radius: 5px;
+  font-size: 24px;
+}
+
+.spred .message-contain .message {
+  width: 83%;
+  height: 26%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.spred .message-contain .message textarea {
+  width: 59%;
+  height: 90%;
+  border-radius: 5px;
+  font-size: 26px;
+}
+
+@media (min-width: 375px) {
+  .sec {
+    width: 100vw;
+    height: 100vh;
+  }
+  .sec .butter {
+    width: 100%;
+    height: 9%;
+    display: none;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .sec .butter img {
+    width: 76%;
+    height: 10%;
+  }
+  .cover {
+    width: 100%;
+    height: 90%;
+    background: #030303;
+    margin-top: 2%;
+    opacity: 0.8;
+    border-top: 0.5px solid white;
+    border-bottom: 0.5px solid white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .spine {
+    width: 100%;
+    height: 9%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .spine img {
+    width: 76%;
+    height: 10%;
+  }
+  .logo-place {
+    width: 100%;
+    height: 11%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .logo-place .lo-gos {
+    width: 25%;
+    height: 124%;
+    margin-top: 0%;
+  }
+  .title {
+    width: 100%;
+    height: 11%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-bottom: 2px solid white;
+  }
+  .title h1 {
+    letter-spacing: 5px;
+    color: white;
+    font-size: 35px;
+    margin-bottom: 1%;
+  }
+  .spred {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .spred .contact-contain {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .spred .contact-contain .phone {
+    width: 100%;
+    height: 22%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 6%;
+  }
+  .spred .contact-contain .phone img {
+    width: 30%;
+    height: 100%;
+    margin-left: 2%;
+  }
+  .spred .contact-contain .phone h1 {
+    color: white;
+    font-size: 21px;
+    margin-right: 3%;
+  }
+  .spred .contact-contain .line {
+    width: 100%;
+    height: 18%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .spred .contact-contain .line img {
+    width: 20%;
+    height: 64%;
+    margin-left: 6.8%;
+    margin-bottom: 4%;
+  }
+  .spred .contact-contain .line h1 {
+    color: white;
+    font-size: 30px;
+    margin-right: 6.7%;
+    margin-bottom: 7%;
+  }
+  .spred .contact-contain .email {
+    width: 100%;
+    height: 12%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .spred .contact-contain .email img {
+    margin-left: 6.2%;
+  }
+  .spred .contact-contain .email h1 {
+    color: white;
+    font-size: 18px;
+    margin-right: 3.1%;
+  }
+  .spred .or {
+    width: 6%;
+    height: 44.5%;
+    display: none;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .spred .or h1 {
+    color: white;
+    font-size: 44px;
+  }
+  .spred .icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: 100%;
+    border-top: none;
+  }
+  .spred .icons .insta {
+    margin-top: 8.3%;
+  }
+  .spred .icons .facebook {
+    margin-top: 12.33%;
+  }
+  .spred .icons .github {
+    margin-top: 11.7%;
+  }
+  .spred .icons .linkedin {
+    margin-top: 11.5%;
+    margin-left: 1.5%;
+  }
+  .spred .message-contain {
+    width: 42%;
+    height: 100%;
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .spred .message-contain form {
+    width: 100%;
+    height: 100%;
+  }
+  .spred .message-contain .name {
+    width: 83%;
+    height: 9%;
+    margin-top: 11%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .spred .message-contain .name input {
+    width: 52%;
+    height: 36%;
+    border-radius: 5px;
+    font-size: 24px;
+  }
+  .spred .message-contain .email-me {
+    width: 83%;
+    height: 13%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .spred .message-contain .email-me input {
+    width: 52%;
+    height: 27%;
+    border-radius: 5px;
+    font-size: 24px;
+  }
+  .spred .message-contain .message {
+    width: 83%;
+    height: 26%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .spred .message-contain .message textarea {
+    width: 59%;
+    height: 90%;
+    border-radius: 5px;
+    font-size: 26px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .sec {
+    width: 100vw;
+    height: 100vh;
+  }
+  .sec .butter {
+    width: 100%;
+    height: 9%;
+    display: none;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .sec .butter img {
+    width: 76%;
+    height: 10%;
+  }
+  .cover {
+    width: 100%;
+    height: 90%;
+    background: #030303;
+    margin-top: 2%;
+    opacity: 0.8;
+    border-top: 0.5px solid white;
+    border-bottom: 0.5px solid white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .spine {
+    width: 100%;
+    height: 9%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .spine img {
+    width: 100%;
+    height: 10%;
+  }
+  .logo-place {
+    width: 100%;
+    height: 11%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .logo-place .lo-gos {
+    width: 25%;
+    height: 124%;
+    margin-top: 0%;
+  }
+  .title {
+    width: 100%;
+    height: 11%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-bottom: 2px solid white;
+  }
+  .title h1 {
+    letter-spacing: 5px;
+    color: white;
+    font-size: 70px;
+    margin-bottom: 1%;
+  }
+  .spred {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .spred .contact-contain {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .spred .contact-contain .phone {
+    width: 100%;
+    height: 27%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 6%;
+  }
+  .spred .contact-contain .phone img {
+    width: 25%;
+    height: 97%;
+    margin-left: 2%;
+  }
+  .spred .contact-contain .phone h1 {
+    color: white;
+    font-size: 46px;
+    margin-right: 12%;
+  }
+  .spred .contact-contain .line {
+    width: 100%;
+    height: 18%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .spred .contact-contain .line img {
+    width: 15%;
+    height: 68%;
+    margin-left: 6.8%;
+    margin-bottom: 4%;
+  }
+  .spred .contact-contain .line h1 {
+    color: white;
+    color: white;
+    font-size: 46px;
+    margin-right: 29.7%;
+    margin-bottom: 7%;
+  }
+  .spred .contact-contain .email {
+    width: 100%;
+    height: 12%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .spred .contact-contain .email img {
+    width: 16%;
+    height: 94%;
+    margin-left: 6.2%;
+  }
+  .spred .contact-contain .email h1 {
+    color: white;
+    font-size: 46px;
+    margin-right: 3.1%;
+  }
+  .spred .or {
+    width: 6%;
+    height: 44.5%;
+    display: none;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .spred .or h1 {
+    color: white;
+    font-size: 44px;
+  }
+  .spred .icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: 100%;
+    height: 40%;
+    border-top: none;
+  }
+  .spred .icons .insta {
+    width: 42%;
+    height: 66%;
+    margin-top: 5.3%;
+    margin-left: 1.5%;
+    margin-right: -12%;
+  }
+  .spred .icons .facebook {
+    width: 38%;
+    height: 62%;
+    margin-top: 7.33%;
+    margin-left: 1.5%;
+    margin-right: -20%;
+  }
+  .spred .icons .github {
+    width: 35%;
+    height: 56%;
+    margin-top: 7.7%;
+    margin-left: -7%;
+    margin-right: -12%;
+  }
+  .spred .icons .linkedin {
+    width: 35%;
+    height: 56%;
+    margin-top: 7.5%;
+    margin-left: -5.5%;
+    margin-right: -25%;
+  }
+  .spred .message-contain {
+    width: 42%;
+    height: 100%;
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .spred .message-contain form {
+    width: 100%;
+    height: 100%;
+  }
+  .spred .message-contain .name {
+    width: 83%;
+    height: 9%;
+    margin-top: 11%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .spred .message-contain .name input {
+    width: 52%;
+    height: 36%;
+    border-radius: 5px;
+    font-size: 24px;
+  }
+  .spred .message-contain .email-me {
+    width: 83%;
+    height: 13%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .spred .message-contain .email-me input {
+    width: 52%;
+    height: 27%;
+    border-radius: 5px;
+    font-size: 24px;
+  }
+  .spred .message-contain .message {
+    width: 83%;
+    height: 26%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .spred .message-contain .message textarea {
+    width: 59%;
+    height: 90%;
+    border-radius: 5px;
+    font-size: 26px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .sec {
+    width: 100vw;
+    height: 100vh;
+  }
+  .sec .butter {
+    width: 100%;
+    height: 9%;
+    display: none;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .sec .butter img {
+    width: 76%;
+    height: 10%;
+  }
+  .cover {
+    width: 100%;
+    height: 90%;
+    background: #030303;
+    margin-top: 2%;
+    opacity: 0.8;
+    border-top: 0.5px solid white;
+    border-bottom: 0.5px solid white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .spine {
+    width: 100%;
+    height: 7%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .spine img {
+    width: 77%;
+    height: 100%;
+  }
+  .spine .upC {
+    display: none;
+  }
+  .logo-place {
+    width: 100%;
+    height: 11%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .logo-place .lo-gos {
+    width: 12%;
+    height: 124%;
+    margin-top: 0%;
+  }
+  .title {
+    width: 100%;
+    height: 11%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-bottom: 2px solid white;
+  }
+  .title h1 {
+    letter-spacing: 5px;
+    color: white;
+    font-size: 70px;
+    margin-bottom: 5%;
+  }
+  .spred {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .spred .contact-contain {
+    width: 45%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .spred .contact-contain .phone {
+    font-size: 39px;
+    margin-right: 17%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 6%;
+  }
+  .spred .contact-contain .phone img {
+    width: 30%;
+    height: 100%;
+    margin-left: 12%;
+  }
+  .spred .contact-contain .phone h1 {
+    color: white;
+    font-size: 29px;
+    margin-right: 2%;
+  }
+  .spred .contact-contain .line {
+    width: 100%;
+    height: 18%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .spred .contact-contain .line img {
+    width: 17%;
+    height: 79%;
+    margin-left: 1.8%;
+    margin-bottom: 4%;
+  }
+  .spred .contact-contain .line h1 {
+    color: white;
+    font-size: 38px;
+    margin-right: 27.7%;
+    margin-bottom: 7%;
+  }
+  .spred .contact-contain .email {
+    width: 100%;
+    height: 12%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .spred .contact-contain .email img {
+    width: 18%;
+    height: 100%;
+    margin-left: 1.2%;
+  }
+  .spred .contact-contain .email h1 {
+    color: white;
+    font-size: 31px;
+    margin-right: 3.1%;
+  }
+  .spred .or {
+    width: 6%;
+    height: 44.5%;
+    display: block;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .spred .or h1 {
+    color: white;
+    font-size: 44px;
+  }
+  .spred .icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: 100%;
+    height: 35%;
+    border-top: 2px white dotted;
+    margin-top: 2%;
+  }
+  .spred .icons .insta {
+    width: 40%;
+    height: 66%;
+    margin-top: 1%;
+    margin-left: 1.5%;
+    margin-right: -12%;
+  }
+  .spred .icons .facebook {
+    width: 35%;
+    height: 57%;
+    margin-top: 2.33%;
+    margin-left: 1.5%;
+    margin-right: -20%;
+  }
+  .spred .icons .github {
+    width: 34%;
+    height: 56%;
+    margin-top: 2.7%;
+    margin-left: -7%;
+    margin-right: -12%;
+  }
+  .spred .icons .linkedin {
+    width: 34%;
+    height: 56%;
+    margin-top: 2.5%;
+    margin-left: -5.5%;
+    margin-right: -25%;
+  }
+  .spred .message-contain {
+    width: 42%;
+    height: 100%;
+    display: block;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .spred .message-contain form {
+    margin-top: 20%;
+    margin-left: 0%;
+    width: 100%;
+    height: 100%;
+  }
+  .spred .message-contain .name {
+    width: 83%;
+    height: 9%;
+    margin-top: 11%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .spred .message-contain .name input {
+    width: 74%;
+    height: 36%;
+    border-radius: 5px;
+    font-size: 24px;
+  }
+  .spred .message-contain .email-me {
+    width: 83%;
+    height: 13%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .spred .message-contain .email-me input {
+    width: 74%;
+    height: 27%;
+    border-radius: 5px;
+    font-size: 24px;
+  }
+  .spred .message-contain .message {
+    width: 83%;
+    height: 26%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .spred .message-contain .message textarea {
+    width: 80%;
+    height: 90%;
+    border-radius: 5px;
+    font-size: 26px;
+  }
+}
+
+@media (min-width: 1360px) {
+  .sec {
+    width: 100vw;
+    height: 100vh;
+  }
+  .sec .butter {
+    width: 100%;
+    height: 9%;
+    display: none;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .sec .butter img {
+    width: 76%;
+    height: 10%;
+  }
+  .cover {
+    width: 100%;
+    height: 90%;
+    background: #030303;
+    margin-top: 2%;
+    opacity: 0.8;
+    border-top: 0.5px solid white;
+    border-bottom: 0.5px solid white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .spine {
+    width: 100%;
+    height: 7%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .spine img {
+    width: 77%;
+    height: 100%;
+  }
+  .spine .upC {
+    display: none;
+  }
+  .logo-place {
+    width: 100%;
+    height: 11%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .logo-place .lo-gos {
+    width: 12%;
+    height: 124%;
+    margin-top: 0%;
+  }
+  .title {
+    width: 100%;
+    height: 11%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-bottom: 2px solid white;
+  }
+  .title h1 {
+    letter-spacing: 5px;
+    color: white;
+    font-size: 70px;
+    margin-bottom: 5%;
+  }
+  .spred {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .spred .contact-contain {
+    width: 45%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .spred .contact-contain .phone {
+    font-size: 39px;
+    margin-right: 17%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 6%;
+  }
+  .spred .contact-contain .phone img {
+    width: 30%;
+    height: 100%;
+    margin-left: 12%;
+  }
+  .spred .contact-contain .phone h1 {
+    color: white;
+    font-size: 29px;
+    margin-right: 4%;
+  }
+  .spred .contact-contain .line {
+    width: 100%;
+    height: 18%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .spred .contact-contain .line img {
+    width: 17%;
+    height: 79%;
+    margin-left: 1.8%;
+    margin-bottom: 4%;
+  }
+  .spred .contact-contain .line h1 {
+    color: white;
+    font-size: 29px;
+    margin-right: 38.7%;
+    margin-bottom: 7%;
+  }
+  .spred .contact-contain .email {
+    width: 100%;
+    height: 12%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .spred .contact-contain .email img {
+    width: 18%;
+    height: 100%;
+    margin-left: 1.2%;
+  }
+  .spred .contact-contain .email h1 {
+    color: white;
+    font-size: 29px;
+    margin-right: 12.1%;
+  }
+  .spred .or {
+    width: 9%;
+    height: 44.5%;
+    display: block;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .spred .or h1 {
+    color: white;
+    font-size: 44px;
+  }
+  .spred .icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 90%;
+    height: 35%;
+    border-top: 2px white dotted;
+    margin-top: 2%;
+    margin-right: 9%;
+  }
+  .spred .icons .insta {
+    width: 40%;
+    height: 66%;
+    margin-top: 1%;
+    margin-left: 1.5%;
+    margin-right: -12%;
+  }
+  .spred .icons .facebook {
+    width: 35%;
+    height: 57%;
+    margin-top: 1.33%;
+    margin-left: 1.5%;
+    margin-right: -20%;
+  }
+  .spred .icons .github {
+    width: 34%;
+    height: 56%;
+    margin-top: 1.6%;
+    margin-left: -7%;
+    margin-right: -12%;
+  }
+  .spred .icons .linkedin {
+    width: 34%;
+    height: 56%;
+    margin-top: 1.5%;
+    margin-left: -5.5%;
+    margin-right: -25%;
+  }
+  .spred .message-contain {
+    width: 42%;
+    height: 100%;
+    display: block;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .spred .message-contain form {
+    margin-top: 20%;
+    margin-left: 3%;
+    width: 100%;
+    height: 100%;
+  }
+  .spred .message-contain .name {
+    width: 83%;
+    height: 9%;
+    margin-top: 11%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .spred .message-contain .name input {
+    width: 74%;
+    height: 36%;
+    border-radius: 5px;
+    font-size: 24px;
+  }
+  .spred .message-contain .email-me {
+    width: 83%;
+    height: 13%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .spred .message-contain .email-me input {
+    width: 74%;
+    height: 27%;
+    border-radius: 5px;
+    font-size: 24px;
+  }
+  .spred .message-contain .message {
+    width: 83%;
+    height: 26%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .spred .message-contain .message textarea {
+    width: 80%;
+    height: 90%;
+    border-radius: 5px;
+    font-size: 26px;
+  }
+}
+/*# sourceMappingURL=Contact.css.map */
