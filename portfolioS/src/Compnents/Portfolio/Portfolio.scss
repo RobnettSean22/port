@@ -70,7 +70,7 @@
           text-align: center;
         }
       }
-      .chat {
+      .walk-talk {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -96,20 +96,7 @@
           font-size: 40px;
         }
       }
-      .this-is-dev {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 50%;
-        margin-top: 2%;
-        border-top: 1px solid red;
-        border-bottom: 1px solid red;
-        h1 {
-          color: white;
-          font-size: 35;
-          text-align: center;
-        }
-      }
+
       .headingKNM {
         display: flex;
         justify-content: center;
@@ -233,7 +220,7 @@
       flex-direction: column;
 
       justify-content: space-evenly;
-      .p2 {
+      .pro {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -376,7 +363,7 @@
       flex-direction: column;
 
       justify-content: space-evenly;
-      .p2 {
+      .pro {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -520,7 +507,7 @@
       grid-column-gap: 20px;
       justify-content: center;
 
-      .p2 {
+      .pro {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -662,11 +649,77 @@
       grid-column-gap: 20px;
       justify-content: center;
 
-      .p2 {
+      .pro {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
+        .JS {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 50%;
+          margin-top: 2%;
+          border-top: 1px solid red;
+          border-bottom: 1px solid red;
+          h1 {
+            color: white;
+            font-size: 40px;
+          }
+        }
+        .song-star {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 50%;
+          margin-top: 2%;
+          border-top: 1px solid red;
+          border-bottom: 1px solid red;
+          h1 {
+            color: white;
+            font-size: 40px;
+          }
+        }
+        .this-is-dev {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 50%;
+          margin-top: 2%;
+          border-top: 1px solid red;
+          border-bottom: 1px solid red;
+          h1 {
+            color: white;
+            font-size: 35;
+            text-align: center;
+          }
+        }
+        .walk-talk {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 50%;
+          margin-top: 2%;
+          border-top: 1px solid red;
+          border-bottom: 1px solid red;
+          h1 {
+            color: white;
+            font-size: 40px;
+          }
+        }
+        .song-star {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 50%;
+          margin-top: 2%;
+          border-top: 1px solid red;
+          border-bottom: 1px solid red;
+          h1 {
+            color: white;
+            font-size: 40px;
+          }
+        }
         .headingKNM {
           display: flex;
           justify-content: center;
@@ -691,8 +744,8 @@
           font-size: 40px;
         }
         .slideshow {
-          width: 100%;
-          height: 34%;
+          width: 88%;
+          height: 44%;
 
           display: flex;
           justify-content: center;

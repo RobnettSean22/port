@@ -12,9 +12,7 @@ class HeaderLink extends Component {
   render() {
     return (
       <div className="headerr">
-        <NavLink className="off" activeClassName="on" to={"/"}>
-          Home
-        </NavLink>
+        //{" "}
         <NavLink className="off" activeClassName="on" to={"/about"}>
           About
         </NavLink>

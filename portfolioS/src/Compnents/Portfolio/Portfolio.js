@@ -2,12 +2,12 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import HeaderLink from "../HeaderLink/HeaderLink";
 import logo from "./my_logo.png";
-import {
-  FaArrowCircleLeft,
-  FaArrowCircleDown,
-  FaArrowCircleRight,
-  FaArrowCircleUp
-} from "react-icons/fa";
+// import {
+//   FaArrowCircleLeft,
+//   FaArrowCircleDown,
+//   FaArrowCircleRight,
+//   FaArrowCircleUp
+// } from "react-icons/fa";
 import down from "./Down.png";
 import up from "./Up.png";
 import "./Portfolio.scss";
@@ -79,7 +79,7 @@ class Portfolio extends Component {
                   <img src={chat} alt="" />
                 </div>
               </div>
-              <div className="chat">
+              <div className="walk-talk">
                 <h1>Totalk</h1>
               </div>
               <p>dfddfksldfls</p>
