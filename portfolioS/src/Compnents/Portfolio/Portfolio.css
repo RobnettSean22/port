@@ -90,8 +90,8 @@
           align-items: center;
   width: 50%;
   margin-top: 2%;
-  border-top: 1px solid #153a4a;
-  border-bottom: 1px solid #18333f;
+  border-top: 2px solid #153a4a;
+  border-bottom: 2px solid #18333f;
 }
 
 .cover .projects .pro .this-is-dev h1 {
@@ -133,8 +133,8 @@
           align-items: center;
   width: 50%;
   margin-top: 2%;
-  border-top: 1px solid #fde000;
-  border-bottom: 1px solid #f2af00;
+  border-top: 2px solid #fde000;
+  border-bottom: 2px solid #f2af00;
 }
 
 .cover .projects .pro .song-star h1 {
@@ -154,8 +154,8 @@
           align-items: center;
   width: 50%;
   margin-top: 2%;
-  border-top: 1px solid red;
-  border-bottom: 1px solid red;
+  border-top: 2px solid red;
+  border-bottom: 2px solid red;
 }
 
 .cover .projects .pro .headingKNM h1 {
@@ -988,8 +988,8 @@
     width: 87%;
     height: 14%;
     margin-top: 2%;
-    border-top: 1px solid red;
-    border-bottom: 1px solid red;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
   }
   .cover .projects .pro .headingKNM h1 {
     color: white;
@@ -1006,6 +1006,8 @@
   .cover .projects .pro .slideshow {
     width: 88%;
     height: 44%;
+    background-color: black;
+    opacity: 1;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1031,6 +1033,8 @@
   .cover .projects .pro .slideshow .web-still-container img {
     width: 100%;
     height: 100%;
+    -webkit-box-shadow: 0px 0px 0px black;
+            box-shadow: 0px 0px 0px black;
     border-radius: 5px;
   }
   .cover .but {

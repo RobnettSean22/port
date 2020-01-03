@@ -12,10 +12,10 @@ import down from "./Down.png";
 import up from "./Up.png";
 import "./Portfolio.scss";
 import knmhome from "./KanjiNme-home.png";
-import thisIsDev from "./thisisdevmountain.png";
-import songStar from "./sonstar_playcon.png";
-import chat from "./socketiochat.png";
-import timer from "./timer_japan.png";
+import thisIsDev from "./this_is_dev.png";
+import songStar from "./song_star.png";
+import chat from "./socketio_chat.png";
+import timer from "./js_timer.png";
 class Portfolio extends Component {
   constructor() {
     super();
