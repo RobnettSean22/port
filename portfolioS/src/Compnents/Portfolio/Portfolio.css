@@ -69,53 +69,11 @@
           align-items: center;
   width: 50%;
   margin-top: 2%;
-  border-top: 1px solid red;
-  border-bottom: 1px solid red;
+  border-top: 2px solid #20c953;
+  border-bottom: 2px solid #20c953;
 }
 
 .cover .projects .pro .timer-japan h1 {
-  color: white;
-  font-size: 40px;
-}
-
-.cover .projects .pro .JS {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 50%;
-  margin-top: 2%;
-  border-top: 1px solid red;
-  border-bottom: 1px solid red;
-}
-
-.cover .projects .pro .JS h1 {
-  color: white;
-  font-size: 40px;
-}
-
-.cover .projects .pro .song-star {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 50%;
-  margin-top: 2%;
-  border-top: 1px solid red;
-  border-bottom: 1px solid red;
-}
-
-.cover .projects .pro .song-star h1 {
   color: white;
   font-size: 40px;
 }
@@ -132,8 +90,8 @@
           align-items: center;
   width: 50%;
   margin-top: 2%;
-  border-top: 1px solid red;
-  border-bottom: 1px solid red;
+  border-top: 1px solid #153a4a;
+  border-bottom: 1px solid #18333f;
 }
 
 .cover .projects .pro .this-is-dev h1 {
@@ -154,8 +112,8 @@
           align-items: center;
   width: 50%;
   margin-top: 2%;
-  border-top: 1px solid red;
-  border-bottom: 1px solid red;
+  border-top: 2px solid white;
+  border-bottom: 2px solid #47a8ff;
 }
 
 .cover .projects .pro .walk-talk h1 {
@@ -175,8 +133,8 @@
           align-items: center;
   width: 50%;
   margin-top: 2%;
-  border-top: 1px solid red;
-  border-bottom: 1px solid red;
+  border-top: 1px solid #fde000;
+  border-bottom: 1px solid #f2af00;
 }
 
 .cover .projects .pro .song-star h1 {
@@ -949,50 +907,10 @@
     width: 87%;
     height: 14%;
     margin-top: 2%;
-    border-top: 1px solid red;
-    border-bottom: 1px solid red;
+    border-top: 2px solid #20c953;
+    border-bottom: 2px solid #20c953;
   }
   .cover .projects .pro .timer-japan h1 {
-    color: white;
-    font-size: 40px;
-  }
-  .cover .projects .pro .JS {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    width: 87%;
-    height: 14%;
-    margin-top: 2%;
-    border-top: 1px solid red;
-    border-bottom: 1px solid red;
-  }
-  .cover .projects .pro .JS h1 {
-    color: white;
-    font-size: 40px;
-  }
-  .cover .projects .pro .song-star {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    width: 87%;
-    height: 14%;
-    margin-top: 2%;
-    border-top: 1px solid red;
-    border-bottom: 1px solid red;
-  }
-  .cover .projects .pro .song-star h1 {
     color: white;
     font-size: 40px;
   }
@@ -1009,8 +927,8 @@
     width: 87%;
     height: 14%;
     margin-top: 2%;
-    border-top: 1px solid red;
-    border-bottom: 1px solid red;
+    border-top: 2px solid #25aae1;
+    border-bottom: 2px solid #25aae1;
   }
   .cover .projects .pro .this-is-dev h1 {
     color: white;
@@ -1030,8 +948,8 @@
     width: 87%;
     height: 14%;
     margin-top: 2%;
-    border-top: 1px solid red;
-    border-bottom: 1px solid red;
+    border-top: 2px solid white;
+    border-bottom: 2px solid #47a8ff;
   }
   .cover .projects .pro .walk-talk h1 {
     color: white;
@@ -1050,8 +968,8 @@
     width: 87%;
     height: 14%;
     margin-top: 2%;
-    border-top: 1px solid red;
-    border-bottom: 1px solid red;
+    border-top: 2px solid #fde000;
+    border-bottom: 2px solid #f2af00;
   }
   .cover .projects .pro .song-star h1 {
     color: white;
