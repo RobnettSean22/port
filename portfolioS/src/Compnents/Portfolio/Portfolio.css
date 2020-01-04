@@ -914,6 +914,14 @@
     color: white;
     font-size: 40px;
   }
+  .cover .projects .pro .timer-japan h1 img {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+  }
+  .cover .projects .pro .timer-japan h1 img:hover {
+    cursor: pointer;
+  }
   .cover .projects .pro .this-is-dev {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -935,6 +943,14 @@
     font-size: 35;
     text-align: center;
   }
+  .cover .projects .pro .this-is-dev h1 img {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+  }
+  .cover .projects .pro .this-is-dev h1 img:hover {
+    cursor: pointer;
+  }
   .cover .projects .pro .walk-talk {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -955,6 +971,14 @@
     color: white;
     font-size: 40px;
   }
+  .cover .projects .pro .walk-talk h1 img {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+  }
+  .cover .projects .pro .walk-talk h1 img:hover {
+    cursor: pointer;
+  }
   .cover .projects .pro .song-star {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -974,6 +998,14 @@
   .cover .projects .pro .song-star h1 {
     color: white;
     font-size: 40px;
+  }
+  .cover .projects .pro .song-star h1 img {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+  }
+  .cover .projects .pro .song-star h1 img:hover {
+    cursor: pointer;
   }
   .cover .projects .pro .headingKNM {
     display: -webkit-box;
@@ -997,6 +1029,14 @@
   }
   .cover .projects .pro .headingKNM h1 span {
     color: red;
+  }
+  .cover .projects .pro .headingKNM h1 img {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+  }
+  .cover .projects .pro .headingKNM h1 img:hover {
+    cursor: pointer;
   }
   .cover .projects .pro p {
     display: block;

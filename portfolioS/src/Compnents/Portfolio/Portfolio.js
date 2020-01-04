@@ -16,6 +16,7 @@ import thisIsDev from "./this_is_dev.png";
 import songStar from "./song_star.png";
 import chat from "./socketio_chat.png";
 import timer from "./js_timer.png";
+import github from "./github.png";
 class Portfolio extends Component {
   constructor() {
     super();
@@ -44,7 +45,17 @@ class Portfolio extends Component {
               </div>
 
               <div className="this-is-dev">
-                <h1>thisIS Devmountain</h1>
+                <h1>
+                  thisIS Devmountain
+                  <span>
+                    <img
+                      href="https://github.com/RobnettSean22/songstar"
+                      target="_blank"
+                      src={github}
+                      alt=""
+                    />
+                  </span>
+                </h1>
               </div>
               <p>dhfjkshdk</p>
             </div>
@@ -57,6 +68,14 @@ class Portfolio extends Component {
               <div className="headingKNM">
                 <h1>
                   Kanji <span>N</span> Me
+                  <span>
+                    <img
+                      href="https://github.com/RobnettSean22/songstar"
+                      target="_blank"
+                      src={github}
+                      alt=""
+                    />
+                  </span>
                 </h1>
               </div>
 
@@ -69,7 +88,17 @@ class Portfolio extends Component {
                 </div>
               </div>
               <div className="song-star">
-                <h1>songStar</h1>
+                <h1>
+                  songStar{" "}
+                  <span>
+                    <img
+                      href="https://github.com/RobnettSean22/songstar"
+                      target="_blank"
+                      src={github}
+                      alt=""
+                    />
+                  </span>
+                </h1>
               </div>
               <p>dsfsldjflsd</p>
             </div>
@@ -80,7 +109,17 @@ class Portfolio extends Component {
                 </div>
               </div>
               <div className="walk-talk">
-                <h1>Totalk</h1>
+                <h1>
+                  Totalk
+                  <span>
+                    <img
+                      href="https://github.com/RobnettSean22/songstar"
+                      target="_blank"
+                      src={github}
+                      alt=""
+                    />
+                  </span>
+                </h1>
               </div>
               <p>dfddfksldfls</p>
             </div>
@@ -91,7 +130,17 @@ class Portfolio extends Component {
                 </div>
               </div>
               <div className="timer-japan">
-                <h1>JS Timer</h1>
+                <h1>
+                  JS Timer
+                  <span>
+                    <img
+                      href="https://github.com/RobnettSean22/songstar"
+                      target="_blank"
+                      src={github}
+                      alt=""
+                    />
+                  </span>
+                </h1>
               </div>
               <p>dfddfksldfls</p>
             </div>

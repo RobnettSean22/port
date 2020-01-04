@@ -654,6 +654,14 @@
           h1 {
             color: white;
             font-size: 40px;
+            img {
+              width: 40px;
+              height: 40px;
+              margin-left: 10px;
+            }
+            img:hover {
+              cursor: pointer;
+            }
           }
         }
 
@@ -670,6 +678,14 @@
             color: white;
             font-size: 35;
             text-align: center;
+            img {
+              width: 40px;
+              height: 40px;
+              margin-left: 10px;
+            }
+            img:hover {
+              cursor: pointer;
+            }
           }
         }
         .walk-talk {
@@ -684,6 +700,14 @@
           h1 {
             color: white;
             font-size: 40px;
+            img {
+              width: 40px;
+              height: 40px;
+              margin-left: 10px;
+            }
+            img:hover {
+              cursor: pointer;
+            }
           }
         }
         .song-star {
@@ -698,6 +722,14 @@
           h1 {
             color: white;
             font-size: 40px;
+            img {
+              width: 40px;
+              height: 40px;
+              margin-left: 10px;
+            }
+            img:hover {
+              cursor: pointer;
+            }
           }
         }
         .headingKNM {
@@ -714,6 +746,14 @@
             font-size: 40px;
             span {
               color: red;
+            }
+            img {
+              width: 40px;
+              height: 40px;
+              margin-left: 10px;
+            }
+            img:hover {
+              cursor: pointer;
             }
           }
         }
