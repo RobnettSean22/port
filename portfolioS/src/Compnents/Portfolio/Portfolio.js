@@ -47,14 +47,13 @@ class Portfolio extends Component {
               <div className="this-is-dev">
                 <h1>
                   thisIS Devmountain
-                  <span>
-                    <img
-                      href="https://github.com/RobnettSean22/songstar"
-                      target="_blank"
-                      src={github}
-                      alt=""
-                    />
-                  </span>
+                  <a
+                    href="https://github.com/C-E-Campbell/groupProjectWPX15"
+                    target="_blank"
+                    rel=""
+                  >
+                    <img src={github} alt="" />
+                  </a>
                 </h1>
               </div>
               <p>dhfjkshdk</p>
@@ -68,14 +67,13 @@ class Portfolio extends Component {
               <div className="headingKNM">
                 <h1>
                   Kanji <span>N</span> Me
-                  <span>
-                    <img
-                      href="https://github.com/RobnettSean22/songstar"
-                      target="_blank"
-                      src={github}
-                      alt=""
-                    />
-                  </span>
+                  <a
+                    href="https://github.com/RobnettSean22/before-thegame"
+                    target="_blank"
+                    rel=""
+                  >
+                    <img src={github} alt="" />
+                  </a>
                 </h1>
               </div>
 
@@ -90,14 +88,13 @@ class Portfolio extends Component {
               <div className="song-star">
                 <h1>
                   songStar{" "}
-                  <span>
-                    <img
-                      href="https://github.com/RobnettSean22/songstar"
-                      target="_blank"
-                      src={github}
-                      alt=""
-                    />
-                  </span>
+                  <a
+                    href="https://github.com/RobnettSean22/songstar"
+                    target="_blank"
+                    rel=""
+                  >
+                    <img src={github} alt="" />
+                  </a>
                 </h1>
               </div>
               <p>dsfsldjflsd</p>
@@ -111,14 +108,13 @@ class Portfolio extends Component {
               <div className="walk-talk">
                 <h1>
                   Totalk
-                  <span>
-                    <img
-                      href="https://github.com/RobnettSean22/songstar"
-                      target="_blank"
-                      src={github}
-                      alt=""
-                    />
-                  </span>
+                  <a
+                    href="https://github.com/RobnettSean22/practicingsocketio"
+                    target="_blank"
+                    rel=""
+                  >
+                    <img src={github} alt="" />
+                  </a>
                 </h1>
               </div>
               <p>dfddfksldfls</p>
@@ -132,14 +128,13 @@ class Portfolio extends Component {
               <div className="timer-japan">
                 <h1>
                   JS Timer
-                  <span>
-                    <img
-                      href="https://github.com/RobnettSean22/songstar"
-                      target="_blank"
-                      src={github}
-                      alt=""
-                    />
-                  </span>
+                  <a
+                    href="https://github.com/RobnettSean22/countdown"
+                    target="_blank"
+                    rel=""
+                  >
+                    <img src={github} alt="" />
+                  </a>
                 </h1>
               </div>
               <p>dfddfksldfls</p>
