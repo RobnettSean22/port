@@ -951,6 +951,36 @@
   .cover .projects .pro .this-is-dev h1 img:hover {
     cursor: pointer;
   }
+  .cover .projects .pro .description-for-thisisdev {
+    width: 88%;
+    height: 28%;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  .cover .projects .pro .description-for-kanjinme {
+    width: 88%;
+    height: 28%;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  .cover .projects .pro .description-for-songStar {
+    width: 88%;
+    height: 28%;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  .cover .projects .pro .description-for-totalk {
+    width: 88%;
+    height: 28%;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  .cover .projects .pro .description-for-countdown-timer {
+    width: 88%;
+    height: 28%;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
   .cover .projects .pro .walk-talk {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1038,10 +1068,33 @@
   .cover .projects .pro .headingKNM h1 img:hover {
     cursor: pointer;
   }
-  .cover .projects .pro p {
+  .cover .projects .pro .more {
+    font-size: 19px;
+    text-align: center;
+  }
+  .cover .projects .pro .more h5 {
+    margin-top: 2%;
+    margin-bottom: 1%;
+  }
+  .cover .projects .pro .more h5:hover {
+    font-size: 18px;
+    cursor: pointer;
+  }
+  .cover .projects .pro .show {
     display: block;
     color: white;
-    font-size: 40px;
+    font-size: 16px;
+  }
+  .cover .projects .pro .show .less {
+    font-size: 16px;
+    text-align: center;
+  }
+  .cover .projects .pro .show .less:hover {
+    cursor: pointer;
+    font-size: 18px;
+  }
+  .cover .projects .pro .hidden {
+    display: none;
   }
   .cover .projects .pro .slideshow {
     width: 88%;

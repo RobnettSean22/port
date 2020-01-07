@@ -21,11 +21,67 @@ class Portfolio extends Component {
   constructor() {
     super();
     this.state = {
-      slideKNM: [knmhome]
+      slideKNM: [knmhome],
+      TIDp: false,
+      KNMp: false,
+      SSp: false,
+      SCp: false,
+      CDTp: false
     };
   }
+  TIDpOn() {
+    this.setState({
+      TIDp: true
+    });
+  }
+  KNMpOn() {
+    this.setState({
+      KNMp: true
+    });
+  }
+  SSpOn() {
+    this.setState({
+      SSp: true
+    });
+  }
+  SCpOn() {
+    this.setState({
+      SCp: true
+    });
+  }
+  CDTpOn() {
+    this.setState({
+      CDTp: true
+    });
+  }
+  TIDpOff() {
+    this.setState({
+      TIDp: false
+    });
+  }
+  KNMpOff() {
+    this.setState({
+      KNMp: false
+    });
+  }
+  SSpOff() {
+    this.setState({
+      SSp: false
+    });
+  }
+  SCpOff() {
+    this.setState({
+      SCp: false
+    });
+  }
+  CDTpOff() {
+    this.setState({
+      CDTp: false
+    });
+  }
+
   render() {
-    const { slideKNM } = this.state;
+    const { slideKNM, TIDp, KNMp, SSp, SCp, CDTp } = this.state;
     return (
       <div className="sec">
         <div className="cover">
@@ -56,7 +112,32 @@ class Portfolio extends Component {
                   </a>
                 </h1>
               </div>
-              <p>dhfjkshdk</p>
+              <div className="description-for-thisisdev">
+                {" "}
+                <p className={TIDp ? "hidden" : "more"}>
+                  Technologies: React, javascript, nodejs, chart.js, socket.io
+                  express, postgresQL, bcyrpt, express-fileupload
+                  <h5 onClick={e => this.TIDpOn()}>More Info</h5>
+                </p>
+                <p className={TIDp ? "show" : "hidden"}>
+                  A web application created by Devmountain developers for
+                  Devmountain developers. This site allows Devmountainers from
+                  past present and future to create a profile and show case any
+                  project they have built or been a part of, and share it with
+                  the rest of the community. In previous coherts we were unable
+                  to view or draw inspiration from other Dev developers variety
+                  of web applications because there was no availble place for
+                  them to be showcased in on place and we wanted to change that
+                  with this site.
+                  <h5
+                    onClick={e => this.TIDpOff()}
+                    className={TIDp ? "less" : "hidden"}
+                  >
+                    {" "}
+                    Less Info
+                  </h5>
+                </p>
+              </div>
             </div>
             <div className="pro">
               <div className="slideshow">
@@ -77,7 +158,32 @@ class Portfolio extends Component {
                 </h1>
               </div>
 
-              <p>dfsdfsd</p>
+              <div className="description-for-kanjinme">
+                {" "}
+                <p className={KNMp ? "hidden" : "more"}>
+                  Technologies: nodejs, React, react-redux, bcyrpt, express,
+                  javascript, postgresQL, sessions
+                  <h5 onClick={e => this.KNMpOn()}>More Info</h5>
+                </p>
+                <p className={KNMp ? "show" : "hidden"}>
+                  A web application created by Devmountain developers for
+                  Devmountain developers. This site allows Devmountainers from
+                  past present and future to create a profile and show case any
+                  project they have built or been a part of, and share it with
+                  the rest of the community. In previous coherts we were unable
+                  to view or draw inspiration from other Dev developers variety
+                  of web applications because there was no availble place for
+                  them to be showcased in on place and we wanted to change that
+                  with this site.
+                  <h5
+                    onClick={e => this.KNMpOff()}
+                    className={KNMp ? "less" : "hidden"}
+                  >
+                    {" "}
+                    Less Info
+                  </h5>
+                </p>
+              </div>
             </div>
             <div className="pro">
               <div className="slideshow">
@@ -97,7 +203,28 @@ class Portfolio extends Component {
                   </a>
                 </h1>
               </div>
-              <p>dsfsldjflsd</p>
+              <div className="description-for-songStar">
+                {" "}
+                <p className={SSp ? "hidden" : "more"}>
+                  Technologies: React, nodjs, react-redux, bcyrpt, express,
+                  javascript, postgresQL
+                  <h5 onClick={e => this.SSpOn()}> More Info</h5>
+                </p>
+                <p className={SSp ? "show" : "hidden"}>
+                  SongStar is a simple web app that allows uesers to add songs
+                  to any number of playlist that can be created or deleted. The
+                  user can choose from a list of songs and if a song is not
+                  availble in that list, they can add their song of choice to
+                  the ALL Songs section.
+                  <h5
+                    onClick={e => this.SSpOff()}
+                    className={SSp ? "less" : "hidden"}
+                  >
+                    {" "}
+                    Less Info
+                  </h5>
+                </p>
+              </div>
             </div>
             <div className="pro">
               <div className="slideshow">
@@ -117,7 +244,27 @@ class Portfolio extends Component {
                   </a>
                 </h1>
               </div>
-              <p>dfddfksldfls</p>
+              <div className="description-for-totalk">
+                {" "}
+                <p className={SCp ? "hidden" : "more"}>
+                  Technologies: socket.io, HtML5, SCSS, vanillaJS
+                  <h5 onClick={e => this.SCpOn()}>More Info</h5>
+                </p>
+                <p className={SCp ? "show" : "hidden"}>
+                  ToTalk is a live chat app that uses socket.io technology.
+                  Create a user name and speak to anyone that is in the chat.
+                  Futuer version will include chatrooms that can be created so
+                  users can choose a topic or join a room and talk to others
+                  that are interrested in the same topic.
+                  <h5
+                    onClick={e => this.SCpOff()}
+                    className={SCp ? "less" : "hidden"}
+                  >
+                    {" "}
+                    Less Info
+                  </h5>
+                </p>
+              </div>
             </div>
             <div className="pro">
               <div className="slideshow">
@@ -137,7 +284,24 @@ class Portfolio extends Component {
                   </a>
                 </h1>
               </div>
-              <p>dfddfksldfls</p>
+              <div className="description-for-countdown-timer">
+                {" "}
+                <p className={CDTp ? "hidden" : "more"}>
+                  Technologies: vanillaJS, javascript, HTML5, SCSS
+                  <h5 onClick={e => this.CDTpOn()}>More Info</h5>
+                </p>
+                <p className={CDTp ? "show" : "hidden"}>
+                  A count down timer I created to practice JavaScript and
+                  vanillaJS.
+                  <h3
+                    onClick={e => this.CDTpOff()}
+                    className={CDTp ? "less" : "hidden"}
+                  >
+                    {" "}
+                    Less Info
+                  </h3>
+                </p>
+              </div>
             </div>
           </div>
 

@@ -24,7 +24,7 @@ const Resume = () => {
               <h1>Education</h1>
               <h2>Devmountain – Phoenix, December 2019 </h2>
               <ul>
-                <li>Certification</li>
+                <li>Devmountain Graduate Certification</li>
               </ul>
               <h2>Hastings College- Hastings, May 2016 </h2>
               <ul>
@@ -36,6 +36,18 @@ const Resume = () => {
                 <li>ITTT Certification TEFL and TESOL, December 2016</li>
               </ul>
               <h1>Professional Experience</h1>
+              <h2>Devmountain</h2>
+              <h3>Student/Intern</h3>
+              <ul>
+                <li>
+                  Create full functioning web applications using various
+                  languages/technologies
+                </li>
+                <li>
+                  Colaberate with other cohert members to create web
+                  applications
+                </li>
+              </ul>
               <h2>WinBe - Saitama, December 2017 – September 2019</h2>
               <h3>Native English Teacher</h3>
               <ul>

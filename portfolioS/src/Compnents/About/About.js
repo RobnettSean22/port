@@ -20,13 +20,12 @@ const About = () => {
         </div>
         <div className=" about">
           <p>
-            I am creator that seeks out knowledge from those before me and
-            around me so I can evolve. Not only as a developer but as a person.
-            I have traveled to nearly all 50 states and I have lived in four of
-            them. Whether it be to a new house, city, state or country, I make
-            sure to leave and bring back a souvenir. These “souvenir’s, are
-            irreplaceable when it comes to my growth as a professional and human
-            being.{" "}
+            I love to create break and rebuild. I find a joy in learning from
+            those around no matter the age or profesional field. I have traveled
+            to nearly all 50 states and have lived in four of them. Whether it
+            be to a new house, city, state or country, I make sure to leave and
+            bring back a souvenir. These “souvenir’s, are irreplaceable when it
+            comes to my growth as a professional and human being.{" "}
           </p>
           <p>
             I was born and raised in Colorado and it was there I learned
