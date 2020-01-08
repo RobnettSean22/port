@@ -56,6 +56,13 @@
           color: white;
           font-size: 35;
           text-align: center;
+          .site-link {
+            text-decoration: none;
+            color: white;
+          }
+          .site-link:hover {
+            color: rgba(46, 129, 207, 0.2);
+          }
         }
       }
       .walk-talk {

@@ -102,7 +102,14 @@ class Portfolio extends Component {
 
               <div className="this-is-dev">
                 <h1>
-                  thisIS Devmountain
+                  <a
+                    className="site-link"
+                    href="thisIS Devmountain"
+                    rel=""
+                    target="_blank"
+                  >
+                    thisIS Devmountain
+                  </a>
                   <a
                     href="https://github.com/C-E-Campbell/groupProjectWPX15"
                     target="_blank"
@@ -121,14 +128,16 @@ class Portfolio extends Component {
                 </p>
                 <p className={TIDp ? "show" : "hidden"}>
                   A web application created by Devmountain developers for
-                  Devmountain developers. This site allows Devmountainers from
+                  Devmountain developers. This site allows Devmountain devs from
                   past present and future to create a profile and show case any
-                  project they have built or been a part of, and share it with
-                  the rest of the community. In previous coherts we were unable
-                  to view or draw inspiration from other Dev developers variety
-                  of web applications because there was no availble place for
-                  them to be showcased in on place and we wanted to change that
-                  with this site.
+                  project they have built , and share it with the rest of the
+                  community. If it is hosted, using I frame, users can interact
+                  and comment on fully functioning websites on
+                  thisIsDevmountain. They are also capable of viewing all apps
+                  created by an individual by viewing that users profile.
+                  thisIsDvemountain was built with the intension to motivate
+                  those beginning at Devmountain and give all Devmountain
+                  developers a safe place to grow and learn.
                   <h5
                     onClick={e => this.TIDpOff()}
                     className={TIDp ? "less" : "hidden"}
