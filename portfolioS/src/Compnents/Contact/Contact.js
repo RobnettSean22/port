@@ -17,7 +17,7 @@ class Contact extends Component {
     super();
     this.state = {
       nameInp: "",
-      emailAdress: "",
+      emailAdress: "robnettsean22@gmail.com",
       messageInp: ""
     };
   }
@@ -103,7 +103,7 @@ class Contact extends Component {
                       this.setState({ emailAdress: e.target.value })
                     }
                     placeholder="Email"
-                  />
+                  ></input>
                 </div>
 
                 <div className="message">

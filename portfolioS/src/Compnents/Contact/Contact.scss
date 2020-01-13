@@ -201,6 +201,7 @@
     .email-me {
       width: 83%;
       height: 13%;
+      opacity: 0;
 
       @include contatFlex();
       input {
