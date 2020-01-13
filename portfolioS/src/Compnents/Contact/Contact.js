@@ -17,7 +17,7 @@ class Contact extends Component {
     super();
     this.state = {
       nameInp: "",
-      emailAdress: "robnettsean22@gmail.com",
+      emailAdress: "",
       messageInp: ""
     };
   }
@@ -88,7 +88,7 @@ class Contact extends Component {
             </div>
 
             <div className="message-contain">
-              <form name="name" action="POST" data-netlify="true">
+              <form name="name" action="POST" data-netlify-recaptcha="true">
                 <div className="name">
                   <input
                     type="text"
