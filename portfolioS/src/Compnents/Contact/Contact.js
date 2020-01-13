@@ -88,9 +88,11 @@ class Contact extends Component {
             </div>
 
             <div className="message-contain">
-              <form action="POST" data-netlify="true">
+              <form name="name" action="POST" data-netlify="true">
                 <div className="name">
                   <input
+                    type="text"
+                    name="name"
                     value={nameInp}
                     onChange={e => this.setState({ nameInp: e.target.value })}
                     placeholder="Name"
@@ -98,6 +100,8 @@ class Contact extends Component {
                 </div>
                 <div className="email-me">
                   <input
+                    textt="email"
+                    name="email"
                     value={emailAdress}
                     onChange={e =>
                       this.setState({ emailAdress: e.target.value })
@@ -108,6 +112,7 @@ class Contact extends Component {
 
                 <div className="message">
                   <textarea
+                    name="message"
                     value={messageInp}
                     onChange={e =>
                       this.setState({ messageInp: e.target.value })
@@ -116,7 +121,7 @@ class Contact extends Component {
                   />
                 </div>
                 <div className="butbut">
-                  <button>Submit</button>
+                  <button type="submit">Submit</button>
                 </div>
               </form>
             </div>
