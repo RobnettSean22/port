@@ -3,8 +3,8 @@ import logo from "./my_logo.png";
 import "./About.scss";
 import down from "./Down.png";
 import up from "./Up.png";
-import HeaderLink from "../HeaderLink/He aderLink";
-import { HashRouter as Link } from "react-router-dom";
+import HeaderLink from "../HeaderLink/HeaderLink";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (

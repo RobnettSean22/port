@@ -1,7 +1,7 @@
 import React from "react";
 import Name from "./LandName@2x.png";
 import Logo from "./my_logo.png";
-import { Hashrouter as Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./Landing.scss";
 
 const Landing = () => {

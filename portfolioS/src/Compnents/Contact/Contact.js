@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import HeaderLink from "../HeaderLink/HeaderLink";
-import { HashRouter as Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import logo from "./my_logo.png";
 import fb from "./facebook.png";
 import gh from "./github.png";
