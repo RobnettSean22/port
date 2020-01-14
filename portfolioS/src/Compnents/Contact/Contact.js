@@ -22,9 +22,9 @@ class Contact extends Component {
   constructor() {
     super();
     this.state = {
-      nameInp: "",
-      emailAdress: "",
-      messageInp: ""
+      name: "",
+      email: "",
+      message: ""
     };
   }
 
@@ -43,7 +43,7 @@ class Contact extends Component {
   handleChange = e => this.setState({ [e.target.name]: e.target.value });
 
   render() {
-    const { nameInp, emailAdress, messageInp } = this.state;
+    const { name, email, message } = this.state;
     return (
       <div className="sec">
         <div className="cover">
@@ -113,7 +113,7 @@ class Contact extends Component {
                   <input
                     type="text"
                     name="name"
-                    value={nameInp}
+                    value={name}
                     onChange={this.handleChange}
                     placeholder="Name"
                   />
@@ -122,7 +122,7 @@ class Contact extends Component {
                   <input
                     type="email"
                     name="email"
-                    value={emailAdress}
+                    value={email}
                     onChange={this.handleChange}
                     placeholder="Email"
                   ></input>
@@ -131,7 +131,7 @@ class Contact extends Component {
                 <div className="message">
                   <textarea
                     name="message"
-                    value={messageInp}
+                    value={message}
                     onChange={this.handleChange}
                     placeholder="Send me a Message :)"
                   />
