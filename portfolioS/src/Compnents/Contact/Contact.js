@@ -100,7 +100,7 @@ class Contact extends Component {
                 </div>
                 <div className="email-me">
                   <input
-                    textt="email"
+                    type="email"
                     name="email"
                     value={emailAdress}
                     onChange={e =>
