@@ -12,6 +12,12 @@ import email from "./mail.png";
 import down from "./Down.png";
 import up from "./Up.png";
 import "./Contact.scss";
+
+const encode = data => {
+  return Object.keys(data)
+    .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+    .join("&");
+};
 class Contact extends Component {
   constructor() {
     super();
@@ -21,6 +27,18 @@ class Contact extends Component {
       messageInp: ""
     };
   }
+
+  handleSubmit = e => {
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encode({ "form-name": "contact", ...this.state })
+    })
+      .then(() => alert("Success!"))
+      .catch(error => alert(error));
+
+    e.preventDefault();
+  };
 
   render() {
     const { nameInp, emailAdress, messageInp } = this.state;
@@ -88,7 +106,7 @@ class Contact extends Component {
             </div>
 
             <div className="message-contain">
-              <form name="contact" action="POST" data-netlify="true">
+              <form onSubmit={this.handleSubmit}>
                 <div className="name">
                   <input
                     type="text"
