@@ -8,7 +8,7 @@ import ig from "./insta.png";
 import ln from "./linkedin.png";
 import phone from "./phone.png";
 import line from "./line.png";
-import email from "./mail.png";
+import emailcon from "./mail.png";
 import down from "./Down.png";
 import up from "./Up.png";
 import "./Contact.scss";
@@ -65,7 +65,7 @@ class Contact extends Component {
                 <h1>Soul(ショニト2)</h1>
               </div>
               <div className="email">
-                <img src={email} alt="email" />
+                <img src={emailcon} alt="email" />
                 <h1>Robnettsean22@gmail.com</h1>
               </div>
               <div className="icons">
