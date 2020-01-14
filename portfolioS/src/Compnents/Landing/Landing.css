@@ -164,6 +164,7 @@ body {
     text-decoration: none;
     color: white;
     padding: 0em 1em;
+    text-align: center;
   }
   .start a:hover {
     font-size: 40px;
