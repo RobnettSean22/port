@@ -40,6 +40,8 @@ class Contact extends Component {
     e.preventDefault();
   };
 
+  handleChange = e => this.setState({ [e.target.name]: e.target.value });
+
   render() {
     const { nameInp, emailAdress, messageInp } = this.state;
     return (
@@ -112,7 +114,7 @@ class Contact extends Component {
                     type="text"
                     name="name"
                     value={nameInp}
-                    onChange={e => this.setState({ nameInp: e.target.value })}
+                    onChange={this.handleChange}
                     placeholder="Name"
                   />
                 </div>
@@ -121,9 +123,7 @@ class Contact extends Component {
                     type="email"
                     name="email"
                     value={emailAdress}
-                    onChange={e =>
-                      this.setState({ emailAdress: e.target.value })
-                    }
+                    onChange={this.handleChange}
                     placeholder="Email"
                   ></input>
                 </div>
@@ -132,9 +132,7 @@ class Contact extends Component {
                   <textarea
                     name="message"
                     value={messageInp}
-                    onChange={e =>
-                      this.setState({ messageInp: e.target.value })
-                    }
+                    onChange={this.handleChange}
                     placeholder="Send me a Message :)"
                   />
                 </div>
