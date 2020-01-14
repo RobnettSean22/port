@@ -88,7 +88,7 @@ class Contact extends Component {
             </div>
 
             <div className="message-contain">
-              <form name="name" action="POST" data-netlify-recaptcha="true">
+              <form name="contact" action="POST" data-netlify="true">
                 <div className="name">
                   <input
                     type="text"
