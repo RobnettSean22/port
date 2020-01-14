@@ -100,6 +100,15 @@
   text-align: center;
 }
 
+.cover .projects .pro .this-is-dev h1 .site-link {
+  text-decoration: none;
+  color: white;
+}
+
+.cover .projects .pro .this-is-dev h1 .site-link:hover {
+  color: rgba(46, 129, 207, 0.2);
+}
+
 .cover .projects .pro .walk-talk {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -300,19 +309,17 @@
   }
   .cover .projects {
     width: 100%;
-    height: 64%;
+    height: 77%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (90%)[auto-fit];
+        grid-template-columns: repeat(auto-fit, 90%);
+    grid-column-gap: 20px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     overflow-x: hidden;
     overflow-y: auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
   }
   .cover .projects .pro {
     display: -webkit-box;
@@ -322,14 +329,112 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .cover .projects .pro .timer-japan {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    margin-top: 2%;
+    border-top: 2px solid #20c953;
+    border-bottom: 2px solid #20c953;
+  }
+  .cover .projects .pro .timer-japan h1 {
+    color: white;
+    font-size: 40px;
+  }
+  .cover .projects .pro .timer-japan h1 .giti {
+    width: 45px;
+    height: 41px;
+  }
+  .cover .projects .pro .this-is-dev {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 90%;
+    margin-top: 2%;
+    border-top: 2px solid #153a4a;
+    border-bottom: 2px solid #18333f;
+  }
+  .cover .projects .pro .this-is-dev h1 {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+  }
+  .cover .projects .pro .this-is-dev h1 .site-link {
+    text-decoration: none;
+    color: white;
+  }
+  .cover .projects .pro .this-is-dev h1 .site-link:hover {
+    color: rgba(46, 129, 207, 0.2);
+  }
+  .cover .projects .pro .this-is-dev h1 .giti {
+    width: 45px;
+    height: 41px;
+  }
+  .cover .projects .pro .walk-talk {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 90%;
+    margin-top: 2%;
+    border-top: 2px solid white;
+    border-bottom: 2px solid #47a8ff;
+  }
+  .cover .projects .pro .walk-talk h1 {
+    color: white;
+    font-size: 40px;
+  }
+  .cover .projects .pro .walk-talk .giti {
+    width: 45px;
+    height: 41px;
+  }
+  .cover .projects .pro .song-star {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 90%;
+    margin-top: 2%;
+    border-top: 2px solid #fde000;
+    border-bottom: 2px solid #f2af00;
+  }
+  .cover .projects .pro .song-star h1 {
+    color: white;
+    font-size: 40px;
+  }
+  .cover .projects .pro .song-star .giti {
+    width: 45px;
+    height: 41px;
   }
   .cover .projects .pro .headingKNM {
     display: -webkit-box;
@@ -341,10 +446,10 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 60%;
+    width: 90%;
     margin-top: 2%;
-    border-top: 1px solid red;
-    border-bottom: 1px solid red;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
   }
   .cover .projects .pro .headingKNM h1 {
     color: white;
@@ -353,14 +458,47 @@
   .cover .projects .pro .headingKNM h1 span {
     color: red;
   }
+  .cover .projects .pro .headingKNM h1 .giti {
+    width: 45px;
+    height: 41px;
+  }
   .cover .projects .pro p {
-    display: none;
+    display: block;
     color: white;
-    font-size: 40px;
+    font-size: 20px;
+    text-align: center;
+  }
+  .cover .projects .pro .more {
+    font-size: 19px;
+    text-align: center;
+  }
+  .cover .projects .pro .more h5 {
+    margin-top: 2%;
+    margin-bottom: 1%;
+  }
+  .cover .projects .pro .more h5:hover {
+    font-size: 18px;
+    cursor: pointer;
+  }
+  .cover .projects .pro .show {
+    display: block;
+    color: white;
+    font-size: 16px;
+  }
+  .cover .projects .pro .show .less {
+    font-size: 16px;
+    text-align: center;
+  }
+  .cover .projects .pro .show .less:hover {
+    cursor: pointer;
+    font-size: 18px;
+  }
+  .cover .projects .pro .hidden {
+    display: none;
   }
   .cover .projects .pro .slideshow {
     width: 100%;
-    height: 44%;
+    height: 30%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -370,20 +508,20 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-top: 0%;
+    margin-top: 10%;
   }
   .cover .projects .pro .slideshow .icon {
     color: white;
   }
   .cover .projects .pro .slideshow .arrows {
-    display: none;
     width: 25%;
     height: 25%;
   }
   .cover .projects .pro .slideshow .web-still-container {
-    background: white;
-    width: 72%;
+    width: 80%;
     height: 100%;
+    background: black;
+    opacity: 1;
   }
   .cover .projects .pro .slideshow .web-still-container img {
     width: 100%;

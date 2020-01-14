@@ -1,6 +1,6 @@
 .sec {
   width: 100vw;
-  height: 100vh;
+  height: 90vh;
 }
 
 .sec .bot-mobleA {
@@ -118,7 +118,7 @@
 @media (min-width: 375px) {
   .sec {
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
   }
   .sec .bot-mobleA {
     width: 100%;
@@ -139,7 +139,7 @@
   }
   .cover {
     width: 100%;
-    height: 90%;
+    height: 100%;
     background: #030303;
     margin-top: 2%;
     opacity: 0.8;

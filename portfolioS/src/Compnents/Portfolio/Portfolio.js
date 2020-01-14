@@ -115,7 +115,7 @@ class Portfolio extends Component {
                     target="_blank"
                     rel=""
                   >
-                    <img src={github} alt="" />
+                    <img className="giti" src={github} alt="" />
                   </a>
                 </h1>
               </div>
@@ -162,7 +162,7 @@ class Portfolio extends Component {
                     target="_blank"
                     rel=""
                   >
-                    <img src={github} alt="" />
+                    <img className="giti" src={github} alt="" />
                   </a>
                 </h1>
               </div>
@@ -208,7 +208,7 @@ class Portfolio extends Component {
                     target="_blank"
                     rel=""
                   >
-                    <img src={github} alt="" />
+                    <img className="giti" src={github} alt="" />
                   </a>
                 </h1>
               </div>
@@ -249,7 +249,7 @@ class Portfolio extends Component {
                     target="_blank"
                     rel=""
                   >
-                    <img src={github} alt="" />
+                    <img className="giti" src={github} alt="" />
                   </a>
                 </h1>
               </div>
@@ -289,7 +289,7 @@ class Portfolio extends Component {
                     target="_blank"
                     rel=""
                   >
-                    <img src={github} alt="" />
+                    <img className="giti" src={github} alt="" />
                   </a>
                 </h1>
               </div>
