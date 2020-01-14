@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { HashRouter as Link } from "react-router-dom";
 import HeaderLink from "../HeaderLink/HeaderLink";
 import logo from "./my_logo.png";
 import skill from "./skills.png";

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { NavLink } from "react-router-dom";
+import { HashRouter as NavLink } from "react-router-dom";
 import "./HeaderLink.scss";
 
 class HeaderLink extends Component {
