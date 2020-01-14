@@ -39,14 +39,10 @@ const Resume = () => {
               <h2>Devmountain</h2>
               <h3>Student/Intern</h3>
               <ul>
-                <li>
-                  Create full functioning web applications using various
-                  languages/technologies
-                </li>
-                <li>
-                  Colaberate with other cohert members to create web
-                  applications
-                </li>
+                <li>Daily afternoon projects</li>
+                <li>Assesment builds and skills checks</li>
+                <li>Create full functioning websites with full CRUD</li>
+                <li>Four-person group project collaboration</li>
               </ul>
               <h2>WinBe - Saitama, December 2017 – September 2019</h2>
               <h3>Native English Teacher</h3>
@@ -100,6 +96,14 @@ const Resume = () => {
                 <li>ITTT Certification TEFL and TESOL, December 2016</li>
               </ul>
               <h1>Professional Experience</h1>
+              <h2>Devmountain</h2>
+              <h3>Student/Intern</h3>
+              <ul>
+                <li>Daily afternoon projects</li>
+                <li>Assesment builds and skills checks</li>
+                <li>Create full functioning websites with full CRUD</li>
+                <li>Four-person group project collaboration</li>
+              </ul>
               <h2>WinBe - Saitama, December 2017 – September 2019</h2>
               <h3>Native English Teacher</h3>
               <ul>
