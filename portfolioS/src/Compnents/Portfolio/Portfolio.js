@@ -104,7 +104,7 @@ class Portfolio extends Component {
                 <h1>
                   <a
                     className="site-link"
-                    href="thisIS Devmountain"
+                    href="https://thisisdevmountain.com/"
                     rel=""
                     target="_blank"
                   >
@@ -283,7 +283,14 @@ class Portfolio extends Component {
               </div>
               <div className="timer-japan">
                 <h1>
-                  JS Timer
+                  <a
+                    className="timer-link"
+                    href="http://countidown.live/"
+                    rel=""
+                    target="_blank"
+                  >
+                    JS Timer
+                  </a>
                   <a
                     href="https://github.com/RobnettSean22/countdown"
                     target="_blank"
