@@ -17,11 +17,13 @@ import songStar from "./song_star.png";
 import chat from "./socketio_chat.png";
 import timer from "./js_timer.png";
 import github from "./github.png";
+import axios from "axios";
 class Portfolio extends Component {
   constructor() {
     super();
     this.state = {
       slideKNM: [knmhome],
+      AZImage: [],
       TIDp: false,
       KNMp: false,
       SSp: false,
@@ -29,6 +31,23 @@ class Portfolio extends Component {
       CDTp: false
     };
   }
+
+  componentDidMount() {
+    this.azStorageCall();
+  }
+
+  azStorageCall() {
+    axios
+      .get(
+        "https://revision-images.s3-ap-northeast-1.amazonaws.com/KanjiNme-home.png"
+      )
+      .then(response => {
+        this.setState({
+          AZImage: response.data
+        });
+      });
+  }
+
   TIDpOn() {
     this.setState({
       TIDp: true
@@ -81,7 +100,8 @@ class Portfolio extends Component {
   }
 
   render() {
-    const { slideKNM, TIDp, KNMp, SSp, SCp, CDTp } = this.state;
+    const { slideKNM, TIDp, KNMp, SSp, SCp, CDTp, AZImage } = this.state;
+    console.log(AZImage);
     return (
       <div className="sec">
         <div className="cover">
@@ -105,7 +125,7 @@ class Portfolio extends Component {
                   <a
                     className="site-link"
                     href="https://thisisdevmountain.com/"
-                    rel=""
+                    rel="noopener noreferrer"
                     target="_blank"
                   >
                     thisIS Devmountain
@@ -113,7 +133,7 @@ class Portfolio extends Component {
                   <a
                     href="https://github.com/C-E-Campbell/groupProjectWPX15"
                     target="_blank"
-                    rel=""
+                    rel="noopener noreferrer"
                   >
                     <img className="giti" src={github} alt="" />
                   </a>
@@ -160,7 +180,7 @@ class Portfolio extends Component {
                   <a
                     href="https://github.com/RobnettSean22/before-thegame"
                     target="_blank"
-                    rel=""
+                    rel="noopener noreferrer"
                   >
                     <img className="giti" src={github} alt="" />
                   </a>
@@ -206,7 +226,7 @@ class Portfolio extends Component {
                   <a
                     href="https://github.com/RobnettSean22/songstar"
                     target="_blank"
-                    rel=""
+                    rel="noopener noreferrer"
                   >
                     <img className="giti" src={github} alt="" />
                   </a>
@@ -247,7 +267,7 @@ class Portfolio extends Component {
                   <a
                     href="https://github.com/RobnettSean22/practicingsocketio"
                     target="_blank"
-                    rel=""
+                    rel="noopener noreferrer"
                   >
                     <img className="giti" src={github} alt="" />
                   </a>
@@ -286,7 +306,7 @@ class Portfolio extends Component {
                   <a
                     className="timer-link"
                     href="http://countidown.live/"
-                    rel=""
+                    rel="noopener noreferrer"
                     target="_blank"
                   >
                     JS Timer
@@ -294,7 +314,7 @@ class Portfolio extends Component {
                   <a
                     href="https://github.com/RobnettSean22/countdown"
                     target="_blank"
-                    rel=""
+                    rel="noopener noreferrer"
                   >
                     <img className="giti" src={github} alt="" />
                   </a>

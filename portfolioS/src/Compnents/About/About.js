@@ -20,7 +20,7 @@ const About = () => {
         </div>
         <div className=" about">
           <p>
-            I love to create break and rebuild. I find a joy in learning from
+            I love to create, break, and rebuild. I find a joy in learning from
             those around no matter the age or profesional field. I have traveled
             to nearly all 50 states and have lived in four of them. Whether it
             be to a new house, city, state or country, I make sure to leave and
