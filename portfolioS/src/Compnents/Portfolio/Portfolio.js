@@ -176,7 +176,14 @@ class Portfolio extends Component {
               </div>
               <div className="headingKNM">
                 <h1>
-                  Kanji <span>N</span> Me
+                  <a
+                    className="kajinme"
+                    href="https://kajinme.com"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    Kanji <span>N</span> Me
+                  </a>
                   <a
                     href="https://github.com/RobnettSean22/before-thegame"
                     target="_blank"

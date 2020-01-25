@@ -66,9 +66,9 @@
           .site-link {
             text-decoration: none;
             color: white;
-          }
-          .site-link:hover {
-            color: rgba(46, 129, 207, 0.2);
+            &:hover {
+              color: rgba(46, 129, 207, 0.2);
+            }
           }
         }
       }
@@ -113,6 +113,13 @@
 
           span {
             color: red;
+          }
+          .kajinme {
+            text-decoration: none;
+            color: white;
+            &:hover {
+              color: red;
+            }
           }
         }
       }
