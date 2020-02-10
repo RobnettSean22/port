@@ -7,14 +7,14 @@ import "./Landing.scss";
 const Landing = () => {
   return (
     <div className={"contain"}>
+      <div className="logo">
+        <img className="revision " src={Logo} alt="vision" />
+      </div>
       <div className="name">
         <img className="laname" src={Name} alt="" />
         <button className="start">
           <Link to={"/about"}>Enter</Link>
         </button>
-      </div>
-      <div className="logo">
-        <img className="revision " src={Logo} alt="vision" />
       </div>
     </div>
   );
