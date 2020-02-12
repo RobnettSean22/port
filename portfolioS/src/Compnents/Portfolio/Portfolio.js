@@ -11,11 +11,11 @@ import logo from "./my_logo.png";
 import down from "./Down.png";
 import up from "./Up.png";
 import "./Portfolio.scss";
-import knmhome from "./KanjiNme-home.png";
-import thisIsDev from "./this_is_dev.png";
-import songStar from "./song_star.png";
-import chat from "./socketio_chat.png";
-import timer from "./js_timer.png";
+import knmhome from "./kanjinme_FW.jpg";
+import thisIsDev from "./this_is_dev_FW.jpg";
+import songStar from "./song_star_FW.jpg";
+// import chat from "./socketio_chat_FW.png";
+import timer from "./js_timer_FW.jpg";
 import github from "./github.png";
 import axios from "axios";
 class Portfolio extends Component {
@@ -265,7 +265,7 @@ class Portfolio extends Component {
             <div className="pro">
               <div className="slideshow">
                 <div className="web-still-container">
-                  <img src={chat} alt="" />
+                  <img />
                 </div>
               </div>
               <div className="walk-talk">
