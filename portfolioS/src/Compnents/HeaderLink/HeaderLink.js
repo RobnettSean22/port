@@ -21,7 +21,12 @@ class HeaderLink extends Component {
         <NavLink className="off" activeClassName="on" to={"/resume"}>
           Resume
         </NavLink>
-        <NavLink className="off" activeClassName="on" to={"/contact"}>
+
+        <NavLink
+          className="off contact-off"
+          activeClassName="on contact-on"
+          to={"/contact"}
+        >
           Contact
         </NavLink>
       </div>

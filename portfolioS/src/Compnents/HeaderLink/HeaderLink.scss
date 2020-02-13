@@ -13,12 +13,18 @@
   padding: 2%;
   font-size: 25px;
 }
+.contact-off {
+  color: rgb(241, 187, 59);
+}
 .on {
   text-decoration: none;
   color: white;
   display: inline-block;
   padding: 0px;
   font-size: 31px;
+}
+.contact-on {
+  color: rgb(241, 187, 59);
 }
 @media (min-width: 375px) {
   .headerr {
