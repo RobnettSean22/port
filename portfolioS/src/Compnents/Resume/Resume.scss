@@ -10,9 +10,8 @@
 .cover {
   width: 80%;
   height: 90%;
-  background: #030303;
+  background: #202020;
 
-  opacity: 0.8;
   border-top: 0.5px solid white;
   border-bottom: 0.5px solid white;
   display: flex;
@@ -35,7 +34,7 @@
 .bot-mobleR {
   width: 80%;
   height: 10%;
-
+  background: #202020;
   display: none;
   justify-content: center;
   align-items: center;
@@ -68,7 +67,7 @@
 
   h1 {
     letter-spacing: 5px;
-    color: white;
+    color: rgb(238, 235, 235);
     font-size: 71px;
     margin-bottom: 1%;
   }
@@ -87,7 +86,7 @@
   width: 33%;
 }
 @mixin textColor {
-  color: white;
+  color: rgb(238, 235, 235);
 }
 .left {
   @include even();
@@ -181,9 +180,8 @@
   .cover {
     width: 80%;
     height: 90%;
-    background: #030303;
+    background: #202020;
 
-    opacity: 0.8;
     border-top: 0.5px solid white;
     border-bottom: 0.5px solid white;
     display: flex;
@@ -227,7 +225,7 @@
 
     h1 {
       letter-spacing: 5px;
-      color: white;
+      color: rgb(238, 235, 235);
       font-size: 41px;
       margin-bottom: 1%;
     }
@@ -247,7 +245,7 @@
     width: 100%;
   }
   @mixin textColor {
-    color: white;
+    color: rgb(238, 235, 235);
   }
   .left {
     @include even();
@@ -331,9 +329,8 @@
   .cover {
     width: 100%;
     height: 90%;
-    background: #030303;
+    background: #202020;
 
-    opacity: 0.8;
     border-top: 0.5px solid white;
     border-bottom: 0.5px solid white;
     display: flex;
@@ -344,7 +341,7 @@
   .bot-mobleR {
     width: 80%;
     height: 10%;
-    background: #030303;
+    background: #202020;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -377,7 +374,7 @@
 
     h1 {
       letter-spacing: 5px;
-      color: white;
+      color: rgb(238, 235, 235);
       font-size: 70px;
       margin-bottom: 1%;
     }
@@ -397,7 +394,7 @@
     width: 100%;
   }
   @mixin textColor {
-    color: white;
+    color: rgb(238, 235, 235);
   }
   .left {
     @include even();
@@ -482,9 +479,8 @@
   .cover {
     width: 100%;
     height: 90%;
-    background: #030303;
+    background: #202020;
 
-    opacity: 0.8;
     border-top: 0.5px solid white;
     border-bottom: 0.5px solid white;
     display: flex;
@@ -495,7 +491,7 @@
   .bot-mobleR {
     width: 80%;
     height: 10%;
-    background: #030303;
+    background: #202020;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -531,7 +527,7 @@
 
     h1 {
       letter-spacing: 5px;
-      color: white;
+      color: rgb(238, 235, 235);
       font-size: 68px;
       margin-bottom: 1%;
     }
@@ -551,7 +547,7 @@
     width: 100%;
   }
   @mixin textColor {
-    color: white;
+    color: rgb(238, 235, 235);
   }
   .left {
     @include even();
@@ -637,9 +633,8 @@
   .cover {
     width: 80%;
     height: 90%;
-    background: #030303;
+    background: #202020;
 
-    opacity: 0.8;
     border-top: 0.5px solid white;
     border-bottom: 0.5px solid white;
     display: flex;
@@ -650,7 +645,7 @@
   .bot-mobleR {
     width: 80%;
     height: 10%;
-    background: #030303;
+    background: #202020;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -686,7 +681,7 @@
 
     h1 {
       letter-spacing: 5px;
-      color: white;
+      color: rgb(238, 235, 235);
       font-size: 68px;
       margin-bottom: 1%;
     }
@@ -706,7 +701,7 @@
     width: 100%;
   }
   @mixin textColor {
-    color: white;
+    color: rgb(238, 235, 235);
   }
   .left {
     @include even();
