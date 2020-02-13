@@ -1,13 +1,25 @@
 .sec {
   width: 100vw;
   height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .cover {
-  width: 100%;
+  width: 80%;
   height: 90%;
   background: #030303;
-  margin-top: 2%;
   opacity: 0.8;
   border-top: 0.5px solid white;
   border-bottom: 0.5px solid white;
@@ -76,6 +88,15 @@
 .cover .projects .pro .timer-japan h1 {
   color: white;
   font-size: 40px;
+}
+
+.cover .projects .pro .timer-japan h1 .timer-link {
+  text-decoration: none;
+  color: white;
+}
+
+.cover .projects .pro .timer-japan h1 .timer-link:hover {
+  color: #20c953;
 }
 
 .cover .projects .pro .this-is-dev {
@@ -173,6 +194,15 @@
 }
 
 .cover .projects .pro .headingKNM h1 span {
+  color: red;
+}
+
+.cover .projects .pro .headingKNM h1 .kajinme {
+  text-decoration: none;
+  color: white;
+}
+
+.cover .projects .pro .headingKNM h1 .kajinme:hover {
   color: red;
 }
 
@@ -281,15 +311,10 @@
 }
 
 @media (min-width: 375px) {
-  .sec {
-    width: 100vw;
-    height: 100vh;
-  }
   .cover {
     width: 100%;
     height: 90%;
     background: #030303;
-    margin-top: 2%;
     opacity: 0.8;
     border-top: 0.5px solid white;
     border-bottom: 0.5px solid white;
@@ -601,15 +626,10 @@
 }
 
 @media (min-width: 1024px) {
-  .sec {
-    width: 100vw;
-    height: 100vh;
-  }
   .cover {
     width: 100%;
     height: 90%;
     background: #030303;
-    margin-top: 2%;
     opacity: 0.8;
     border-top: 0.5px solid white;
     border-bottom: 0.5px solid white;
@@ -792,15 +812,10 @@
 }
 
 @media (min-width: 1280px) {
-  .sec {
-    width: 100vw;
-    height: 100vh;
-  }
   .cover {
     width: 100%;
     height: 90%;
     background: #030303;
-    margin-top: 2%;
     opacity: 0.8;
     border-top: 0.5px solid white;
     border-bottom: 0.5px solid white;
@@ -979,15 +994,11 @@
 }
 
 @media (min-width: 1360px) {
-  .sec {
-    width: 100vw;
-    height: 100vh;
-  }
   .cover {
-    width: 100%;
-    height: 90%;
+    width: 80%;
+    height: 100%;
+    margin-top: 0%;
     background: #030303;
-    margin-top: 2%;
     opacity: 0.8;
     border-top: 0.5px solid white;
     border-bottom: 0.5px solid white;

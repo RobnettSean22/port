@@ -1,6 +1,19 @@
 .sec {
   width: 100vw;
-  height: 90vh;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .sec .bot-mobleA {
@@ -21,7 +34,7 @@
 }
 
 .cover {
-  width: 100%;
+  width: 80%;
   height: 90%;
   background: #030303;
   margin-top: 2%;
@@ -118,7 +131,20 @@
 @media (min-width: 375px) {
   .sec {
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .sec .bot-mobleA {
     width: 100%;
@@ -138,10 +164,9 @@
     height: 10%;
   }
   .cover {
-    width: 100%;
+    width: 80%;
     height: 100%;
     background: #030303;
-    margin-top: 2%;
     opacity: 0.8;
     border-top: 0.5px solid white;
     border-bottom: 0.5px solid white;
@@ -230,6 +255,19 @@
   .sec {
     width: 100vw;
     height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .sec .bot-mobleA {
     width: 100%;
@@ -248,10 +286,9 @@
     height: 20%;
   }
   .cover {
-    width: 100%;
+    width: 80%;
     height: 90%;
     background: #030303;
-    margin-top: 2%;
     opacity: 0.8;
     border-top: 0.5px solid white;
     border-bottom: 0.5px solid white;
@@ -362,10 +399,9 @@
     display: none;
   }
   .cover {
-    width: 100%;
+    width: 80%;
     height: 90%;
     background: #030303;
-    margin-top: 2%;
     opacity: 0.8;
     border-top: 0.5px solid white;
     border-bottom: 0.5px solid white;
@@ -454,6 +490,19 @@
   .sec {
     width: 100vw;
     height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .sec .bot-mobleA {
     width: 100%;
@@ -476,7 +525,7 @@
     display: none;
   }
   .cover {
-    width: 100%;
+    width: 80%;
     height: 90%;
     background: #030303;
     margin-top: 2%;

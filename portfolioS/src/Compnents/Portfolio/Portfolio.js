@@ -265,7 +265,7 @@ class Portfolio extends Component {
             <div className="pro">
               <div className="slideshow">
                 <div className="web-still-container">
-                  <img />
+                  <img alt="" />
                 </div>
               </div>
               <div className="walk-talk">
