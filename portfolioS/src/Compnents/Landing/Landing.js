@@ -1,10 +1,13 @@
 import React from "react";
 import Name from "./LandName@2x.png";
 import Logo from "./my_logo.png";
-import { Link } from "react-router-dom";
+import { withRouter } from "react-router-dom";
 import "./Landing.scss";
 
-const Landing = () => {
+const Landing = props => {
+  function toAbout() {
+    props.history.push("/about");
+  }
   return (
     <div className={"contain"}>
       <div className="logo">
@@ -12,12 +15,12 @@ const Landing = () => {
       </div>
       <div className="name">
         <img className="laname" src={Name} alt="" />
-        <button className="start">
-          <Link to={"/about"}>Enter</Link>
+        <button onClick={toAbout} className="start">
+          Enter
         </button>
       </div>
     </div>
   );
 };
 
-export default Landing;
+export default withRouter(Landing);

@@ -32,7 +32,7 @@ body {
 
 .name {
   width: 100%;
-  height: 49%;
+  height: 30%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -40,36 +40,38 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
 .laname {
-  width: 55%;
-  height: 56%;
+  width: 62%;
+  height: 67%;
 }
 
 .start {
-  width: 10%;
-  height: 10%;
-  margin-bottom: -2%;
-  font-size: 39px;
+  width: 22%;
+  height: 17%;
+  margin-top: 4%;
+  font-size: 25px;
   text-align: center;
   background: #121111;
   opacity: 1;
   color: white;
   border-radius: 4px;
   margin-right: 3%;
+  margin-top: 0%;
 }
 
 .start a {
   text-decoration: none;
   color: white;
   padding: 0em 1em;
+  font-size: 53px;
 }
 
 .start a:hover {
@@ -77,28 +79,22 @@ body {
 }
 
 .logo {
+  width: 100%;
+  height: 10%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 100%;
-  height: 49%;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .revision {
-  margin-top: -18%;
-  margin-right: 2%;
-  width: 26%;
-  height: 47%;
+  width: 54%;
+  height: 50%;
 }
 
 @media (min-width: 375px) {
@@ -129,7 +125,7 @@ body {
   }
   .name {
     width: 100%;
-    height: 49%;
+    height: 30%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -137,21 +133,21 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
   }
   .laname {
-    width: 73%;
-    height: 50%;
+    width: 62%;
+    height: 67%;
   }
   .start {
-    width: 33%;
-    height: 12%;
-    margin-bottom: -2%;
+    width: 22%;
+    height: 17%;
+    margin-top: 4%;
     font-size: 25px;
     text-align: center;
     background: #121111;
@@ -159,36 +155,31 @@ body {
     color: white;
     border-radius: 4px;
     margin-right: 3%;
+    margin-top: 0%;
   }
   .start a {
     text-decoration: none;
     color: white;
     padding: 0em 1em;
-    text-align: center;
+    font-size: 53px;
   }
   .start a:hover {
     font-size: 40px;
   }
   .logo {
+    width: 100%;
+    height: 10%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    width: 100%;
-    height: 49%;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
   }
   .revision {
-    margin-top: -38%;
-    margin-right: 2%;
     width: 54%;
     height: 50%;
   }
@@ -221,7 +212,7 @@ body {
   }
   .name {
     width: 100%;
-    height: 49%;
+    height: 30%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -229,21 +220,21 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
   }
   .laname {
-    width: 73%;
-    height: 50%;
+    width: 62%;
+    height: 67%;
   }
   .start {
-    width: 33%;
-    height: 12%;
-    margin-bottom: -2%;
+    width: 22%;
+    height: 17%;
+    margin-top: 4%;
     font-size: 25px;
     text-align: center;
     background: #121111;
@@ -251,6 +242,7 @@ body {
     color: white;
     border-radius: 4px;
     margin-right: 3%;
+    margin-top: 0%;
   }
   .start a {
     text-decoration: none;
@@ -262,25 +254,19 @@ body {
     font-size: 40px;
   }
   .logo {
+    width: 100%;
+    height: 10%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    width: 100%;
-    height: 49%;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
   }
   .revision {
-    margin-top: -38%;
-    margin-right: 2%;
     width: 54%;
     height: 50%;
   }
@@ -304,16 +290,16 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
   }
   .name {
     width: 100%;
-    height: 62%;
+    height: 30%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -321,62 +307,54 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
   }
   .laname {
     width: 62%;
-    height: 50%;
-    margin-top: 0;
+    height: 70%;
   }
   .start {
-    width: 22%;
-    height: 17%;
-    margin-bottom: -2%;
-    font-size: 25px;
+    width: 16%;
+    height: 26%;
+    margin-top: 4%;
+    font-size: 45px;
+    font-weight: bold;
     text-align: center;
-    background: #121111;
+    background: #edac15;
     opacity: 1;
-    color: white;
+    color: #eeebeb;
     border-radius: 4px;
-    margin-right: 3%;
+    border: 3px solid #323131;
     margin-top: 0%;
   }
-  .start a {
-    text-decoration: none;
-    color: white;
-    padding: 0em 1em;
-    font-size: 53px;
-  }
-  .start a:hover {
-    font-size: 40px;
+  .start:hover {
+    width: 17%;
+    height: 27%;
+    font-size: 47px;
+    font-weight: bold;
+    cursor: pointer;
   }
   .logo {
+    width: 100%;
+    height: 10%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 100%;
-    height: 62%;
   }
   .revision {
-    margin-top: -10%;
-    margin-right: 2%;
-    width: 54%;
-    height: 50%;
+    width: 12%;
+    height: 100%;
   }
 }
 /*# sourceMappingURL=Landing.css.map */
