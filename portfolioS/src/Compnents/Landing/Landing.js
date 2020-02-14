@@ -19,6 +19,9 @@ const Landing = props => {
           Enter
         </button>
       </div>
+      <div className="statement">
+        <h1>Create Build Learn</h1>
+      </div>
     </div>
   );
 };
