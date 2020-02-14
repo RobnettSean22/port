@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import HeaderLink from "../HeaderLink/HeaderLink";
-import { Link, withRouter } from "react-router-dom";
+import { withRouter } from "react-router-dom";
 import logo from "./my_logo.png";
 import fb from "./facebook.png";
 import gh from "./github.png";
@@ -18,17 +18,14 @@ const encode = data => {
     .join("&");
 };
 class Contact extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       name: "",
       email: "",
       message: ""
     };
-  }
-
-  toAbout() {
-    this.props.history.push("/About/");
+    this.toAbout = this.toAbout.bind(this);
   }
 
   handleSubmit = e => {
@@ -45,8 +42,13 @@ class Contact extends Component {
 
   handleChange = e => this.setState({ [e.target.name]: e.target.value });
 
+  toAbout() {
+    this.props.history.push("/about");
+  }
+
   render() {
     const { name, email, message } = this.state;
+    console.log(this.props);
     return (
       <div className="sec">
         <div className="cover">
@@ -147,7 +149,7 @@ class Contact extends Component {
           </div>
 
           <div className="butter">
-            <button onclick={this.toAbout}>About</button>
+            <button onClick={this.toAbout}>About</button>
           </div>
         </div>
         <div className="spine">
@@ -158,4 +160,4 @@ class Contact extends Component {
   }
 }
 
-export default Contact;
+export default withRouter(Contact);

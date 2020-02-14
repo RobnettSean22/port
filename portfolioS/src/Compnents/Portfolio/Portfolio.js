@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import { withRouter } from "react-router-dom";
 import HeaderLink from "../HeaderLink/HeaderLink";
 import logo from "./my_logo.png";
 
@@ -23,6 +23,7 @@ class Portfolio extends Component {
       SCp: false,
       CDTp: false
     };
+    this.toResume = this.toResume.bind(this);
   }
 
   componentDidMount() {
@@ -30,7 +31,7 @@ class Portfolio extends Component {
   }
 
   toResume() {
-    this.props.history.push("/resume/");
+    this.props.history.push("/resume");
   }
 
   azStorageCall() {
@@ -357,4 +358,4 @@ class Portfolio extends Component {
   }
 }
 
-export default Portfolio;
+export default withRouter(Portfolio);

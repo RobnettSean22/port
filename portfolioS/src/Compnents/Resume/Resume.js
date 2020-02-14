@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { withRouter } from "react-router-dom";
 import HeaderLink from "../HeaderLink/HeaderLink";
 import logo from "./my_logo.png";
 import skill from "./skills.png";
@@ -8,7 +8,7 @@ import "./Resume.scss";
 
 const Resume = props => {
   function toContact() {
-    this.props.history.push("/contact/");
+    props.history.push("/contact");
   }
   return (
     <div>
@@ -216,4 +216,4 @@ const Resume = props => {
   );
 };
 
-export default Resume;
+export default withRouter(Resume);
