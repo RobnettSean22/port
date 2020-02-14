@@ -6,7 +6,10 @@ import skill from "./skills.png";
 
 import "./Resume.scss";
 
-const Resume = () => {
+const Resume = props => {
+  function toContact() {
+    this.props.history.push("/contact/");
+  }
   return (
     <div>
       <div className="sec">
@@ -202,15 +205,11 @@ const Resume = () => {
           </div>
 
           <div className="but">
-            <Link to={"/contact/"}>
-              <button>Contact</button>
-            </Link>
+            <button onClick={toContact}>Contact</button>
           </div>
         </div>
         <div className="bot-mobleR">
-          <Link to={"/contact/"}>
-            <button>Contact</button>
-          </Link>
+          <button onClick={toContact}>Contact</button>
         </div>
       </div>
     </div>
