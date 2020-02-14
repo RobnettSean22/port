@@ -7,7 +7,7 @@ import "./Portfolio.scss";
 import knmhome from "./kanjinme_FW.jpg";
 import thisIsDev from "./this_is_dev_FW.jpg";
 import songStar from "./song_star_FW.jpg";
-// import chat from "./socketio_chat_FW.png";
+import chat from "./socketio_chat.png";
 import timer from "./js_timer_FW.jpg";
 import github from "./github.png";
 import axios from "axios";
@@ -108,7 +108,7 @@ class Portfolio extends Component {
             <HeaderLink />
           </div>
           <div className="title">
-            <h1>Portfolio</h1>
+            <h1>Projects</h1>
           </div>
           <div className="projects">
             <div className="pro">
@@ -263,7 +263,7 @@ class Portfolio extends Component {
             <div className="pro">
               <div className="slideshow">
                 <div className="web-still-container">
-                  <img alt="" />
+                  <img src={chat} alt="" />
                 </div>
               </div>
               <div className="walk-talk">
