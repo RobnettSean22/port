@@ -2,14 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import HeaderLink from "../HeaderLink/HeaderLink";
 import logo from "./my_logo.png";
-// import {
-//   FaArrowCircleLeft,
-//   FaArrowCircleDown,
-//   FaArrowCircleRight,
-//   FaArrowCircleUp
-// } from "react-icons/fa";
-import down from "./Down.png";
-import up from "./Up.png";
+
 import "./Portfolio.scss";
 import knmhome from "./kanjinme_FW.jpg";
 import thisIsDev from "./this_is_dev_FW.jpg";
@@ -34,6 +27,10 @@ class Portfolio extends Component {
 
   componentDidMount() {
     this.azStorageCall();
+  }
+
+  toResume() {
+    this.props.history.push("/resume/");
   }
 
   azStorageCall() {
@@ -349,21 +346,11 @@ class Portfolio extends Component {
           </div>
 
           <div className="but">
-            <Link to={"/resume/"}>
-              <img src={down} alt="down" />
-            </Link>
-            <Link to={"/about/"}>
-              <img src={up} alt="down" />
-            </Link>
+            <button onClick={this.toResume}>Resume</button>
           </div>
         </div>
         <div className="bot-mobleP">
-          <Link to={"/resume/"}>
-            <img src={down} alt="down" />
-          </Link>
-          <Link to={"/about/"}>
-            <img className="port-up" src={up} alt="down" />
-          </Link>
+          <button onClick={this.toResume}>Resume</button>
         </div>
       </div>
     );

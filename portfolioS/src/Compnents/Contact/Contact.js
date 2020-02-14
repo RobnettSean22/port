@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import HeaderLink from "../HeaderLink/HeaderLink";
-import { Link } from "react-router-dom";
+import { Link, withRouter } from "react-router-dom";
 import logo from "./my_logo.png";
 import fb from "./facebook.png";
 import gh from "./github.png";
@@ -9,8 +9,7 @@ import ln from "./linkedin.png";
 import phone from "./phone.png";
 import line from "./line.png";
 import emailcon from "./mail.png";
-import down from "./Down.png";
-import up from "./Up.png";
+
 import "./Contact.scss";
 
 const encode = data => {
@@ -26,6 +25,10 @@ class Contact extends Component {
       email: "",
       message: ""
     };
+  }
+
+  toAbout() {
+    this.props.history.push("/About/");
   }
 
   handleSubmit = e => {
@@ -144,21 +147,11 @@ class Contact extends Component {
           </div>
 
           <div className="butter">
-            <Link to={"/about/"}>
-              <img src={down} alt="down" />
-            </Link>
-            <Link to={"/resume/"}>
-              <img src={up} alt="down" />
-            </Link>
+            <button onclick={this.toAbout}>About</button>
           </div>
         </div>
         <div className="spine">
-          <Link to={"/about/"}>
-            <img src={down} alt="down" />
-          </Link>
-          <Link to={"/resume/"}>
-            <img className="upC" src={up} alt="up" />
-          </Link>
+          <button onClick={this.toAbout}>About</button>
         </div>
       </div>
     );

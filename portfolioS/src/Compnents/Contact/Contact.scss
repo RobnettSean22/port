@@ -13,9 +13,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  img {
-    width: 76%;
-    height: 10%;
+  button {
+    width: 100%;
+    height: 100%;
   }
 }
 .spine {
@@ -25,9 +25,9 @@
   display: none;
   justify-content: center;
   align-items: center;
-  img {
-    width: 76%;
-    height: 10%;
+  button {
+    width: 100%;
+    height: 100%;
   }
 }
 
@@ -493,15 +493,23 @@
     flex-direction: column;
 
     .butter {
-      width: 100%;
-      height: 9%;
-
+      width: 80%;
+      height: 10%;
+      background: #202020;
       display: none;
       justify-content: center;
       align-items: center;
-      img {
-        width: 76%;
-        height: 10%;
+      button {
+        background: #202020;
+        width: 100%;
+        height: 100%;
+        font-size: 30px;
+        color: rgb(238, 235, 235);
+        &:hover {
+          cursor: pointer;
+          color: rgb(241, 187, 59);
+          background: #414040;
+        }
       }
     }
   }
@@ -519,15 +527,23 @@
     align-items: center;
   }
   .spine {
-    width: 100%;
+    width: 80%;
     height: 10%;
-
+    background: #202020;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    img {
+    button {
+      background: #202020;
       width: 100%;
-      height: 10%;
+      height: 100%;
+      font-size: 30px;
+      color: rgb(238, 235, 235);
+      &:hover {
+        cursor: pointer;
+        color: rgb(241, 187, 59);
+        background: #414040;
+      }
     }
   }
 
@@ -754,15 +770,23 @@
     flex-direction: column;
 
     .butter {
-      width: 100%;
+      width: 80%;
       height: 9%;
 
       display: none;
       justify-content: center;
       align-items: center;
-      img {
-        width: 76%;
-        height: 10%;
+      button {
+        background: #202020;
+        width: 100%;
+        height: 100%;
+        font-size: 30px;
+        color: rgb(238, 235, 235);
+        &:hover {
+          cursor: pointer;
+          color: rgb(241, 187, 59);
+          background: #414040;
+        }
       }
     }
   }
@@ -786,9 +810,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    img {
-      width: 77%;
+    button {
+      background: #202020;
+      width: 100%;
       height: 100%;
+      font-size: 30px;
+      color: rgb(238, 235, 235);
+      &:hover {
+        cursor: pointer;
+        color: rgb(241, 187, 59);
+        background: #414040;
+      }
     }
     .upC {
       display: none;
@@ -1027,9 +1059,17 @@
       display: none;
       justify-content: center;
       align-items: center;
-      img {
-        width: 76%;
-        height: 10%;
+      button {
+        background: #202020;
+        width: 100%;
+        height: 100%;
+        font-size: 30px;
+        color: rgb(238, 235, 235);
+        &:hover {
+          cursor: pointer;
+          color: rgb(241, 187, 59);
+          background: #414040;
+        }
       }
     }
   }
@@ -1053,9 +1093,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    img {
-      width: 77%;
+    button {
+      background: #202020;
+      width: 100%;
       height: 100%;
+      font-size: 30px;
+      color: rgb(238, 235, 235);
+      &:hover {
+        cursor: pointer;
+        color: rgb(241, 187, 59);
+        background: #414040;
+      }
     }
     .upC {
       display: none;

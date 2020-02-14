@@ -1,12 +1,14 @@
 import React from "react";
 import logo from "./my_logo.png";
 import "./About.scss";
-import down from "./Down.png";
-import up from "./Up.png";
-import HeaderLink from "../HeaderLink/HeaderLink";
-import { Link } from "react-router-dom";
 
-const About = () => {
+import HeaderLink from "../HeaderLink/HeaderLink";
+import { Link, withRouter } from "react-router-dom";
+
+const About = props => {
+  function toPortfolio() {
+    props.history.push("/portfolio");
+  }
   return (
     <div className="sec">
       <div className="cover">
@@ -51,24 +53,14 @@ const About = () => {
           </p>
         </div>
         <div className="but">
-          <Link to={"/portfolio/"}>
-            <img src={down} alt="down" />
-          </Link>
-          <Link to={"/contact/"}>
-            <img src={up} alt="down" />
-          </Link>
+          <button>Portfolio</button>
         </div>
       </div>
       <div className="bot-mobleA">
-        <Link to={"/portfolio/"}>
-          <img src={down} alt="down" />
-        </Link>
-        <Link to={"/contact/"}>
-          <img className="about-up" src={up} alt="down" />
-        </Link>
+        <button onClick={toPortfolio}>Portfolio</button>
       </div>
     </div>
   );
 };
 
-export default About;
+export default withRouter(About);

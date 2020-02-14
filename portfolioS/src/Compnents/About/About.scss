@@ -13,9 +13,9 @@
     display: none;
     justify-content: center;
     align-items: center;
-    img {
-      width: 76%;
-      height: 10%;
+    button {
+      width: 100%;
+      height: 100%;
     }
   }
 }
@@ -79,7 +79,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  img {
+  button {
     width: 76%;
     height: 10%;
   }
@@ -100,7 +100,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      img {
+      button {
         width: 76%;
         height: 10%;
       }
@@ -125,7 +125,7 @@
       display: none;
       justify-content: center;
       align-items: center;
-      img {
+      button {
         width: 76%;
         height: 10%;
         display: none;
@@ -190,7 +190,7 @@
       display: flex;
       justify-content: space-around;
       align-items: center;
-      img {
+      button {
         width: 100%;
         height: 20%;
       }
@@ -215,7 +215,7 @@
       display: none;
       justify-content: center;
       align-items: center;
-      img {
+      button {
         width: 76%;
         height: 10%;
         display: none;
@@ -276,7 +276,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      img {
+      button {
         width: 77%;
         height: 100%;
       }
@@ -304,7 +304,7 @@
       display: none;
       justify-content: center;
       align-items: center;
-      img {
+      button {
         width: 76%;
         height: 10%;
         display: none;
@@ -369,9 +369,18 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      img {
-        width: 77%;
+
+      button {
+        background: #202020;
+        width: 100%;
         height: 100%;
+        font-size: 30px;
+        color: rgb(238, 235, 235);
+        &:hover {
+          cursor: pointer;
+          color: rgb(241, 187, 59);
+          background: #414040;
+        }
       }
       .about-up {
         display: none;
@@ -397,7 +406,7 @@
       display: none;
       justify-content: center;
       align-items: center;
-      img {
+      button {
         width: 76%;
         height: 10%;
         display: none;

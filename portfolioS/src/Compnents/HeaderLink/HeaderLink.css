@@ -21,12 +21,20 @@
   font-size: 25px;
 }
 
+.contact-off {
+  color: #f1bb3b;
+}
+
 .on {
   text-decoration: none;
   color: white;
   display: inline-block;
   padding: 0px;
   font-size: 31px;
+}
+
+.contact-on {
+  color: #f1bb3b;
 }
 
 @media (min-width: 375px) {

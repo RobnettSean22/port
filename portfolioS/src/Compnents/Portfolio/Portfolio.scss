@@ -170,9 +170,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    img {
-      width: 76%;
-      height: 10%;
+    button {
+      background: #202020;
+      width: 100%;
+      height: 100%;
+      font-size: 30px;
+      color: rgb(238, 235, 235);
+      &:hover {
+        cursor: pointer;
+        color: rgb(241, 187, 59);
+        background: #414040;
+      }
     }
   }
 }
@@ -405,9 +413,17 @@
       display: none;
       justify-content: center;
       align-items: center;
-      img {
-        width: 76%;
-        height: 10%;
+      button {
+        background: #202020;
+        width: 100%;
+        height: 100%;
+        font-size: 30px;
+        color: rgb(238, 235, 235);
+        &:hover {
+          cursor: pointer;
+          color: rgb(241, 187, 59);
+          background: #414040;
+        }
       }
     }
   }
@@ -418,9 +434,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    img {
-      width: 76%;
-      height: 10%;
+    button {
+      background: #202020;
+      width: 100%;
+      height: 100%;
+      font-size: 30px;
+      color: rgb(238, 235, 235);
+      &:hover {
+        cursor: pointer;
+        color: rgb(241, 187, 59);
+        background: #414040;
+      }
     }
   }
   .logo-place {
@@ -538,7 +562,7 @@
     }
     .but {
       width: 100%;
-      height: 9%;
+      height: 10%;
 
       display: none;
       justify-content: center;
@@ -551,14 +575,22 @@
   }
   .bot-mobleP {
     width: 100%;
-    height: 9%;
+    height: 10%;
 
     display: flex;
     justify-content: space-around;
     align-items: center;
-    img {
+    button {
+      background: #202020;
       width: 100%;
-      height: 10%;
+      height: 100%;
+      font-size: 30px;
+      color: rgb(238, 235, 235);
+      &:hover {
+        cursor: pointer;
+        color: rgb(241, 187, 59);
+        background: #414040;
+      }
     }
   }
   .logo-place {
@@ -671,14 +703,22 @@
     }
     .but {
       width: 100%;
-      height: 9%;
+      height: 10%;
 
       display: none;
       justify-content: center;
       align-items: center;
-      img {
-        width: 76%;
-        height: 10%;
+      button {
+        background: #202020;
+        width: 100%;
+        height: 100%;
+        font-size: 30px;
+        color: rgb(238, 235, 235);
+        &:hover {
+          cursor: pointer;
+          color: rgb(241, 187, 59);
+          background: #414040;
+        }
       }
     }
   }
@@ -689,9 +729,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    img {
-      width: 77%;
+    button {
+      background: #202020;
+      width: 100%;
       height: 100%;
+      font-size: 30px;
+      color: rgb(238, 235, 235);
+      &:hover {
+        cursor: pointer;
+        color: rgb(241, 187, 59);
+        background: #414040;
+      }
     }
     .port-up {
       display: none;
@@ -961,14 +1009,22 @@
     }
     .but {
       width: 100%;
-      height: 9%;
+      height: 10%;
 
       display: none;
       justify-content: center;
       align-items: center;
-      img {
-        width: 76%;
-        height: 10%;
+      button {
+        background: #202020;
+        width: 100%;
+        height: 100%;
+        font-size: 30px;
+        color: rgb(238, 235, 235);
+        &:hover {
+          cursor: pointer;
+          color: rgb(241, 187, 59);
+          background: #414040;
+        }
       }
     }
   }
@@ -979,9 +1035,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    img {
-      width: 77%;
+    button {
+      background: #202020;
+      width: 100%;
       height: 100%;
+      font-size: 30px;
+      color: rgb(238, 235, 235);
+      &:hover {
+        cursor: pointer;
+        color: rgb(241, 187, 59);
+        background: #414040;
+      }
     }
     .port-up {
       display: none;
