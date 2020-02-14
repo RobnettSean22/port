@@ -336,15 +336,18 @@ body {
     font-weight: bold;
     cursor: pointer;
   }
+  .start:focus {
+    outline: none;
+  }
   .logo {
     width: 100%;
     height: 10%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
