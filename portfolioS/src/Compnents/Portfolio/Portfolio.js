@@ -345,10 +345,6 @@ class Portfolio extends Component {
               </div>
             </div>
           </div>
-
-          <div className="but">
-            <button onClick={this.toResume}>Resume</button>
-          </div>
         </div>
         <div className="bot-mobleP">
           <button onClick={this.toResume}>Resume</button>

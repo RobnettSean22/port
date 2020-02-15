@@ -56,8 +56,23 @@ class Contact extends Component {
             <img className="lo-gos" src={logo} alt="tl" />
             <HeaderLink />
           </div>
-          <div className="title">
+
+          <div className="contact-title">
             <h1>Get in Touch</h1>
+          </div>
+          <div classname="mobile-contact">
+            <label>Phone</label>
+            <div>
+              <h1>+ 81 080-3939-3032</h1>
+            </div>
+            <label>Line</label>
+            <div>
+              <h1>Soul(ショニト2)</h1>
+            </div>
+            <label>Email</label>
+            <div>
+              <h1>robnettsean22@gmail.com</h1>
+            </div>
           </div>
           <div className="spred">
             <div className="contact-contain">
@@ -71,7 +86,7 @@ class Contact extends Component {
               </div>
               <div className="email">
                 <img src={emailcon} alt="email" />
-                <h1>Robnettsean22@gmail.com</h1>
+                <h1>robnettsean22@gmail.com</h1>
               </div>
               <div className="icons">
                 <a

@@ -18,7 +18,7 @@ const Resume = props => {
             <img className="lo-go" src={logo} alt="tl" />
             <HeaderLink />
           </div>
-          <div className="title">
+          <div className="resume-title">
             <h1>Where I've Been</h1>
           </div>
           <div className="hold">
@@ -202,10 +202,6 @@ const Resume = props => {
                 <li>Five-time National Track Qualifier</li>
               </ul>
             </div>
-          </div>
-
-          <div className="but">
-            <button onClick={toContact}>Contact</button>
           </div>
         </div>
         <div className="bot-mobleR">

@@ -52,9 +52,6 @@ const About = props => {
             I am my team and my team is me.
           </p>
         </div>
-        <div className="but">
-          <button>Portfolio</button>
-        </div>
       </div>
       <div className="bot-mobleA">
         <button onClick={toPortfolio}>Portfolio</button>
