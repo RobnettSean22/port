@@ -1,14 +1,5 @@
-.sec {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  flex-direction: column;
-}
-
 .cover {
-  width: 80%;
+  width: 100%;
   height: 90%;
   background: #202020;
 
@@ -20,10 +11,10 @@
   align-items: center;
   .projects {
     width: 100%;
-    height: 64%;
+    height: 77%;
 
     display: grid;
-    grid-template-columns: repeat(auto-fit, 30%);
+    grid-template-columns: repeat(auto-fit, 90%);
     grid-column-gap: 20px;
     justify-content: center;
     overflow-x: hidden;
@@ -37,19 +28,16 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 50%;
+        width: 90%;
         margin-top: 2%;
         border-top: 2px solid #20c953;
         border-bottom: 2px solid #20c953;
         h1 {
           color: rgb(238, 235, 235);
           font-size: 40px;
-          .timer-link {
-            text-decoration: none;
-            color: rgb(238, 235, 235);
-          }
-          .timer-link:hover {
-            color: #20c953;
+          .giti {
+            width: 45px;
+            height: 41px;
           }
         }
       }
@@ -58,20 +46,24 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 50%;
+        width: 90%;
         margin-top: 2%;
         border-top: 2px solid rgb(21, 58, 74);
         border-bottom: 2px solid #18333f;
         h1 {
           color: rgb(238, 235, 235);
-          font-size: 35;
+          font-size: 25px;
           text-align: center;
           .site-link {
             text-decoration: none;
             color: rgb(238, 235, 235);
-            &:hover {
-              color: rgba(46, 129, 207, 0.2);
-            }
+          }
+          .site-link:hover {
+            color: rgba(46, 129, 207, 0.2);
+          }
+          .giti {
+            width: 45px;
+            height: 41px;
           }
         }
       }
@@ -79,26 +71,35 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 50%;
+        width: 90%;
         margin-top: 2%;
         border-top: 2px solid white;
         border-bottom: 2px solid #47a8ff;
         h1 {
-          color: rgb(238, 235, 235) e;
+          color: rgb(238, 235, 235);
           font-size: 40px;
+        }
+        .giti {
+          width: 45px;
+          height: 41px;
         }
       }
       .song-star {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 50%;
+        width: 90%;
         margin-top: 2%;
         border-top: 2px solid #fde000;
         border-bottom: 2px solid #f2af00;
         h1 {
-          color: rgb(238, 235, 235) te;
+          color: rgb(238, 235, 235);
           font-size: 40px;
+          text-align: center;
+        }
+        .giti {
+          width: 45px;
+          height: 41px;
         }
       }
 
@@ -106,23 +107,21 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 50%;
+        width: 90%;
         margin-top: 2%;
         border-top: 2px solid red;
         border-bottom: 2px solid red;
         h1 {
           color: rgb(238, 235, 235);
           font-size: 40px;
+          text-align: center;
 
           span {
             color: red;
           }
-          .kajinme {
-            text-decoration: none;
-            color: rgb(238, 235, 235);
-            &:hover {
-              color: red;
-            }
+          .giti {
+            width: 45px;
+            height: 41px;
           }
         }
       }
@@ -130,7 +129,37 @@
       p {
         display: block;
         color: rgb(238, 235, 235);
-        font-size: 40px;
+        font-size: 20px;
+        text-align: center;
+      }
+      .more {
+        font-size: 19px;
+        text-align: center;
+        h5 {
+          color: white;
+          margin-top: 2%;
+          margin-bottom: 1%;
+        }
+        h5:hover {
+          font-size: 18px;
+          cursor: pointer;
+        }
+      }
+      .show {
+        display: block;
+        color: rgb(238, 235, 235);
+        font-size: 16px;
+        .less {
+          font-size: 16px;
+          text-align: center;
+        }
+        .less:hover {
+          cursor: pointer;
+          font-size: 18px;
+        }
+      }
+      .hidden {
+        display: none;
       }
       .slideshow {
         width: 100%;
@@ -163,24 +192,24 @@
       }
     }
   }
-  .bot-mobleP {
-    width: 100%;
-    height: 10%;
+}
+.bot-mobleP {
+  width: 80%;
+  height: 10%;
+  background: #202020;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  button {
     background: #202020;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    button {
-      background: #202020;
-      width: 100%;
-      height: 100%;
-      font-size: 30px;
-      color: rgb(238, 235, 235);
-      &:hover {
-        cursor: pointer;
-        color: rgb(241, 187, 59);
-        background: #414040;
-      }
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    color: rgb(238, 235, 235);
+    &:hover {
+      cursor: pointer;
+      color: rgb(241, 187, 59);
+      background: #414040;
     }
   }
 }
@@ -192,7 +221,7 @@
   align-items: flex-start;
 
   .lo-go {
-    width: 12%;
+    width: 25%;
     height: 100%;
     margin-top: 0%;
   }
@@ -209,274 +238,11 @@
   h1 {
     letter-spacing: 5px;
     color: rgb(238, 235, 235);
-    font-size: 70px;
+    font-size: 41px;
     margin-bottom: 1%;
   }
 }
-@media (min-width: 375px) {
-  .cover {
-    width: 100%;
-    height: 90%;
-    background: #202020;
 
-    border-top: 0.5px solid white;
-    border-bottom: 0.5px solid white;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    .projects {
-      width: 100%;
-      height: 77%;
-
-      display: grid;
-      grid-template-columns: repeat(auto-fit, 90%);
-      grid-column-gap: 20px;
-      justify-content: center;
-      overflow-x: hidden;
-      overflow-y: auto;
-      .pro {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-        .timer-japan {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          width: 90%;
-          margin-top: 2%;
-          border-top: 2px solid #20c953;
-          border-bottom: 2px solid #20c953;
-          h1 {
-            color: rgb(238, 235, 235);
-            font-size: 40px;
-            .giti {
-              width: 45px;
-              height: 41px;
-            }
-          }
-        }
-
-        .this-is-dev {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          width: 90%;
-          margin-top: 2%;
-          border-top: 2px solid rgb(21, 58, 74);
-          border-bottom: 2px solid #18333f;
-          h1 {
-            color: rgb(238, 235, 235);
-            font-size: 25px;
-            text-align: center;
-            .site-link {
-              text-decoration: none;
-              color: rgb(238, 235, 235);
-            }
-            .site-link:hover {
-              color: rgba(46, 129, 207, 0.2);
-            }
-            .giti {
-              width: 45px;
-              height: 41px;
-            }
-          }
-        }
-        .walk-talk {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          width: 90%;
-          margin-top: 2%;
-          border-top: 2px solid white;
-          border-bottom: 2px solid #47a8ff;
-          h1 {
-            color: rgb(238, 235, 235);
-            font-size: 40px;
-          }
-          .giti {
-            width: 45px;
-            height: 41px;
-          }
-        }
-        .song-star {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          width: 90%;
-          margin-top: 2%;
-          border-top: 2px solid #fde000;
-          border-bottom: 2px solid #f2af00;
-          h1 {
-            color: rgb(238, 235, 235);
-            font-size: 40px;
-          }
-          .giti {
-            width: 45px;
-            height: 41px;
-          }
-        }
-
-        .headingKNM {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          width: 90%;
-          margin-top: 2%;
-          border-top: 2px solid red;
-          border-bottom: 2px solid red;
-          h1 {
-            color: rgb(238, 235, 235);
-            font-size: 40px;
-
-            span {
-              color: red;
-            }
-            .giti {
-              width: 45px;
-              height: 41px;
-            }
-          }
-        }
-
-        p {
-          display: block;
-          color: rgb(238, 235, 235);
-          font-size: 20px;
-          text-align: center;
-        }
-        .more {
-          font-size: 19px;
-          text-align: center;
-          h5 {
-            color: white;
-            margin-top: 2%;
-            margin-bottom: 1%;
-          }
-          h5:hover {
-            font-size: 18px;
-            cursor: pointer;
-          }
-        }
-        .show {
-          display: block;
-          color: rgb(238, 235, 235);
-          font-size: 16px;
-          .less {
-            font-size: 16px;
-            text-align: center;
-          }
-          .less:hover {
-            cursor: pointer;
-            font-size: 18px;
-          }
-        }
-        .hidden {
-          display: none;
-        }
-        .slideshow {
-          width: 100%;
-          height: 30%;
-
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          margin-top: 10%;
-
-          .icon {
-            color: white;
-          }
-          .arrows {
-            width: 25%;
-            height: 25%;
-          }
-          .web-still-container {
-            width: 80%;
-            height: 100%;
-            background: black;
-            opacity: 1;
-
-            img {
-              width: 100%;
-              height: 100%;
-              border-radius: 5px;
-            }
-          }
-        }
-      }
-    }
-    .but {
-      width: 100%;
-      height: 9%;
-
-      display: none;
-      justify-content: center;
-      align-items: center;
-      button {
-        background: #202020;
-        width: 100%;
-        height: 100%;
-        font-size: 30px;
-        color: rgb(238, 235, 235);
-        &:hover {
-          cursor: pointer;
-          color: rgb(241, 187, 59);
-          background: #414040;
-        }
-      }
-    }
-  }
-  .bot-mobleP {
-    width: 100%;
-    height: 10%;
-    background: #202020;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    button {
-      background: #202020;
-      width: 100%;
-      height: 100%;
-      font-size: 30px;
-      color: rgb(238, 235, 235);
-      &:hover {
-        cursor: pointer;
-        color: rgb(241, 187, 59);
-        background: #414040;
-      }
-    }
-  }
-  .logo-place {
-    width: 100%;
-    height: 11%;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-
-    .lo-go {
-      width: 25%;
-      height: 100%;
-      margin-top: 0%;
-    }
-  }
-
-  .title {
-    width: 100%;
-    height: 11%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-bottom: 2px solid white;
-
-    h1 {
-      letter-spacing: 5px;
-      color: rgb(238, 235, 235);
-      font-size: 41px;
-      margin-bottom: 1%;
-    }
-  }
-}
 @media (min-width: 1024px) {
   .cover {
     width: 100%;
