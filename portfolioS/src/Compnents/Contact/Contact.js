@@ -4,6 +4,7 @@ import { withRouter } from "react-router-dom";
 import logo from "./my_logo.png";
 import fb from "./facebook.png";
 import gh from "./github.png";
+import ghc from "./github_copy.png";
 import ig from "./insta.png";
 import ln from "./linkedin.png";
 import phone from "./phone.png";
@@ -60,18 +61,51 @@ class Contact extends Component {
           <div className="contact-title">
             <h1>Get in Touch</h1>
           </div>
-          <div classname="mobile-contact">
-            <label>Phone</label>
+          <div className="mobile-contact">
             <div>
-              <h1>+ 81 080-3939-3032</h1>
+              <h1>Phone</h1>
+              <h2>+ 81 080-3939-3032</h2>
             </div>
-            <label>Line</label>
+
             <div>
-              <h1>Soul(ショニト2)</h1>
+              <h1>Line</h1>
+              <h2>Soul(ショニト2)</h2>
             </div>
-            <label>Email</label>
+
             <div>
-              <h1>robnettsean22@gmail.com</h1>
+              <h1>Email</h1>
+              <h2>robnettsean22@gmail.com</h2>
+            </div>
+
+            <div className="mobile-icons">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.facebook.com/sean.robnett1"
+              >
+                <img className="facebook" src={fb} alt="" />
+              </a>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.instagram.com/auniversoullion/?hl=ja"
+              >
+                <img className="instagram" src={ig} alt="" />
+              </a>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/RobnettSean22"
+              >
+                <img className="github" src={ghc} alt="" />
+              </a>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.linkedin.com/in/sean-robnett-softwareengineer/"
+              >
+                <img className="linkedin" src={ln} alt="" />
+              </a>
             </div>
           </div>
           <div className="spred">
@@ -161,10 +195,6 @@ class Contact extends Component {
                 </div>
               </form>
             </div>
-          </div>
-
-          <div className="butter">
-            <button onClick={this.toAbout}>About</button>
           </div>
         </div>
         <div className="spine">

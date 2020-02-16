@@ -16,29 +16,9 @@
           flex-direction: column;
 }
 
-.butter {
+.sec .butter {
   width: 100%;
   height: 9%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.butter button {
-  width: 100%;
-  height: 100%;
-}
-
-.spine {
-  width: 80%;
-  height: 10%;
-  background: #202020;
   display: none;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -48,9 +28,9 @@
           align-items: center;
 }
 
-.spine button {
-  width: 100%;
-  height: 100%;
+.sec .butter img {
+  width: 76%;
+  height: 10%;
 }
 
 .cover {
@@ -74,6 +54,121 @@
           align-items: center;
 }
 
+.cover .mobile-contact {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.cover .mobile-contact div {
+  width: 100%;
+  height: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-top: 1px white solid;
+}
+
+.cover .mobile-contact div h1 {
+  color: #f1bb3b;
+  text-align: center;
+}
+
+.cover .mobile-contact div h2 {
+  font-size: 22px;
+  text-align: center;
+  margin: 1%;
+  color: #eeebeb;
+}
+
+.cover .mobile-contact .mobile-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cover .mobile-contact .mobile-icons a .facebook {
+  width: 72%;
+  height: 10%;
+}
+
+.cover .mobile-contact .mobile-icons a .instagram {
+  width: 81%;
+  height: 10%;
+}
+
+.cover .mobile-contact .mobile-icons a .github {
+  width: 97%;
+  height: 10%;
+  margin-left: 25%;
+}
+
+.cover .mobile-contact .mobile-icons a .linkedin {
+  width: 51%;
+  height: 10%;
+  margin-left: 45%;
+}
+
+.spine {
+  width: 80%;
+  height: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.spine button {
+  background: #202020;
+  width: 100%;
+  height: 100%;
+  font-size: 30px;
+  color: #eeebeb;
+}
+
+.spine button:hover {
+  cursor: pointer;
+  color: #f1bb3b;
+  background: #414040;
+}
+
 .logo-place {
   width: 100%;
   height: 11%;
@@ -89,12 +184,12 @@
 }
 
 .logo-place .lo-gos {
-  width: 12%;
-  height: 124%;
+  width: 25%;
+  height: 100%;
   margin-top: 0%;
 }
 
-.title {
+.contact-title {
   width: 100%;
   height: 11%;
   display: -webkit-box;
@@ -109,19 +204,17 @@
   border-bottom: 2px solid white;
 }
 
-.title h1 {
+.contact-title h1 {
   letter-spacing: 5px;
   color: #eeebeb;
-  font-size: 71px;
+  font-size: 35px;
   margin-bottom: 1%;
 }
 
 .spred {
   width: 100%;
   height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -131,11 +224,9 @@
 }
 
 .spred .contact-contain {
-  width: 42%;
+  width: 100%;
   height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -164,12 +255,15 @@
 }
 
 .spred .contact-contain .phone img {
-  margin-left: 7%;
+  width: 30%;
+  height: 100%;
+  margin-left: 2%;
 }
 
 .spred .contact-contain .phone h1 {
   color: #eeebeb;
-  margin-right: 25%;
+  font-size: 21px;
+  margin-right: 3%;
 }
 
 .spred .contact-contain .line {
@@ -187,13 +281,16 @@
 }
 
 .spred .contact-contain .line img {
-  margin-left: 11.8%;
+  width: 20%;
+  height: 64%;
+  margin-left: 6.8%;
   margin-bottom: 4%;
 }
 
 .spred .contact-contain .line h1 {
   color: #eeebeb;
-  margin-right: 40.7%;
+  font-size: 30px;
+  margin-right: 6.7%;
   margin-bottom: 7%;
 }
 
@@ -212,20 +309,19 @@
 }
 
 .spred .contact-contain .email img {
-  margin-left: 11.2%;
+  margin-left: 6.2%;
 }
 
 .spred .contact-contain .email h1 {
   color: #eeebeb;
-  margin-right: 17.1%;
+  font-size: 18px;
+  margin-right: 3.1%;
 }
 
 .spred .or {
   width: 6%;
   height: 44.5%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -250,32 +346,30 @@
       -ms-flex-align: start;
           align-items: flex-start;
   width: 100%;
-  border-top: 2px solid white;
+  border-top: none;
 }
 
 .spred .icons .insta {
-  margin-top: 1%;
+  margin-top: 8.3%;
 }
 
 .spred .icons .facebook {
-  margin-top: 2.33%;
+  margin-top: 12.33%;
 }
 
 .spred .icons .github {
-  margin-top: 2.7%;
+  margin-top: 11.7%;
 }
 
 .spred .icons .linkedin {
-  margin-top: 2.5%;
+  margin-top: 11.5%;
   margin-left: 1.5%;
 }
 
 .spred .message-contain {
   width: 42%;
   height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -354,357 +448,7 @@
   width: 59%;
   height: 90%;
   border-radius: 5px;
-  font-size: 20px;
-}
-
-.spred .message-contain .butbut {
-  width: 100%;
-  height: 10%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.spred .message-contain .butbut button {
-  width: 20%;
-  height: 60%;
-  margin-right: 14%;
-  border-radius: 5px;
-  font-size: 20px;
-}
-
-@media (min-width: 375px) {
-  .sec {
-    width: 100vw;
-    height: 100vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .sec .butter {
-    width: 100%;
-    height: 9%;
-    display: none;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .sec .butter img {
-    width: 76%;
-    height: 10%;
-  }
-  .cover {
-    width: 80%;
-    height: 90%;
-    background: #202020;
-    border-top: 0.5px solid white;
-    border-bottom: 0.5px solid white;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .spine {
-    width: 80%;
-    height: 10%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .spine img {
-    width: 76%;
-    height: 10%;
-  }
-  .logo-place {
-    width: 100%;
-    height: 11%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-  }
-  .logo-place .lo-gos {
-    width: 25%;
-    height: 124%;
-    margin-top: 0%;
-  }
-  .title {
-    width: 100%;
-    height: 11%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    border-bottom: 2px solid white;
-  }
-  .title h1 {
-    letter-spacing: 5px;
-    color: #eeebeb;
-    font-size: 35px;
-    margin-bottom: 1%;
-  }
-  .spred {
-    width: 100%;
-    height: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .spred .contact-contain {
-    width: 100%;
-    height: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
-  }
-  .spred .contact-contain .phone {
-    width: 100%;
-    height: 22%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin-top: 6%;
-  }
-  .spred .contact-contain .phone img {
-    width: 30%;
-    height: 100%;
-    margin-left: 2%;
-  }
-  .spred .contact-contain .phone h1 {
-    color: #eeebeb;
-    font-size: 21px;
-    margin-right: 3%;
-  }
-  .spred .contact-contain .line {
-    width: 100%;
-    height: 18%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .spred .contact-contain .line img {
-    width: 20%;
-    height: 64%;
-    margin-left: 6.8%;
-    margin-bottom: 4%;
-  }
-  .spred .contact-contain .line h1 {
-    color: #eeebeb;
-    font-size: 30px;
-    margin-right: 6.7%;
-    margin-bottom: 7%;
-  }
-  .spred .contact-contain .email {
-    width: 100%;
-    height: 12%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .spred .contact-contain .email img {
-    margin-left: 6.2%;
-  }
-  .spred .contact-contain .email h1 {
-    color: #eeebeb;
-    font-size: 18px;
-    margin-right: 3.1%;
-  }
-  .spred .or {
-    width: 6%;
-    height: 44.5%;
-    display: none;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-  }
-  .spred .or h1 {
-    color: #eeebeb;
-    font-size: 44px;
-  }
-  .spred .icons {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    width: 100%;
-    border-top: none;
-  }
-  .spred .icons .insta {
-    margin-top: 8.3%;
-  }
-  .spred .icons .facebook {
-    margin-top: 12.33%;
-  }
-  .spred .icons .github {
-    margin-top: 11.7%;
-  }
-  .spred .icons .linkedin {
-    margin-top: 11.5%;
-    margin-left: 1.5%;
-  }
-  .spred .message-contain {
-    width: 42%;
-    height: 100%;
-    display: none;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-  }
-  .spred .message-contain form {
-    width: 100%;
-    height: 100%;
-  }
-  .spred .message-contain .name {
-    width: 83%;
-    height: 9%;
-    margin-top: 11%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .spred .message-contain .name input {
-    width: 52%;
-    height: 36%;
-    border-radius: 5px;
-    font-size: 24px;
-  }
-  .spred .message-contain .email-me {
-    width: 83%;
-    height: 13%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .spred .message-contain .email-me input {
-    width: 52%;
-    height: 27%;
-    border-radius: 5px;
-    font-size: 24px;
-  }
-  .spred .message-contain .message {
-    width: 83%;
-    height: 26%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .spred .message-contain .message textarea {
-    width: 59%;
-    height: 90%;
-    border-radius: 5px;
-    font-size: 26px;
-  }
+  font-size: 26px;
 }
 
 @media (min-width: 1024px) {
@@ -768,6 +512,31 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  .cover .mobile-contact {
+    width: 100%;
+    height: 100%;
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .cover .mobile-contact label {
+    font-size: 20px;
+  }
+  .cover .mobile-contact div {
+    width: 100%;
+    height: 20%;
+  }
+  .cover .mobile-contact div h1 {
+    font-size: 20px;
   }
   .spine {
     width: 80%;
@@ -1132,6 +901,31 @@
         -ms-flex-align: center;
             align-items: center;
   }
+  .cover .mobile-contact {
+    width: 100%;
+    height: 100%;
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .cover .mobile-contact label {
+    font-size: 20px;
+  }
+  .cover .mobile-contact div {
+    width: 100%;
+    height: 20%;
+  }
+  .cover .mobile-contact div h1 {
+    font-size: 20px;
+  }
   .spine {
     width: 80%;
     height: 10%;
@@ -1156,9 +950,6 @@
     cursor: pointer;
     color: #f1bb3b;
     background: #414040;
-  }
-  .spine .upC {
-    display: none;
   }
   .logo-place {
     width: 100%;
@@ -1500,6 +1291,31 @@
         -ms-flex-align: center;
             align-items: center;
   }
+  .cover .mobile-contact {
+    width: 100%;
+    height: 100%;
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .cover .mobile-contact label {
+    font-size: 20px;
+  }
+  .cover .mobile-contact div {
+    width: 100%;
+    height: 20%;
+  }
+  .cover .mobile-contact div h1 {
+    font-size: 20px;
+  }
   .spine {
     width: 80%;
     height: 10%;
@@ -1524,9 +1340,6 @@
     cursor: pointer;
     color: #f1bb3b;
     background: #414040;
-  }
-  .spine .upC {
-    display: none;
   }
   .logo-place {
     width: 100%;
