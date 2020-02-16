@@ -259,135 +259,109 @@
     align-items: center;
     .projects {
       width: 100%;
-      height: 64%;
+      height: 77%;
+
+      display: grid;
+      grid-template-columns: repeat(auto-fit, 90%);
+      grid-column-gap: 20px;
+      justify-content: center;
       overflow-x: hidden;
       overflow-y: auto;
-      display: flex;
-      flex-direction: column;
-
-      justify-content: space-evenly;
       .pro {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
-        width: 100%;
-        height: 100%;
-
-        .headingKNM {
+        .timer-japan {
           display: flex;
           justify-content: center;
           align-items: center;
-          width: 60%;
-          height: 25%;
+          width: 90%;
           margin-top: 2%;
-          border-top: 1px solid red;
-          border-bottom: 1px solid red;
+          border-top: 2px solid #20c953;
+          border-bottom: 2px solid #20c953;
           h1 {
             color: rgb(238, 235, 235);
-            font-size: 75px;
+            font-size: 48px;
+            text-align: center;
+            .giti {
+              width: 45px;
+              height: 41px;
+            }
+          }
+        }
+
+        .this-is-dev {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 90%;
+          margin-top: 2%;
+          border-top: 2px solid rgb(21, 58, 74);
+          border-bottom: 2px solid #18333f;
+          h1 {
+            color: rgb(238, 235, 235);
+            font-size: 25px;
+            text-align: center;
+            .site-link {
+              text-decoration: none;
+              color: rgb(238, 235, 235);
+            }
+            .site-link:hover {
+              color: rgba(46, 129, 207, 0.2);
+            }
+            .giti {
+              width: 45px;
+              height: 41px;
+            }
+          }
+        }
+        .walk-talk {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 90%;
+          margin-top: 2%;
+          border-top: 2px solid white;
+          border-bottom: 2px solid #47a8ff;
+          h1 {
+            color: rgb(238, 235, 235);
+            font-size: 51px;
+            text-align: center;
+          }
+          .giti {
+            width: 45px;
+            height: 41px;
+          }
+        }
+        .song-star {
+          h1 {
+            font-size: 44px;
+          }
+          .giti {
+            width: 45px;
+            height: 41px;
+          }
+        }
+
+        .headingKNM {
+          h1 {
+            font-size: 40px;
+
             span {
               color: red;
+            }
+            .giti {
+              width: 45px;
+              height: 41px;
             }
           }
         }
 
         p {
-          display: none;
-          color: rgb(238, 235, 235);
-          font-size: 40px;
-        }
-        .slideshow {
-          width: 100%;
-          height: 44%;
-
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          margin-top: 0%;
-
-          .icon {
-            color: white;
-          }
-          .arrows {
-            display: none;
-            width: 25%;
-            height: 25%;
-          }
-          .web-still-container {
-            background: white;
-            width: 68%;
-            height: 100%;
-
-            img {
-              width: 100%;
-              height: 100%;
-              border-radius: 5px;
-            }
-          }
+          font-size: 20px;
         }
       }
-    }
-    .but {
-      width: 100%;
-      height: 10%;
-
-      display: none;
-      justify-content: center;
-      align-items: center;
-      img {
-        width: 76%;
-        height: 10%;
-      }
-    }
-  }
-  .bot-mobleP {
-    width: 100%;
-    height: 10%;
-
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    button {
-      background: #202020;
-      width: 100%;
-      height: 100%;
-      font-size: 30px;
-      color: rgb(238, 235, 235);
-      &:hover {
-        cursor: pointer;
-        color: rgb(241, 187, 59);
-        background: #414040;
-      }
-    }
-  }
-  .logo-place {
-    width: 100%;
-    height: 11%;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-
-    .lo-go {
-      width: 25%;
-      height: 100%;
-      margin-top: 0%;
-    }
-  }
-
-  .title {
-    width: 100%;
-    height: 11%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-bottom: 2px solid white;
-
-    h1 {
-      letter-spacing: 5px;
-      color: rgb(238, 235, 235);
-      font-size: 41px;
-      margin-bottom: 1%;
     }
   }
 }
