@@ -126,7 +126,7 @@ class Portfolio extends Component {
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    thisIS Devmountain
+                    devmTn
                   </a>
                   <a
                     href="https://github.com/C-E-Campbell/groupProjectWPX15"
@@ -200,15 +200,12 @@ class Portfolio extends Component {
                   <h5 onClick={e => this.KNMpOn()}>More Info</h5>
                 </p>
                 <p className={KNMp ? "show" : "hidden"}>
-                  A web application created by Devmountain developers for
-                  Devmountain developers. This site allows Devmountainers from
-                  past present and future to create a profile and show case any
-                  project they have built or been a part of, and share it with
-                  the rest of the community. In previous coherts we were unable
-                  to view or draw inspiration from other Dev developers variety
-                  of web applications because there was no availble place for
-                  them to be showcased in on place and we wanted to change that
-                  with this site.
+                  Kanji N Me's purpose is to help individuals that are learning
+                  Kanji (Chinese characters) in relation to the Japanese
+                  language, to add the necessary kanji of their choosing to
+                  their profile page. They are able to review and practice the
+                  Kanji with in the selected folders which the have created and
+                  named with an interactive quiz game.
                   <h5
                     onClick={e => this.KNMpOff()}
                     className={KNMp ? "less" : "hidden"}

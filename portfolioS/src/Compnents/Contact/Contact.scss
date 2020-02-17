@@ -768,8 +768,8 @@
 
         margin-top: 6%;
         img {
-          width: 30%;
-          height: 100%;
+          width: 26%;
+          height: 90%;
           margin-left: 12%;
         }
         h1 {
@@ -783,16 +783,16 @@
         height: 18%;
         @include lineUp();
         img {
-          width: 17%;
-          height: 79%;
-          margin-left: 1.8%;
+          width: 10%;
+          height: 57%;
+          margin-left: 2.8%;
           margin-bottom: 4%;
         }
         h1 {
           @include text();
 
           font-size: 29px;
-          margin-right: 38.7%;
+          margin-right: 40.7%;
           margin-bottom: 7%;
         }
       }
@@ -801,15 +801,15 @@
         height: 12%;
         @include lineUp();
         img {
-          width: 18%;
+          width: 10%;
           height: 100%;
-          margin-left: 1.2%;
+          margin-left: 3.2%;
         }
         h1 {
-          @include text();
+          font-size: 26px;
 
           font-size: 29px;
-          margin-right: 12.1%;
+          margin-right: 9.1%;
         }
       }
     }
