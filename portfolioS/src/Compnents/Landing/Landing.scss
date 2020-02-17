@@ -9,7 +9,6 @@ body {
   background-image: url(Got_You_web.jpg);
   background-size: 100% 100%;
   //   background-size: auto auto;
-  overflow: hidden;
 }
 
 .contain {
@@ -84,9 +83,6 @@ body {
 }
 @media (min-width: 1280px) {
   body {
-    width: 100vw;
-    height: 100vh;
-    background-image: url(/static/media/Got_You_web.ff7a6eba.jpg);
     background-size: 117% 100%;
     overflow: hidden;
   }
