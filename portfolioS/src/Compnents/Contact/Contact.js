@@ -27,6 +27,7 @@ class Contact extends Component {
       message: ""
     };
     this.toAbout = this.toAbout.bind(this);
+    this.fromContact = this.fromContact.bind(this);
   }
 
   handleSubmit = e => {
@@ -46,6 +47,9 @@ class Contact extends Component {
   toAbout() {
     this.props.history.push("/about");
   }
+  fromContact() {
+    this.props.history.push("/");
+  }
 
   render() {
     const { name, email, message } = this.state;
@@ -54,7 +58,12 @@ class Contact extends Component {
       <div className="sec">
         <div className="cover">
           <div className="logo-place">
-            <img className="lo-gos" src={logo} alt="tl" />
+            <img
+              onClick={this.fromContact}
+              className="lo-gos"
+              src={logo}
+              alt="tl"
+            />
             <HeaderLink />
           </div>
 
@@ -190,7 +199,7 @@ class Contact extends Component {
                     placeholder="Send me a Message :)"
                   />
                 </div>
-                <div className="butbut">
+                <div className="submit-button">
                   <button type="submit">Submit</button>
                 </div>
               </form>

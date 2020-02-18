@@ -9,11 +9,14 @@ const About = props => {
   function toPortfolio() {
     props.history.push("/portfolio");
   }
+  function fromAbout() {
+    props.history.push("/");
+  }
   return (
     <div className="sec">
       <div className="cover">
         <div className="logo-place">
-          <img className="lo-go" src={logo} alt="tl" />
+          <img onClick={fromAbout} className="lo-go" src={logo} alt="tl" />
 
           <HeaderLink />
         </div>

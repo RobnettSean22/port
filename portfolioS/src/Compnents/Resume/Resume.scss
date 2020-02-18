@@ -132,12 +132,30 @@
   @include even();
   overflow-y: auto;
   display: block;
+
   h1,
   h2,
   h3,
   ul,
   li {
     @include textColor();
+  }
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  ::-webkit-scrollbar-track {
+    display: none;
+    direction: rtl;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 20px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
   }
 }
 

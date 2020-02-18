@@ -37,6 +37,13 @@
           font-size: 48px;
           text-align: center;
           margin: 0%;
+          .timer-link {
+            text-decoration: none;
+            color: rgb(238, 235, 235);
+            &:hover {
+              color: #20c953;
+            }
+          }
           .giti {
             width: 45px;
             height: 41px;
@@ -126,6 +133,14 @@
           span {
             color: red;
           }
+          .kajinme {
+            text-decoration: none;
+            color: rgb(238, 235, 235);
+            &:hover {
+              color: red;
+            }
+          }
+
           .giti {
             width: 45px;
             height: 41px;

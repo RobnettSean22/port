@@ -24,6 +24,7 @@ class Portfolio extends Component {
       CDTp: false
     };
     this.toResume = this.toResume.bind(this);
+    this.fromPortfolio = this.fromPortfolio.bind(this);
   }
 
   componentDidMount() {
@@ -33,7 +34,9 @@ class Portfolio extends Component {
   toResume() {
     this.props.history.push("/resume");
   }
-
+  fromPortfolio() {
+    this.props.history.push("/");
+  }
   azStorageCall() {
     axios
       .get(
@@ -104,7 +107,12 @@ class Portfolio extends Component {
       <div className="sec">
         <div className="cover">
           <div className="logo-place">
-            <img className="lo-go" src={logo} alt="tl" />
+            <img
+              onClick={this.fromPortfolio}
+              className="lo-go"
+              src={logo}
+              alt="tl"
+            />
             <HeaderLink />
           </div>
           <div className="title">

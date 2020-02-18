@@ -10,12 +10,15 @@ const Resume = props => {
   function toContact() {
     props.history.push("/contact");
   }
+  function fromResume() {
+    props.history.push("/");
+  }
   return (
     <div>
       <div className="sec">
         <div className="cover">
           <div className="logo-place">
-            <img className="lo-go" src={logo} alt="tl" />
+            <img onClick={fromResume} className="lo-go" src={logo} alt="tl" />
             <HeaderLink />
           </div>
           <div className="resume-title">
@@ -180,7 +183,7 @@ const Resume = props => {
                   various clients within the state of Colorado and Wyoming
                 </li>
               </ul>
-              <h1>Accomplishments/Skills/Interests</h1>
+              <h1>Accomplishments/Skills</h1>
               <ul>
                 <li>Japanese Conversational (Have passed the N3)</li>
                 <li>
