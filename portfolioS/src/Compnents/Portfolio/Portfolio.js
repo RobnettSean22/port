@@ -10,6 +10,7 @@ import songStar from "./song_star_FW.jpg";
 import chat from "./socketio_chat.png";
 import timer from "./js_timer_FW.jpg";
 import github from "./github.png";
+import cam from "./cam-screenshot.png";
 import axios from "axios";
 class Portfolio extends Component {
   constructor() {
@@ -104,48 +105,48 @@ class Portfolio extends Component {
     const { slideKNM, TIDp, KNMp, SSp, SCp, CDTp, AZImage } = this.state;
     console.log(AZImage);
     return (
-      <div className="sec">
-        <div className="cover">
-          <div className="logo-place">
+      <div className='sec'>
+        <div className='cover'>
+          <div className='logo-place'>
             <img
               onClick={this.fromPortfolio}
-              className="lo-go"
+              className='lo-go'
               src={logo}
-              alt="tl"
+              alt='tl'
             />
             <HeaderLink />
           </div>
-          <div className="title">
+          <div className='title'>
             <h1>Projects</h1>
           </div>
-          <div className="projects">
-            <div className="pro">
-              <div className="slideshow">
-                <div className="web-still-container">
-                  <img src={thisIsDev} alt="" />
+          <div className='projects'>
+            <div className='pro'>
+              <div className='slideshow'>
+                <div className='web-still-container'>
+                  <img src={thisIsDev} alt='' />
                 </div>
               </div>
 
-              <div className="this-is-dev">
+              <div className='this-is-dev'>
                 <h1>
                   <a
-                    className="site-link"
-                    href="https://thisisdevmountain.com/"
-                    rel="noopener noreferrer"
-                    target="_blank"
+                    className='site-link'
+                    href='https://thisisdevmountain.com/'
+                    rel='noopener noreferrer'
+                    target='_blank'
                   >
                     devmTn
                   </a>
                   <a
-                    href="https://github.com/C-E-Campbell/groupProjectWPX15"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    href='https://github.com/C-E-Campbell/groupProjectWPX15'
+                    target='_blank'
+                    rel='noopener noreferrer'
                   >
-                    <img className="giti" src={github} alt="" />
+                    <img className='giti' src={github} alt='' />
                   </a>
                 </h1>
               </div>
-              <div className="description-for-thisisdev">
+              <div className='description-for-thisisdev'>
                 {" "}
                 <p className={TIDp ? "hidden" : "more"}>
                   Technologies: React, javascript, nodejs, chart.js, socket.io
@@ -174,33 +175,33 @@ class Portfolio extends Component {
                 </p>
               </div>
             </div>
-            <div className="pro">
-              <div className="slideshow">
-                <div className="web-still-container">
-                  <img src={slideKNM} alt="home" />
+            <div className='pro'>
+              <div className='slideshow'>
+                <div className='web-still-container'>
+                  <img src={slideKNM} alt='home' />
                 </div>
               </div>
-              <div className="headingKNM">
+              <div className='headingKNM'>
                 <h1>
                   <a
-                    className="kajinme"
-                    href="https://kajinme.com"
-                    rel="noopener noreferrer"
-                    target="_blank"
+                    className='kajinme'
+                    href='https://kajinme.com'
+                    rel='noopener noreferrer'
+                    target='_blank'
                   >
                     Kanji <span>N</span> Me
                   </a>
                   <a
-                    href="https://github.com/RobnettSean22/before-thegame"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    href='https://github.com/RobnettSean22/before-thegame'
+                    target='_blank'
+                    rel='noopener noreferrer'
                   >
-                    <img className="giti" src={github} alt="" />
+                    <img className='giti' src={github} alt='' />
                   </a>
                 </h1>
               </div>
 
-              <div className="description-for-kanjinme">
+              <div className='description-for-kanjinme'>
                 {" "}
                 <p className={KNMp ? "hidden" : "more"}>
                   Technologies: nodejs, React, react-redux, bcyrpt, express,
@@ -224,25 +225,32 @@ class Portfolio extends Component {
                 </p>
               </div>
             </div>
-            <div className="pro">
-              <div className="slideshow">
-                <div className="web-still-container">
-                  <img src={songStar} alt="" />
+            <div className='pro'>
+              <div className='slideshow'>
+                <div className='web-still-container'>
+                  <img src={songStar} alt='' />
                 </div>
               </div>
-              <div className="song-star">
+              <div className='song-star'>
                 <h1>
-                  songStar{" "}
                   <a
-                    href="https://github.com/RobnettSean22/songstar"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    className='songstar-link'
+                    href='https://song-star.com'
+                    rel='noopener noreferrer'
+                    target='_blank'
                   >
-                    <img className="giti" src={github} alt="" />
+                    Song Star
+                  </a>
+                  <a
+                    href='https://github.com/RobnettSean22/songstar'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    <img className='giti' src={github} alt='' />
                   </a>
                 </h1>
               </div>
-              <div className="description-for-songStar">
+              <div className='description-for-songStar'>
                 {" "}
                 <p className={SSp ? "hidden" : "more"}>
                   Technologies: React, nodjs, react-redux, bcyrpt, express,
@@ -265,25 +273,73 @@ class Portfolio extends Component {
                 </p>
               </div>
             </div>
-            <div className="pro">
-              <div className="slideshow">
-                <div className="web-still-container">
-                  <img src={chat} alt="" />
+            <div className='pro'>
+              <div className='slideshow'>
+                <div className='web-still-container'>
+                  <img src={cam} alt='' />
                 </div>
               </div>
-              <div className="walk-talk">
+              <div className='cam-mon'>
                 <h1>
-                  Totalk
                   <a
-                    href="https://github.com/RobnettSean22/practicingsocketio"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    className='cam-link'
+                    href='https:totalk.online'
+                    rel='noopener noreferrer'
+                    target='_blank'
                   >
-                    <img className="giti" src={github} alt="" />
+                    Cam Monitor{" "}
+                  </a>
+                  <a
+                    href='https://github.com/RobnettSean22/Front-End-Test'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    <img className='giti' src={github} alt='' />
                   </a>
                 </h1>
               </div>
-              <div className="description-for-totalk">
+              <div className='description-for-camermonitor'>
+                {" "}
+                <p className={SSp ? "hidden" : "more"}>
+                  Technologies: React, nodjs, react-redux, bcyrpt, express,
+                  javascript, postgresQL
+                  <h5 onClick={e => this.SSpOn()}> More Info</h5>
+                </p>
+                <p className={SSp ? "show" : "hidden"}>
+                  SongStar is a simple web app that allows uesers to add songs
+                  to any number of playlist that can be created or deleted. The
+                  user can choose from a list of songs and if a song is not
+                  availble in that list, they can add their song of choice to
+                  the ALL Songs section.
+                  <h5
+                    onClick={e => this.SSpOff()}
+                    className={SSp ? "less" : "hidden"}
+                  >
+                    {" "}
+                    Less Info
+                  </h5>
+                </p>
+              </div>
+            </div>
+            <div className='pro'>
+              <div className='slideshow'>
+                <div className='web-still-container'>
+                  <img src={chat} alt='' />
+                </div>
+              </div>
+              <div className='walk-talk'>
+                <h1>
+                  Totalk
+                  <a
+                    href='https://github.com/RobnettSean22/practicingsocketio'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    <img className='giti' src={github} alt='' />
+                  </a>
+                </h1>
+              </div>
+              <div className='description-for-totalk'>
                 {" "}
                 <p className={SCp ? "hidden" : "more"}>
                   Technologies: socket.io, HtML5, SCSS, vanillaJS
@@ -305,32 +361,32 @@ class Portfolio extends Component {
                 </p>
               </div>
             </div>
-            <div className="pro">
-              <div className="slideshow">
-                <div className="web-still-container">
-                  <img src={timer} alt="" />
+            <div className='pro'>
+              <div className='slideshow'>
+                <div className='web-still-container'>
+                  <img src={timer} alt='' />
                 </div>
               </div>
-              <div className="timer-japan">
+              <div className='timer-japan'>
                 <h1>
                   <a
-                    className="timer-link"
-                    href="http://countidown.live/"
-                    rel="noopener noreferrer"
-                    target="_blank"
+                    className='timer-link'
+                    href='http://countidown.live/'
+                    rel='noopener noreferrer'
+                    target='_blank'
                   >
                     JS Timer
                   </a>
                   <a
-                    href="https://github.com/RobnettSean22/countdown"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    href='https://github.com/RobnettSean22/countdown'
+                    target='_blank'
+                    rel='noopener noreferrer'
                   >
-                    <img className="giti" src={github} alt="" />
+                    <img className='giti' src={github} alt='' />
                   </a>
                 </h1>
               </div>
-              <div className="description-for-countdown-timer">
+              <div className='description-for-countdown-timer'>
                 {" "}
                 <p className={CDTp ? "hidden" : "more"}>
                   Technologies: vanillaJS, javascript, HTML5, SCSS
@@ -351,7 +407,7 @@ class Portfolio extends Component {
             </div>
           </div>
         </div>
-        <div className="bot-mobleP">
+        <div className='bot-mobleP'>
           <button onClick={this.toResume}>Resume</button>
         </div>
       </div>

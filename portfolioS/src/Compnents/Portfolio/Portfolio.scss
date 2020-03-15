@@ -61,7 +61,7 @@
         border-bottom: 2px solid #18333f;
         h1 {
           color: rgb(238, 235, 235);
-          font-size: 25px;
+          font-size: 40px;
           text-align: center;
           margin: 0%;
           .site-link {
@@ -109,6 +109,39 @@
           font-size: 44px;
           text-align: center;
           margin: 0%;
+          .songstar-link {
+            text-decoration: none;
+            color: rgb(238, 235, 235);
+          }
+          .songstar-link:hover {
+            color: #f2af00;
+          }
+        }
+        .giti {
+          width: 45px;
+          height: 41px;
+        }
+      }
+      .cam-mon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        margin-top: 2%;
+        border-top: 2px solid #8bf282;
+        border-bottom: 2px solid #15fad5;
+        h1 {
+          color: rgb(238, 235, 235);
+          font-size: 36px;
+          text-align: center;
+          margin: 0%;
+          .cam-link {
+            text-decoration: none;
+            color: rgb(238, 235, 235);
+          }
+          .cam-link:hover {
+            color: #15fad5;
+          }
         }
         .giti {
           width: 45px;
@@ -153,10 +186,12 @@
         color: rgb(238, 235, 235);
         font-size: 20px;
         text-align: center;
+        margin: 0;
       }
       .more {
         font-size: 19px;
         text-align: center;
+
         h5 {
           color: white;
           margin-top: 2%;
@@ -268,10 +303,20 @@
 @media (min-width: 1024px) {
   .cover {
     .projects {
+      width: 100%;
+      height: 100%;
+
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-auto-rows: 80%;
+      grid-column-gap: 20px;
+      grid-row-gap: 0px;
+      justify-content: center;
+
       .pro {
         .timer-japan {
           h1 {
-            font-size: 55px;
+            font-size: 40px;
 
             .giti {
               width: 45px;
@@ -282,7 +327,7 @@
 
         .this-is-dev {
           h1 {
-            font-size: 45px;
+            font-size: 40px;
 
             .giti {
               width: 45px;
@@ -292,7 +337,7 @@
         }
         .walk-talk {
           h1 {
-            font-size: 55px;
+            font-size: 40px;
           }
           .giti {
             width: 45px;
@@ -301,7 +346,7 @@
         }
         .song-star {
           h1 {
-            font-size: 55px;
+            font-size: 40px;
           }
           .giti {
             width: 45px;
@@ -311,7 +356,7 @@
 
         .headingKNM {
           h1 {
-            font-size: 55px;
+            font-size: 40px;
 
             span {
               color: red;
@@ -322,12 +367,22 @@
             }
           }
         }
+        .cam-mon {
+          h1 {
+            font-size: 30px;
+
+            .giti {
+              width: 45px;
+              height: 41px;
+            }
+          }
+        }
         p {
-          font-size: 20px;
+          font-size: 18px;
         }
 
         .more {
-          font-size: 28px;
+          font-size: 18px;
 
           h5 {
             color: rgb(238, 235, 235);
@@ -337,12 +392,55 @@
           }
         }
         .show {
-          font-size: 28px;
+          font-size: 18px;
           .less {
-            font-size: 28px;
+            font-size: 18px;
           }
           .less:hover {
-            font-size: 29px;
+            font-size: 19px;
+          }
+        }
+        .description-for-thisisdev {
+          width: 88%;
+          height: 46%;
+          overflow-x: hidden;
+          overflow-y: auto;
+        }
+        .description-for-kanjinme {
+          width: 88%;
+          height: 46%;
+          overflow-x: hidden;
+          overflow-y: auto;
+        }
+        .description-for-songStar {
+          width: 88%;
+          height: 46%;
+          overflow-x: hidden;
+          overflow-y: auto;
+        }
+        .description-for-totalk {
+          width: 88%;
+          height: 46%;
+          overflow-x: hidden;
+          overflow-y: auto;
+        }
+        .description-for-countdown-timer {
+          width: 88%;
+          height: 46%;
+          overflow-x: hidden;
+          overflow-y: auto;
+        }
+        .description-for-camermonitor {
+          width: 88%;
+          height: 46%;
+          overflow-x: hidden;
+          overflow-y: auto;
+        }
+        .slideshow {
+          width: 100%;
+          height: 45%;
+          .web-still-container {
+            width: 90%;
           }
         }
       }
@@ -376,8 +474,10 @@
       height: 100%;
 
       display: grid;
-      grid-template-columns: repeat(auto-fit, 30%);
+      grid-template-columns: repeat(3, 1fr);
+      grid-auto-rows: 80%;
       grid-column-gap: 20px;
+      grid-row-gap: 0px;
       justify-content: center;
 
       .pro {
@@ -410,7 +510,7 @@
         }
         .slideshow {
           width: 100%;
-          height: 34%;
+          height: 50%;
 
           display: flex;
           justify-content: center;
@@ -434,6 +534,58 @@
               border-radius: 5px;
             }
           }
+        }
+        .more {
+          font-size: 20px;
+
+          h5:hover {
+            font-size: 18px;
+          }
+        }
+        .show {
+          font-size: 17px;
+          .less {
+            font-size: 18px;
+          }
+          .less:hover {
+            font-size: 18px;
+          }
+        }
+        .description-for-thisisdev {
+          width: 88%;
+          height: 46%;
+          overflow-x: hidden;
+          overflow-y: auto;
+        }
+        .description-for-kanjinme {
+          width: 88%;
+          height: 46%;
+          overflow-x: hidden;
+          overflow-y: auto;
+        }
+        .description-for-songStar {
+          width: 88%;
+          height: 46%;
+          overflow-x: hidden;
+          overflow-y: auto;
+        }
+        .description-for-totalk {
+          width: 88%;
+          height: 46%;
+          overflow-x: hidden;
+          overflow-y: auto;
+        }
+        .description-for-countdown-timer {
+          width: 88%;
+          height: 46%;
+          overflow-x: hidden;
+          overflow-y: auto;
+        }
+        .description-for-camermonitor {
+          width: 88%;
+          height: 46%;
+          overflow-x: hidden;
+          overflow-y: auto;
         }
       }
     }
@@ -527,10 +679,11 @@
     .projects {
       width: 100%;
       height: 100%;
-
       display: grid;
-      grid-template-columns: repeat(auto-fit, 30%);
+      grid-template-columns: repeat(3, 1fr);
+      grid-auto-rows: 80%;
       grid-column-gap: 20px;
+      grid-row-gap: 0px;
       justify-content: center;
 
       .pro {
