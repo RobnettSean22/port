@@ -185,7 +185,7 @@ class Portfolio extends Component {
                 <h1>
                   <a
                     className='kajinme'
-                    href='https://kajinme.com'
+                    href='https://kanjin.me'
                     rel='noopener noreferrer'
                     target='_blank'
                   >
