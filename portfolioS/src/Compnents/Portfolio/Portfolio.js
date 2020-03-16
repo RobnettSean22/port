@@ -235,7 +235,7 @@ class Portfolio extends Component {
                 <h1>
                   <a
                     className='songstar-link'
-                    href='https://song-star.com'
+                    href='https://songstar.me'
                     rel='noopener noreferrer'
                     target='_blank'
                   >
