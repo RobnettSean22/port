@@ -9,6 +9,7 @@ import thisIsDev from "./this_is_dev_FW.jpg";
 import songStar from "./song_star_FW.jpg";
 import chat from "./socketio_chat.png";
 import timer from "./js_timer_FW.jpg";
+import Xchange from "./xchangeW.jpg";
 import github from "./github.png";
 import cam from "./cam-screenshot.png";
 import axios from "axios";
@@ -120,6 +121,53 @@ class Portfolio extends Component {
             <h1>Projects</h1>
           </div>
           <div className='projects'>
+            <div className='pro'>
+              <div className='slideshow'>
+                <div className='web-still-container'>
+                  <img src={Xchange} alt='' />
+                </div>
+              </div>
+
+              <div className='xchange'>
+                <h1>
+                  <a
+                    className='site-link'
+                    href='https://cchange.netlify.com/'
+                    rel='noopener noreferrer'
+                    target='_blank'
+                  >
+                    Xchange
+                  </a>
+                  <a
+                    href='https://github.com/RobnettSean22/currency-exchange'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    <img className='giti' src={github} alt='' />
+                  </a>
+                </h1>
+              </div>
+              <div className='description-for-xchange'>
+                {" "}
+                <p className={TIDp ? "hidden" : "more"}>
+                  Technologies: React, javascript, nodejs, Chartjs, axios
+                  <h5 onClick={e => this.TIDpOn()}>More Info</h5>
+                </p>
+                <p className={TIDp ? "show" : "hidden"}>
+                  Users can enter an amount into the input field and find the
+                  exchanged amount based on the spcified countriers currency.
+                  Rates per dollar are displayed as well as the when the rates
+                  were last updated.
+                  <h5
+                    onClick={e => this.TIDpOff()}
+                    className={TIDp ? "less" : "hidden"}
+                  >
+                    {" "}
+                    Less Info
+                  </h5>
+                </p>
+              </div>
+            </div>
             <div className='pro'>
               <div className='slideshow'>
                 <div className='web-still-container'>
