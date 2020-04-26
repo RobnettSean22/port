@@ -349,8 +349,7 @@ class Portfolio extends Component {
               <div className='description-for-camermonitor'>
                 {" "}
                 <p className={SSp ? "hidden" : "more"}>
-                  Technologies: React, nodjs, react-redux, bcyrpt, express,
-                  javascript, postgresQL
+                  Technologies: React, Javascript
                   <h5 onClick={e => this.SSpOn()}> More Info</h5>
                 </p>
                 <p className={SSp ? "show" : "hidden"}>
@@ -359,6 +358,49 @@ class Portfolio extends Component {
                   user can choose from a list of songs and if a song is not
                   availble in that list, they can add their song of choice to
                   the ALL Songs section.
+                  <h5
+                    onClick={e => this.SSpOff()}
+                    className={SSp ? "less" : "hidden"}
+                  >
+                    {" "}
+                    Less Info
+                  </h5>
+                </p>
+              </div>
+            </div>
+            <div className='pro'>
+              <div className='slideshow'>
+                <div className='web-still-container'>
+                  <img src={cam} alt='' />
+                </div>
+              </div>
+              <div className='email-archive'>
+                <h1>
+                  <a
+                    className='archive-link'
+                    href='https://testdaterang.netlify.app'
+                    rel='noopener noreferrer'
+                    target='_blank'
+                  >
+                    Date Range{" "}
+                  </a>
+                  <a
+                    href='https://github.com/RobnettSean22/email-archives'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    <img className='giti' src={github} alt='' />
+                  </a>
+                </h1>
+              </div>
+              <div className='description-for-email-archive'>
+                {" "}
+                <p className={SSp ? "hidden" : "more"}>
+                  Technologies: React, Daterange Picker, Javascript
+                  <h5 onClick={e => this.SSpOn()}> More Info</h5>
+                </p>
+                <p className={SSp ? "show" : "hidden"}>
+                  (archive description)
                   <h5
                     onClick={e => this.SSpOff()}
                     className={SSp ? "less" : "hidden"}
