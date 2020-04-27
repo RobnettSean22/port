@@ -405,7 +405,7 @@ class Portfolio extends Component {
                   the ALL Songs section.
                   <h5
                     onClick={e => this.camMonOff()}
-                    className={SSp ? "less" : "hidden"}
+                    className={camMon ? "less" : "hidden"}
                   >
                     {" "}
                     Less Info
