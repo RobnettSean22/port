@@ -61,17 +61,17 @@ class Portfolio extends Component {
   }
   xchangeOn() {
     this.setState({
-      TIDp: true
+      xchange: true
     });
   }
   dateRangeOn() {
     this.setState({
-      TIDp: true
+      dateRange: true
     });
   }
   camMonOn() {
     this.setState({
-      TIDp: true
+      camMon: true
     });
   }
   KNMpOn() {
@@ -122,17 +122,17 @@ class Portfolio extends Component {
   }
   xchangeOff() {
     this.setState({
-      CDTp: false
+      xchange: false
     });
   }
   camMonOff() {
     this.setState({
-      CDTp: false
+      camMon: false
     });
   }
   dateRangeOff() {
     this.setState({
-      CDTp: false
+      dateRange: false
     });
   }
 
