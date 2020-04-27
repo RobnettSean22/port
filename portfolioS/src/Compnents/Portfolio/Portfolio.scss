@@ -87,9 +87,10 @@
         border-bottom: 2px solid #ffa142;
         h1 {
           color: rgb(238, 235, 235);
-          font-size: 51px;
+          font-size: 45px;
           text-align: center;
-          margin: 0%;
+
+          margin: 1% 0% 1% 0%;
           .site-link {
             text-decoration: none;
             color: rgb(238, 235, 235);
@@ -101,6 +102,33 @@
             width: 45px;
             height: 41px;
           }
+        }
+      }
+      .email-archive {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        margin-top: 2%;
+        border-top: 2px solid #fde000;
+        border-bottom: 2px solid #f2af00;
+        h1 {
+          color: rgb(238, 235, 235);
+          font-size: 45px;
+          text-align: center;
+
+          margin: 1% 0% 1% 0%;
+          .archive-link {
+            text-decoration: none;
+            color: rgb(238, 235, 235);
+          }
+          .archive-link:hover {
+            color: #f2af00;
+          }
+        }
+        .giti {
+          width: 45px;
+          height: 41px;
         }
       }
       .walk-talk {
@@ -122,6 +150,7 @@
           height: 41px;
         }
       }
+
       .song-star {
         display: flex;
         justify-content: center;
@@ -158,9 +187,10 @@
         border-bottom: 2px solid #15fad5;
         h1 {
           color: rgb(238, 235, 235);
-          font-size: 36px;
+          font-size: 45px;
           text-align: center;
-          margin: 0%;
+
+          margin: 1% 0% 1% 0%;
           .cam-link {
             text-decoration: none;
             color: rgb(238, 235, 235);
@@ -352,7 +382,17 @@
         }
         .xchange {
           h1 {
-            font-size: 40px;
+            font-size: 49px;
+
+            .giti {
+              width: 45px;
+              height: 41px;
+            }
+          }
+        }
+        .email-archive {
+          h1 {
+            font-size: 45px;
 
             .giti {
               width: 45px;
@@ -380,6 +420,7 @@
             height: 41px;
           }
         }
+
         .song-star {
           h1 {
             font-size: 40px;
@@ -405,7 +446,7 @@
         }
         .cam-mon {
           h1 {
-            font-size: 30px;
+            font-size: 49px;
 
             .giti {
               width: 45px;
@@ -588,6 +629,12 @@
           }
         }
         .description-for-thisisdev {
+          width: 88%;
+          height: 46%;
+          overflow-x: hidden;
+          overflow-y: auto;
+        }
+        .description-for-archive {
           width: 88%;
           height: 46%;
           overflow-x: hidden;
@@ -776,6 +823,12 @@
           }
         }
         .description-for-thisisdev {
+          width: 88%;
+          height: 28%;
+          overflow-x: hidden;
+          overflow-y: auto;
+        }
+        .description-for-archive {
           width: 88%;
           height: 28%;
           overflow-x: hidden;

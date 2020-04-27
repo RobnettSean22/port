@@ -23,7 +23,10 @@ class Portfolio extends Component {
       KNMp: false,
       SSp: false,
       SCp: false,
-      CDTp: false
+      CDTp: false,
+      xchange: false,
+      camMon: false,
+      dateRange: false
     };
     this.toResume = this.toResume.bind(this);
     this.fromPortfolio = this.fromPortfolio.bind(this);
@@ -56,6 +59,21 @@ class Portfolio extends Component {
       TIDp: true
     });
   }
+  xchangeOn() {
+    this.setState({
+      TIDp: true
+    });
+  }
+  dateRangeOn() {
+    this.setState({
+      TIDp: true
+    });
+  }
+  camMonOn() {
+    this.setState({
+      TIDp: true
+    });
+  }
   KNMpOn() {
     this.setState({
       KNMp: true
@@ -76,6 +94,7 @@ class Portfolio extends Component {
       CDTp: true
     });
   }
+  // off switch *****************************************************
   TIDpOff() {
     this.setState({
       TIDp: false
@@ -101,9 +120,35 @@ class Portfolio extends Component {
       CDTp: false
     });
   }
+  xchangeOff() {
+    this.setState({
+      CDTp: false
+    });
+  }
+  camMonOff() {
+    this.setState({
+      CDTp: false
+    });
+  }
+  dateRangeOff() {
+    this.setState({
+      CDTp: false
+    });
+  }
 
   render() {
-    const { slideKNM, TIDp, KNMp, SSp, SCp, CDTp, AZImage } = this.state;
+    const {
+      slideKNM,
+      TIDp,
+      KNMp,
+      SSp,
+      SCp,
+      CDTp,
+      AZImage,
+      xchange,
+      dateRange,
+      camMon
+    } = this.state;
     console.log(AZImage);
     return (
       <div className='sec'>
@@ -149,18 +194,18 @@ class Portfolio extends Component {
               </div>
               <div className='description-for-xchange'>
                 {" "}
-                <p className={TIDp ? "hidden" : "more"}>
+                <p className={xchange ? "hidden" : "more"}>
                   Technologies: React, javascript, nodejs, Chartjs, axios
-                  <h5 onClick={e => this.TIDpOn()}>More Info</h5>
+                  <h5 onClick={e => this.xchangeOn()}>More Info</h5>
                 </p>
-                <p className={TIDp ? "show" : "hidden"}>
+                <p className={xchange ? "show" : "hidden"}>
                   Users can enter an amount into the input field and find the
                   exchanged amount based on the spcified countriers currency.
                   Rates per dollar are displayed as well as the when the rates
                   were last updated.
                   <h5
-                    onClick={e => this.TIDpOff()}
-                    className={TIDp ? "less" : "hidden"}
+                    onClick={e => this.xchangeOff()}
+                    className={xchange ? "less" : "hidden"}
                   >
                     {" "}
                     Less Info
@@ -335,7 +380,7 @@ class Portfolio extends Component {
                     rel='noopener noreferrer'
                     target='_blank'
                   >
-                    Cam Monitor{" "}
+                    Cam Mon{" "}
                   </a>
                   <a
                     href='https://github.com/RobnettSean22/Front-End-Test'
@@ -348,18 +393,18 @@ class Portfolio extends Component {
               </div>
               <div className='description-for-camermonitor'>
                 {" "}
-                <p className={SSp ? "hidden" : "more"}>
+                <p className={camMon ? "hidden" : "more"}>
                   Technologies: React, Javascript
-                  <h5 onClick={e => this.SSpOn()}> More Info</h5>
+                  <h5 onClick={e => this.camMonOn()}> More Info</h5>
                 </p>
-                <p className={SSp ? "show" : "hidden"}>
+                <p className={camMon ? "show" : "hidden"}>
                   SongStar is a simple web app that allows uesers to add songs
                   to any number of playlist that can be created or deleted. The
                   user can choose from a list of songs and if a song is not
                   availble in that list, they can add their song of choice to
                   the ALL Songs section.
                   <h5
-                    onClick={e => this.SSpOff()}
+                    onClick={e => this.camMonOff()}
                     className={SSp ? "less" : "hidden"}
                   >
                     {" "}
@@ -395,15 +440,15 @@ class Portfolio extends Component {
               </div>
               <div className='description-for-email-archive'>
                 {" "}
-                <p className={SSp ? "hidden" : "more"}>
+                <p className={dateRange ? "hidden" : "more"}>
                   Technologies: React, Daterange Picker, Javascript
-                  <h5 onClick={e => this.SSpOn()}> More Info</h5>
+                  <h5 onClick={e => this.dateRangeOn()}> More Info</h5>
                 </p>
-                <p className={SSp ? "show" : "hidden"}>
+                <p className={dateRange ? "show" : "hidden"}>
                   (archive description)
                   <h5
-                    onClick={e => this.SSpOff()}
-                    className={SSp ? "less" : "hidden"}
+                    onClick={e => this.dateRangeOff()}
+                    className={dateRange ? "less" : "hidden"}
                   >
                     {" "}
                     Less Info
