@@ -12,6 +12,7 @@ import timer from "./js_timer_FW.jpg";
 import Xchange from "./xchangeW.jpg";
 import github from "./github.png";
 import cam from "./cam-screenshot.png";
+import mail from "./emails_sort.png";
 import axios from "axios";
 class Portfolio extends Component {
   constructor() {
@@ -216,6 +217,144 @@ class Portfolio extends Component {
             <div className='pro'>
               <div className='slideshow'>
                 <div className='web-still-container'>
+                  <img src={mail} alt='' />
+                </div>
+              </div>
+              <div className='email-archive'>
+                <h1>
+                  <a
+                    className='archive-link'
+                    href='https://testdaterang.netlify.app'
+                    rel='noopener noreferrer'
+                    target='_blank'
+                  >
+                    Date Range{" "}
+                  </a>
+                  <a
+                    href='https://github.com/RobnettSean22/email-archives'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    <img className='giti' src={github} alt='' />
+                  </a>
+                </h1>
+              </div>
+              <div className='description-for-email-archive'>
+                {" "}
+                <p className={dateRange ? "hidden" : "more"}>
+                  Technologies: React, Daterange Picker, Javascript
+                  <h5 onClick={e => this.dateRangeOn()}> More Info</h5>
+                </p>
+                <p className={dateRange ? "show" : "hidden"}>
+                  (archive description)
+                  <h5
+                    onClick={e => this.dateRangeOff()}
+                    className={dateRange ? "less" : "hidden"}
+                  >
+                    {" "}
+                    Less Info
+                  </h5>
+                </p>
+              </div>
+            </div>
+            <div className='pro'>
+              <div className='slideshow'>
+                <div className='web-still-container'>
+                  <img src={cam} alt='' />
+                </div>
+              </div>
+              <div className='cam-mon'>
+                <h1>
+                  <a
+                    className='cam-link'
+                    href='https:totalk.online'
+                    rel='noopener noreferrer'
+                    target='_blank'
+                  >
+                    Cam Mon{" "}
+                  </a>
+                  <a
+                    href='https://github.com/RobnettSean22/Front-End-Test'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    <img className='giti' src={github} alt='' />
+                  </a>
+                </h1>
+              </div>
+              <div className='description-for-camermonitor'>
+                {" "}
+                <p className={camMon ? "hidden" : "more"}>
+                  Technologies: React, Javascript
+                  <h5 onClick={e => this.camMonOn()}> More Info</h5>
+                </p>
+                <p className={camMon ? "show" : "hidden"}>
+                  SongStar is a simple web app that allows uesers to add songs
+                  to any number of playlist that can be created or deleted. The
+                  user can choose from a list of songs and if a song is not
+                  availble in that list, they can add their song of choice to
+                  the ALL Songs section.
+                  <h5
+                    onClick={e => this.camMonOff()}
+                    className={camMon ? "less" : "hidden"}
+                  >
+                    {" "}
+                    Less Info
+                  </h5>
+                </p>
+              </div>
+            </div>
+            <div className='pro'>
+              <div className='slideshow'>
+                <div className='web-still-container'>
+                  <img src={songStar} alt='' />
+                </div>
+              </div>
+              <div className='song-star'>
+                <h1>
+                  <a
+                    className='songstar-link'
+                    href='https://songstar.me'
+                    rel='noopener noreferrer'
+                    target='_blank'
+                  >
+                    Song Star
+                  </a>
+                  <a
+                    href='https://github.com/RobnettSean22/songstar'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    <img className='giti' src={github} alt='' />
+                  </a>
+                </h1>
+              </div>
+              <div className='description-for-songStar'>
+                {" "}
+                <p className={SSp ? "hidden" : "more"}>
+                  Technologies: React, nodjs, react-redux, bcyrpt, express,
+                  javascript, postgresQL
+                  <h5 onClick={e => this.SSpOn()}> More Info</h5>
+                </p>
+                <p className={SSp ? "show" : "hidden"}>
+                  SongStar is a simple web app that allows uesers to add songs
+                  to any number of playlist that can be created or deleted. The
+                  user can choose from a list of songs and if a song is not
+                  availble in that list, they can add their song of choice to
+                  the ALL Songs section.
+                  <h5
+                    onClick={e => this.SSpOff()}
+                    className={SSp ? "less" : "hidden"}
+                  >
+                    {" "}
+                    Less Info
+                  </h5>
+                </p>
+              </div>
+            </div>
+            <div className='pro'>
+              <div className='slideshow'>
+                <div className='web-still-container'>
                   <img src={thisIsDev} alt='' />
                 </div>
               </div>
@@ -318,144 +457,7 @@ class Portfolio extends Component {
                 </p>
               </div>
             </div>
-            <div className='pro'>
-              <div className='slideshow'>
-                <div className='web-still-container'>
-                  <img src={songStar} alt='' />
-                </div>
-              </div>
-              <div className='song-star'>
-                <h1>
-                  <a
-                    className='songstar-link'
-                    href='https://songstar.me'
-                    rel='noopener noreferrer'
-                    target='_blank'
-                  >
-                    Song Star
-                  </a>
-                  <a
-                    href='https://github.com/RobnettSean22/songstar'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                  >
-                    <img className='giti' src={github} alt='' />
-                  </a>
-                </h1>
-              </div>
-              <div className='description-for-songStar'>
-                {" "}
-                <p className={SSp ? "hidden" : "more"}>
-                  Technologies: React, nodjs, react-redux, bcyrpt, express,
-                  javascript, postgresQL
-                  <h5 onClick={e => this.SSpOn()}> More Info</h5>
-                </p>
-                <p className={SSp ? "show" : "hidden"}>
-                  SongStar is a simple web app that allows uesers to add songs
-                  to any number of playlist that can be created or deleted. The
-                  user can choose from a list of songs and if a song is not
-                  availble in that list, they can add their song of choice to
-                  the ALL Songs section.
-                  <h5
-                    onClick={e => this.SSpOff()}
-                    className={SSp ? "less" : "hidden"}
-                  >
-                    {" "}
-                    Less Info
-                  </h5>
-                </p>
-              </div>
-            </div>
-            <div className='pro'>
-              <div className='slideshow'>
-                <div className='web-still-container'>
-                  <img src={cam} alt='' />
-                </div>
-              </div>
-              <div className='cam-mon'>
-                <h1>
-                  <a
-                    className='cam-link'
-                    href='https:totalk.online'
-                    rel='noopener noreferrer'
-                    target='_blank'
-                  >
-                    Cam Mon{" "}
-                  </a>
-                  <a
-                    href='https://github.com/RobnettSean22/Front-End-Test'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                  >
-                    <img className='giti' src={github} alt='' />
-                  </a>
-                </h1>
-              </div>
-              <div className='description-for-camermonitor'>
-                {" "}
-                <p className={camMon ? "hidden" : "more"}>
-                  Technologies: React, Javascript
-                  <h5 onClick={e => this.camMonOn()}> More Info</h5>
-                </p>
-                <p className={camMon ? "show" : "hidden"}>
-                  SongStar is a simple web app that allows uesers to add songs
-                  to any number of playlist that can be created or deleted. The
-                  user can choose from a list of songs and if a song is not
-                  availble in that list, they can add their song of choice to
-                  the ALL Songs section.
-                  <h5
-                    onClick={e => this.camMonOff()}
-                    className={camMon ? "less" : "hidden"}
-                  >
-                    {" "}
-                    Less Info
-                  </h5>
-                </p>
-              </div>
-            </div>
-            <div className='pro'>
-              <div className='slideshow'>
-                <div className='web-still-container'>
-                  <img src={cam} alt='' />
-                </div>
-              </div>
-              <div className='email-archive'>
-                <h1>
-                  <a
-                    className='archive-link'
-                    href='https://testdaterang.netlify.app'
-                    rel='noopener noreferrer'
-                    target='_blank'
-                  >
-                    Date Range{" "}
-                  </a>
-                  <a
-                    href='https://github.com/RobnettSean22/email-archives'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                  >
-                    <img className='giti' src={github} alt='' />
-                  </a>
-                </h1>
-              </div>
-              <div className='description-for-email-archive'>
-                {" "}
-                <p className={dateRange ? "hidden" : "more"}>
-                  Technologies: React, Daterange Picker, Javascript
-                  <h5 onClick={e => this.dateRangeOn()}> More Info</h5>
-                </p>
-                <p className={dateRange ? "show" : "hidden"}>
-                  (archive description)
-                  <h5
-                    onClick={e => this.dateRangeOff()}
-                    className={dateRange ? "less" : "hidden"}
-                  >
-                    {" "}
-                    Less Info
-                  </h5>
-                </p>
-              </div>
-            </div>
+
             <div className='pro'>
               <div className='slideshow'>
                 <div className='web-still-container'>
