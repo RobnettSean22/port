@@ -196,7 +196,7 @@ class Portfolio extends Component {
               <div className='description-for-xchange'>
                 {" "}
                 <p className={xchange ? "hidden" : "more"}>
-                  Technologies: React, javascript, nodejs, Chartjs, axios
+                  Technologies: React, javascript, Node.js, Chartjs
                   <h5 onClick={e => this.xchangeOn()}>More Info</h5>
                 </p>
                 <p className={xchange ? "show" : "hidden"}>
@@ -267,7 +267,7 @@ class Portfolio extends Component {
                 <h1>
                   <a
                     className='cam-link'
-                    href='https:totalk.online'
+                    href='http://totalk.online/'
                     rel='noopener noreferrer'
                     target='_blank'
                   >
@@ -285,15 +285,12 @@ class Portfolio extends Component {
               <div className='description-for-camermonitor'>
                 {" "}
                 <p className={camMon ? "hidden" : "more"}>
-                  Technologies: React, Javascript
+                  Technologies: React, Javascript, SCSS
                   <h5 onClick={e => this.camMonOn()}> More Info</h5>
                 </p>
                 <p className={camMon ? "show" : "hidden"}>
-                  SongStar is a simple web app that allows uesers to add songs
-                  to any number of playlist that can be created or deleted. The
-                  user can choose from a list of songs and if a song is not
-                  availble in that list, they can add their song of choice to
-                  the ALL Songs section.
+                  Cam Mon is a simple front end project that implements sorting,
+                  filtering and css gridind skills.
                   <h5
                     onClick={e => this.camMonOff()}
                     className={camMon ? "less" : "hidden"}
