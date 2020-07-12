@@ -15,17 +15,17 @@ const Resume = props => {
   }
   return (
     <div>
-      <div className="sec">
-        <div className="cover">
-          <div className="logo-place">
-            <img onClick={fromResume} className="lo-go" src={logo} alt="tl" />
+      <div className='sec'>
+        <div className='cover'>
+          <div className='logo-place'>
+            <img onClick={fromResume} className='lo-go' src={logo} alt='tl' />
             <HeaderLink />
           </div>
-          <div className="resume-title">
+          <div className='resume-title'>
             <h1>Where I've Been</h1>
           </div>
-          <div className="hold">
-            <div className="left">
+          <div className='hold'>
+            <div className='left'>
               <h1>Education</h1>
               <h2>Devmountain – Phoenix, December 2019 </h2>
               <ul>
@@ -33,14 +33,28 @@ const Resume = props => {
               </ul>
               <h2>Hastings College- Hastings, May 2016 </h2>
               <ul>
-                <li>Bachelor of Arts-Psychology</li>
-                <li>Minor-Visual Media</li>
+                <li>Bachelor of Arts Psychology/Visual Media</li>
               </ul>
               <h2>International TEFL/TESOL Training </h2>
               <ul>
                 <li>ITTT Certification TEFL and TESOL, December 2016</li>
               </ul>
               <h1>Professional Experience</h1>
+              <h2>WinBe - Saitama, February 2020 - Present </h2>
+              <h3>Native English Teacher</h3>
+              <ul>
+                <li>
+                  Teach children and adults English and about American Culture
+                </li>
+                <li>
+                  Create lesson plans around class sizes and student
+                  personalities
+                </li>
+                <li>Portrait Photographs for students “dreamsheets”</li>
+                <li>
+                  Communicate with manager and parents for student placement
+                </li>
+              </ul>
               <h2>Devmountain</h2>
               <h3>Student/Intern</h3>
               <ul>
@@ -85,7 +99,7 @@ const Resume = props => {
                 </li>
               </ul>
             </div>
-            <div className="portres">
+            <div className='portres'>
               <h1>Education</h1>
               <h2>Devmountain – Phoenix, December 2019 </h2>
               <ul>
@@ -145,10 +159,10 @@ const Resume = props => {
                 </li>
               </ul>
             </div>
-            <div className="skills">
-              <img src={skill} alt="sk" />
+            <div className='skills'>
+              <img src={skill} alt='sk' />
             </div>
-            <div className="right">
+            <div className='right'>
               <h2>Atlas Construction Supply - Denver, June 2015-August 2016</h2>
               <h3>Steal Ply Assembly and Restoration Lead</h3>
               <ul>
@@ -207,7 +221,7 @@ const Resume = props => {
             </div>
           </div>
         </div>
-        <div className="bot-mobleR">
+        <div className='bot-mobleR'>
           <button onClick={toContact}>Contact</button>
         </div>
       </div>
