@@ -242,11 +242,16 @@ class Portfolio extends Component {
               <div className='description-for-email-archive'>
                 {" "}
                 <p className={dateRange ? "hidden" : "more"}>
-                  Technologies: React, Daterange Picker, Javascript
+                  Technologies: React, Daterange Picker, Javascript, SpeakeasyJS
                   <h5 onClick={e => this.dateRangeOn()}> More Info</h5>
                 </p>
                 <p className={dateRange ? "show" : "hidden"}>
-                  (archive description)
+                  This security email archive is an application that uses React,
+                  Javascript, and Date Picker. The user can select a date range,
+                  click on any of the emails that were where sent or received
+                  within the specified dates. The user is also able to cycle
+                  through the emails that came up with in the search and view
+                  the contents of several emails at the same time.
                   <h5
                     onClick={e => this.dateRangeOff()}
                     className={dateRange ? "less" : "hidden"}
