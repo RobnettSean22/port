@@ -170,22 +170,21 @@ class Portfolio extends Component {
             <div className='pro'>
               <div className='slideshow'>
                 <div className='web-still-container'>
-                  <img src={Xchange} alt='' />
+                  <img src={cam} alt='' />
                 </div>
               </div>
-
-              <div className='xchange'>
+              <div className='cam-mon'>
                 <h1>
                   <a
-                    className='site-link'
-                    href='https://cchange.netlify.com/'
+                    className='cam-link'
+                    href='https://second-cam-run.netlify.app'
                     rel='noopener noreferrer'
                     target='_blank'
                   >
-                    Xchange
+                    Cam Mon{" "}
                   </a>
                   <a
-                    href='https://github.com/RobnettSean22/currency-exchange'
+                    href='https://github.com/RobnettSean22/security-cam-second-run'
                     target='_blank'
                     rel='noopener noreferrer'
                   >
@@ -193,20 +192,18 @@ class Portfolio extends Component {
                   </a>
                 </h1>
               </div>
-              <div className='description-for-xchange'>
+              <div className='description-for-camermonitor'>
                 {" "}
-                <p className={xchange ? "hidden" : "more"}>
-                  Technologies: React, javascript, Node.js, Chartjs
-                  <h5 onClick={e => this.xchangeOn()}>More Info</h5>
+                <p className={camMon ? "hidden" : "more"}>
+                  Technologies: React-hooks, Javascript, Styled Components
+                  <h5 onClick={e => this.camMonOn()}> More Info</h5>
                 </p>
-                <p className={xchange ? "show" : "hidden"}>
-                  Users can enter an amount into the input field and find the
-                  exchanged amount based on the spcified countriers currency.
-                  Rates per dollar are displayed as well as the when the rates
-                  were last updated.
+                <p className={camMon ? "show" : "hidden"}>
+                  Cam Mon is a simple front end project that implements sorting,
+                  filtering and css gridind skills.
                   <h5
-                    onClick={e => this.xchangeOff()}
-                    className={xchange ? "less" : "hidden"}
+                    onClick={e => this.camMonOff()}
+                    className={camMon ? "less" : "hidden"}
                   >
                     {" "}
                     Less Info
@@ -262,24 +259,26 @@ class Portfolio extends Component {
                 </p>
               </div>
             </div>
+
             <div className='pro'>
               <div className='slideshow'>
                 <div className='web-still-container'>
-                  <img src={cam} alt='' />
+                  <img src={Xchange} alt='' />
                 </div>
               </div>
-              <div className='cam-mon'>
+
+              <div className='xchange'>
                 <h1>
                   <a
-                    className='cam-link'
-                    href='http://totalk.online/'
+                    className='site-link'
+                    href='https://cchange.netlify.com/'
                     rel='noopener noreferrer'
                     target='_blank'
                   >
-                    Cam Mon{" "}
+                    Xchange
                   </a>
                   <a
-                    href='https://github.com/RobnettSean22/Front-End-Test'
+                    href='https://github.com/RobnettSean22/currency-exchange'
                     target='_blank'
                     rel='noopener noreferrer'
                   >
@@ -287,18 +286,20 @@ class Portfolio extends Component {
                   </a>
                 </h1>
               </div>
-              <div className='description-for-camermonitor'>
+              <div className='description-for-xchange'>
                 {" "}
-                <p className={camMon ? "hidden" : "more"}>
-                  Technologies: React, Javascript, SCSS
-                  <h5 onClick={e => this.camMonOn()}> More Info</h5>
+                <p className={xchange ? "hidden" : "more"}>
+                  Technologies: React, javascript, Node.js, Chartjs
+                  <h5 onClick={e => this.xchangeOn()}>More Info</h5>
                 </p>
-                <p className={camMon ? "show" : "hidden"}>
-                  Cam Mon is a simple front end project that implements sorting,
-                  filtering and css gridind skills.
+                <p className={xchange ? "show" : "hidden"}>
+                  Users can enter an amount into the input field and find the
+                  exchanged amount based on the spcified countriers currency.
+                  Rates per dollar are displayed as well as the when the rates
+                  were last updated.
                   <h5
-                    onClick={e => this.camMonOff()}
-                    className={camMon ? "less" : "hidden"}
+                    onClick={e => this.xchangeOff()}
+                    className={xchange ? "less" : "hidden"}
                   >
                     {" "}
                     Less Info
@@ -306,6 +307,7 @@ class Portfolio extends Component {
                 </p>
               </div>
             </div>
+
             <div className='pro'>
               <div className='slideshow'>
                 <div className='web-still-container'>
