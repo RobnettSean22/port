@@ -200,7 +200,7 @@ class Portfolio extends Component {
                 </p>
                 <p className={camMon ? "show" : "hidden"}>
                   Cam Mon is a simple front end project that implements sorting,
-                  filtering and css gridind skills.
+                  filtering.
                   <h5
                     onClick={e => this.camMonOff()}
                     className={camMon ? "less" : "hidden"}
