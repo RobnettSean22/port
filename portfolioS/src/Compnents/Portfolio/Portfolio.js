@@ -11,7 +11,7 @@ import chat from "./socketio_chat.png";
 import timer from "./js_timer_FW.jpg";
 import Xchange from "./xchangeW.jpg";
 import github from "./github.png";
-import cam from "./cam-screenshot.png";
+import cam from "./cam-mon.jpg";
 import mail from "./emails_sort.png";
 import axios from "axios";
 class Portfolio extends Component {
